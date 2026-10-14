@@ -1,0 +1,7 @@
+# 全精度预测文件（约 1.1 GB），可在服务器上用 methods/<方法>/run.py --export 重新生成
+submissions/**/*.csv
+# 实际上传到 Kaggle 的 7z 压缩包（服务器上保存在 submissions/methods_20261013/）
+submissions/methods/upload_7z/
+
+__pycache__/
+*.pyc

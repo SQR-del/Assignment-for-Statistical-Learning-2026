@@ -1,0 +1,12 @@
+{
+  "method": "null 参照 + 来源偏移",
+  "kaggle_private": 0.848,
+  "kaggle_public": 0.631,
+  "kaggle_file": "04_null_plus_shift_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "3 位小数",
+  "uploaded_file": "submissions/methods_20261013/04_null_plus_shift_kaggle_ids.7z",
+  "uploaded_sha256": "6555febd1c092fe01e033a1e602a8bc009b72a9dfb490d28ff23df659f5cb75a",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

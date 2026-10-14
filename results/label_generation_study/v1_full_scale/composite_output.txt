@@ -1,0 +1,18 @@
+test-like composite (0.9 * weak anchors + 0.1 * strong anchors), mean over B and Myeloid
+                  R      F  R/krr1  F/krr1  official/krr1
+krr_v1        1.526  1.841   1.000   1.000          1.000
+base          1.576  1.892   1.033   1.028          0.980
+base_I2       1.467  1.667   0.961   0.905          0.907
+blend         1.434  1.639   0.939   0.891          0.906
+krr_v2        1.432  1.676   0.938   0.910            NaN
+base_I1_I2    1.507  1.700   0.988   0.924            NaN
+blend+post    1.545  1.702   1.012   0.925            NaN
+blend+pre     1.499  1.663   0.982   0.904            NaN
+base_I2+post  1.608  1.745   1.053   0.948            NaN
+base_I2+pre   1.531  1.688   1.003   0.917            NaN
+krr_v2+pre    1.453  1.652   0.952   0.897            NaN
+blend+post   vs blend  : +0.038  compound-bootstrap 95% CI [-0.057, +0.201]
+blend+pre    vs blend  : +0.015  compound-bootstrap 95% CI [-0.055, +0.115]
+base_I2      vs base   : -0.119  compound-bootstrap 95% CI [-0.212, +0.012]
+blend        vs krr_v1 : -0.109  compound-bootstrap 95% CI [-0.175, +0.025]
+base         vs krr_v1 : +0.028  compound-bootstrap 95% CI [-0.012, +0.089]

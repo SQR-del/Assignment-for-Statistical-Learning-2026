@@ -1,0 +1,12 @@
+B cells              official constant genes  237 | zero-count in train wells  139 | overlap  139 | official-not-zero  98 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 22
+Myeloid cells        official constant genes   81 | zero-count in train wells   30 | overlap   30 | official-not-zero  51 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 19
+NK cells             official constant genes   79 | zero-count in train wells   29 | overlap   29 | official-not-zero  50 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 12
+T cells CD4+         official constant genes   31 | zero-count in train wells    9 | overlap    9 | official-not-zero  22 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 14
+T cells CD8+         official constant genes  257 | zero-count in train wells  147 | overlap  147 | official-not-zero 110 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 33
+T regulatory cells   official constant genes  433 | zero-count in train wells  275 | overlap  275 | official-not-zero 158 | zero-not-official   0 | counts of zero-not-official genes: - | max count among official set 18
+
+T/NK: genes with zero counts in the RESTRICTED sample set (17 B/Mye-train compounds + DMSO) -> how many are constant in the official (full-fit) labels?
+NK cells             restricted samples 187 | zero in restricted  126 | of these constant in official   53 (42%)
+T cells CD4+         restricted samples 188 | zero in restricted   57 | of these constant in official   20 (35%)
+T cells CD8+         restricted samples 145 | zero in restricted  354 | of these constant in official  179 (51%)
+T regulatory cells   restricted samples 158 | zero in restricted  785 | of these constant in official  340 (43%)

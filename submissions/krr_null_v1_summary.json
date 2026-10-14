@@ -1,0 +1,156 @@
+{
+  "model": "null-centred multi-output KRR over compounds (raw scale)",
+  "selected": {
+    "c": 0.2,
+    "alpha": 10.0
+  },
+  "grid": {
+    "c": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "alpha": [
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0
+    ]
+  },
+  "selection": "mean MRRMSE over the 12 protocol-A inner tasks",
+  "internal": {
+    "A_nested": 0.9185070530962867,
+    "A_nested_by_target": [
+      {
+        "target": "NK cells",
+        "c": 0.3,
+        "alpha": 10.0,
+        "MRRMSE": 0.9928459198414827
+      },
+      {
+        "target": "T cells CD4+",
+        "c": 0.2,
+        "alpha": 30.0,
+        "MRRMSE": 0.9292135619821731
+      },
+      {
+        "target": "T cells CD8+",
+        "c": 0.2,
+        "alpha": 10.0,
+        "MRRMSE": 0.7925477137038163
+      },
+      {
+        "target": "T regulatory cells",
+        "c": 0.3,
+        "alpha": 10.0,
+        "MRRMSE": 0.9594210168576746
+      }
+    ],
+    "A15": 0.9894182584465393,
+    "B_LOO_noCD8": 1.8898449765801857,
+    "reference_repo_L3": {
+      "A_nested": 1.0395,
+      "A15": 1.3358,
+      "B_LOO_noCD8": 2.1744
+    }
+  },
+  "final_fit": [
+    {
+      "target": "B cells",
+      "sources": [
+        "NK cells",
+        "T cells CD4+",
+        "T regulatory cells"
+      ],
+      "anchors": [
+        "Alvocidib",
+        "CHIR-99021",
+        "Crizotinib",
+        "Dactolisib",
+        "Foretinib",
+        "Idelalisib",
+        "LDN 193189",
+        "Linagliptin",
+        "MLN 2238",
+        "O-Demethylated Adapalene",
+        "Oprozomib (ONX 0912)",
+        "Palbociclib",
+        "Penfluridol",
+        "Porcn Inhibitor III",
+        "R428"
+      ],
+      "n_rows": 128,
+      "mean_pred_row_RMS": 0.555782684969045,
+      "null_reference_RMS": 0.3755376128149064
+    },
+    {
+      "target": "Myeloid cells",
+      "sources": [
+        "NK cells",
+        "T cells CD4+",
+        "T regulatory cells"
+      ],
+      "anchors": [
+        "Alvocidib",
+        "CHIR-99021",
+        "Crizotinib",
+        "Dactolisib",
+        "Foretinib",
+        "Idelalisib",
+        "LDN 193189",
+        "Linagliptin",
+        "MLN 2238",
+        "O-Demethylated Adapalene",
+        "Oprozomib (ONX 0912)",
+        "Palbociclib",
+        "Penfluridol",
+        "Porcn Inhibitor III",
+        "R428"
+      ],
+      "n_rows": 127,
+      "mean_pred_row_RMS": 0.7888025777413238,
+      "null_reference_RMS": 0.6365217410938062
+    }
+  ],
+  "comparison_with_repo_L3": {
+    "B cells": {
+      "KRR_pred_RMS": 0.555782684969045,
+      "L3_pred_RMS": 0.9323730523984233,
+      "RMS_diff_KRR_vs_L3": 0.5858196846401433
+    },
+    "Myeloid cells": {
+      "KRR_pred_RMS": 0.7888025777413238,
+      "L3_pred_RMS": 1.617941652827663,
+      "RMS_diff_KRR_vs_L3": 1.0600568600431568
+    }
+  },
+  "checks": [
+    "hidden outer-target poison invariance (4 folds)",
+    "final fit invariant to CD8 rows and hidden target entries",
+    "CSV readback exact",
+    "ids and columns identical to repo L3.csv"
+  ],
+  "submission": {
+    "path": "submissions/krr_null.csv",
+    "rows": 255,
+    "columns": 18212,
+    "bytes": 57325785,
+    "sha256": "aeb96d399a9711494c39dfb1cc80c7011f753c40451234c4e0796f0ab52a3979"
+  },
+  "inputs": {
+    "train_path": "/home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/data/de_train.parquet",
+    "train_sha256": "6d9f01714be8999b4751c0da894dadc99f17a2e1e984b90e8dd253ff4e08601f",
+    "id_map_path": "/home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/data/id_map.csv",
+    "id_map_sha256": "5039360ded5670a8a6f1cd7a58d1e732ac9bfcba578ce3af5b01a9e6530a12d2",
+    "controls_excluded": 12,
+    "ordinary_rows": 602,
+    "response_count": 18211,
+    "shared_anchor_count": 15
+  },
+  "official_kaggle_score": null,
+  "elapsed_seconds": 28.65401268005371
+}

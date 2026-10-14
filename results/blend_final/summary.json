@@ -1,0 +1,60 @@
+{
+  "model": "0.4 * base_I2 + 0.4 * base_I1_I2 + 0.2 * KRR v2",
+  "weights": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "seeds": 10,
+  "base_seed": 20260930,
+  "config": {
+    "K": 64,
+    "E": 8,
+    "epochs": 400,
+    "hidden": 512,
+    "dropout": 0.3,
+    "wd": 0.0001,
+    "lr": 0.001,
+    "sigma": 0.1,
+    "alpha": 1.0
+  },
+  "leakage_check": {
+    "base_I2": 0.0,
+    "base_I1_I2": 0.0,
+    "krr_v2": 0.0
+  },
+  "files": {
+    "base_I2": {
+      "sha256": "0b78abc2c70ec81767090a96a8c980e309f4738f112a6d499b2922648d50fdd3",
+      "row_RMS": {
+        "B cells": 0.7216509493649383,
+        "Myeloid cells": 1.1824001403666915
+      },
+      "max_abs_diff_vs_previous_export": 5.000000058430487e-08
+    },
+    "base_I1_I2": {
+      "sha256": "6d6573e5e5dc15e01b54e5988a990dce8f77164186fc99360459d79680e25945",
+      "row_RMS": {
+        "B cells": 0.7418795798427598,
+        "Myeloid cells": 1.227015610005133
+      },
+      "max_abs_diff_vs_previous_export": 5.000000058430487e-08
+    },
+    "krr_v2": {
+      "sha256": "52fa6ce85a8728a1cc0b2ecfbdfdfb5e2f0718c22132ed5414c1979477620706",
+      "row_RMS": {
+        "B cells": 0.66388767958472,
+        "Myeloid cells": 0.8945156369049967
+      },
+      "max_abs_diff_vs_previous_export": 4.999660596638478e-08
+    },
+    "blend": {
+      "sha256": "8faff5dd3493bfe3bf3756e99c66c8abe4723743166b6912c71a1bc05c8bafd3",
+      "row_RMS": {
+        "B cells": 0.698066251071508,
+        "Myeloid cells": 1.1133700629003975
+      },
+      "max_abs_diff_vs_previous_export": 8.79366517381186e-08
+    }
+  }
+}

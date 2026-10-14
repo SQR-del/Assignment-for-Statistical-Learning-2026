@@ -1,0 +1,31 @@
+target,anchor,rmse
+B cells,Alvocidib,2.491914833022782
+B cells,CHIR-99021,0.8426364132638767
+B cells,Crizotinib,0.7699933295795091
+B cells,Dactolisib,1.6723102802438274
+B cells,Foretinib,0.8582980088802403
+B cells,Idelalisib,0.8644632046580363
+B cells,LDN 193189,0.6531109738836878
+B cells,Linagliptin,0.673624460580873
+B cells,MLN 2238,7.183677123778423
+B cells,O-Demethylated Adapalene,0.6584904204774641
+B cells,Oprozomib (ONX 0912),5.6125718071518484
+B cells,Palbociclib,0.6443467486666479
+B cells,Penfluridol,0.6816840571416188
+B cells,Porcn Inhibitor III,0.7715097374659663
+B cells,R428,0.8640876777697871
+Myeloid cells,Alvocidib,1.4342043477158901
+Myeloid cells,CHIR-99021,1.0656960517183212
+Myeloid cells,Crizotinib,1.3814418473668137
+Myeloid cells,Dactolisib,3.6620007692470726
+Myeloid cells,Foretinib,2.2474011001301903
+Myeloid cells,Idelalisib,0.8982194262133162
+Myeloid cells,LDN 193189,0.9559615713491709
+Myeloid cells,Linagliptin,0.8056849927576263
+Myeloid cells,MLN 2238,9.706319418678246
+Myeloid cells,O-Demethylated Adapalene,0.9410857786795284
+Myeloid cells,Oprozomib (ONX 0912),2.366108795120653
+Myeloid cells,Palbociclib,0.8068352901689111
+Myeloid cells,Penfluridol,0.9131261226411472
+Myeloid cells,Porcn Inhibitor III,1.2996432513403826
+Myeloid cells,R428,2.9689014577137187

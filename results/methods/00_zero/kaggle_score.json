@@ -1,0 +1,12 @@
+{
+  "method": "全零",
+  "kaggle_private": 0.902,
+  "kaggle_public": 0.666,
+  "kaggle_file": "00_zero_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "全精度（全为 0）",
+  "uploaded_file": "submissions/methods_20261013/00_zero_kaggle_ids.7z",
+  "uploaded_sha256": "cbfb7287cbb25a1f35aa622bb4e430699a83c191b72150d9a2f5506be13d207f",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

@@ -1,0 +1,37 @@
+{
+  "weights": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "components": [
+    {
+      "path": "/home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/results/nn_base_I2_v1/base_I2_kaggle_ids.csv",
+      "sha256": "0b78abc2c70ec81767090a96a8c980e309f4738f112a6d499b2922648d50fdd3"
+    },
+    {
+      "path": "/home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/results/nn_base_I1_I2_v1/base_I1_I2_kaggle_ids.csv",
+      "sha256": "6d6573e5e5dc15e01b54e5988a990dce8f77164186fc99360459d79680e25945"
+    },
+    {
+      "path": "/home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/results/krr_v2/krr_v2_kaggle_ids.csv",
+      "sha256": "033962190dbd6bb1480a2c2765c3e6774855022a82a907fe62509b808c80a18b"
+    }
+  ],
+  "internal": {
+    "selection": "pre-declared objective mean(V1w/1.1625, A15/0.9894); confirmation on 2 independent replicates",
+    "blend_objective": [
+      0.9254,
+      0.9253
+    ],
+    "reference_base_I2": [
+      0.936,
+      0.9358
+    ]
+  },
+  "pred_row_RMS": {
+    "B cells": 0.6980662510733016,
+    "Myeloid cells": 1.1133700629012857
+  },
+  "sha256": "16a8ebaf281dfe3f64943997cc002081ac8374b4d8ca1ced1d9bd7843467b2eb"
+}

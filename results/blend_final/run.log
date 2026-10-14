@@ -1,0 +1,6 @@
+leakage check (max |pred(fill=0) - pred(fill=1e5)|): {'base_I2': 0.0, 'base_I1_I2': 0.0, 'krr_v2': 0.0}
+base_I2     B c row RMS 0.722 | Mye row RMS 1.182 | max |diff| vs previous export 5.00e-08
+base_I1_I2  B c row RMS 0.742 | Mye row RMS 1.227 | max |diff| vs previous export 5.00e-08
+krr_v2      B c row RMS 0.664 | Mye row RMS 0.895 | max |diff| vs previous export 5.00e-08
+blend       B c row RMS 0.698 | Mye row RMS 1.113 | max |diff| vs previous export 8.79e-08
+DONE [t=74s] -> /home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/results/blend_final/blend_kaggle_ids.csv

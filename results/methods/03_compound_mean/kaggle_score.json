@@ -1,0 +1,12 @@
+{
+  "method": "同化合物在其他细胞中的均值",
+  "kaggle_private": 0.839,
+  "kaggle_public": 0.627,
+  "kaggle_file": "03_compound_mean_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "4 位小数",
+  "uploaded_file": "submissions/methods_20261013/03_compound_mean_kaggle_ids.7z",
+  "uploaded_sha256": "0dd1df89327b5b2fe4d5a553634cf612c34dad9535528ee068bc6443a60acf9a",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

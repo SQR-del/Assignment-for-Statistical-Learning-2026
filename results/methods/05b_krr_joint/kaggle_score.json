@@ -1,0 +1,12 @@
+{
+  "method": "联合 KRR",
+  "kaggle_private": 0.823,
+  "kaggle_public": 0.598,
+  "kaggle_file": "11_kernel_te_kaggle_ids.7z",
+  "submitted": "2026-10-14",
+  "precision": "3 位小数",
+  "uploaded_file": "submissions/methods_20261013/11_kernel_te_kaggle_ids.7z",
+  "uploaded_sha256": "a3914e3f6a8716467fedf38d67e96954425363482c479c2147a8472d0268dc3d",
+  "note": "提交时用的是改名前的名字 11_kernel_te",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

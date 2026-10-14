@@ -1,0 +1,12 @@
+{
+  "method": "神经网络底座",
+  "kaggle_private": 0.813,
+  "kaggle_public": 0.595,
+  "kaggle_file": "nn_base_v1_posthoc_kaggle_ids.csv",
+  "submitted": "2026-09-30",
+  "precision": "全精度",
+  "uploaded_file": "results/nn_base_v1_posthoc/base_kaggle_ids.csv",
+  "uploaded_sha256": "e03f85042ac1ba5edfbb1c6325fbf15453f48b9df97312a1b9ef616743e5ef8d",
+  "note": "事后消融；与当前导出文件逐字节相同",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

@@ -1,0 +1,41 @@
+{
+  "config": {
+    "c": 0.4,
+    "K": 64,
+    "alpha": 3.0,
+    "clip": true
+  },
+  "sources": [
+    "NK cells",
+    "T cells CD4+",
+    "T regulatory cells"
+  ],
+  "id_order": "kaggle (cell_type, sm_name)",
+  "internal": {
+    "V1w": 1.1325,
+    "V1": 1.7311,
+    "A15": 0.9946,
+    "A": 0.9189,
+    "objective": 0.9897,
+    "v1_reference": {
+      "V1w": 1.1625,
+      "V1": 1.8898,
+      "A15": 0.9894,
+      "A": 0.9197
+    }
+  },
+  "comparison_with_v1": {
+    "B cells": {
+      "pred_row_RMS_v2": 0.66388767958472,
+      "pred_row_RMS_v1": 0.5557826849672568,
+      "RMS_diff": 0.17865822660840894
+    },
+    "Myeloid cells": {
+      "pred_row_RMS_v2": 0.8945156369049968,
+      "pred_row_RMS_v1": 0.7888025777453118,
+      "RMS_diff": 0.1963753670118141
+    }
+  },
+  "sha256": "033962190dbd6bb1480a2c2765c3e6774855022a82a907fe62509b808c80a18b",
+  "bytes": 57264461
+}

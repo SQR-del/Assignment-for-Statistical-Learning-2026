@@ -1,0 +1,60 @@
+fold 1/34 A NK cells [t=53s]
+fold 2/34 A T cells CD4+ [t=65s]
+fold 3/34 A T cells CD8+ [t=77s]
+fold 4/34 A T regulatory cells [t=90s]
+fold 5/34 V1 B cells|Alvocidib [t=100s]
+fold 6/34 V1 B cells|CHIR-99021|weak [t=109s]
+fold 7/34 V1 B cells|Crizotinib|weak [t=119s]
+fold 8/34 V1 B cells|Dactolisib|weak [t=129s]
+fold 9/34 V1 B cells|Foretinib|weak [t=138s]
+fold 10/34 V1 B cells|Idelalisib|weak [t=148s]
+fold 11/34 V1 B cells|LDN 193189|weak [t=157s]
+fold 12/34 V1 B cells|Linagliptin|weak [t=168s]
+fold 13/34 V1 B cells|MLN 2238 [t=179s]
+fold 14/34 V1 B cells|O-Demethylated Adapalene|wea [t=189s]
+fold 15/34 V1 B cells|Oprozomib (ONX 0912) [t=198s]
+fold 16/34 V1 B cells|Palbociclib|weak [t=207s]
+fold 17/34 V1 B cells|Penfluridol|weak [t=217s]
+fold 18/34 V1 B cells|Porcn Inhibitor III|weak [t=226s]
+fold 19/34 V1 B cells|R428|weak [t=236s]
+fold 20/34 V1 Myeloid cells|Alvocidib [t=245s]
+fold 21/34 V1 Myeloid cells|CHIR-99021|weak [t=254s]
+fold 22/34 V1 Myeloid cells|Crizotinib|weak [t=263s]
+fold 23/34 V1 Myeloid cells|Dactolisib|weak [t=273s]
+fold 24/34 V1 Myeloid cells|Foretinib|weak [t=282s]
+fold 25/34 V1 Myeloid cells|Idelalisib|weak [t=291s]
+fold 26/34 V1 Myeloid cells|LDN 193189|weak [t=301s]
+fold 27/34 V1 Myeloid cells|Linagliptin|weak [t=310s]
+fold 28/34 V1 Myeloid cells|MLN 2238 [t=320s]
+fold 29/34 V1 Myeloid cells|O-Demethylated Adapale [t=329s]
+fold 30/34 V1 Myeloid cells|Oprozomib (ONX 0912) [t=338s]
+fold 31/34 V1 Myeloid cells|Palbociclib|weak [t=347s]
+fold 32/34 V1 Myeloid cells|Penfluridol|weak [t=356s]
+fold 33/34 V1 Myeloid cells|Porcn Inhibitor III|we [t=366s]
+fold 34/34 V1 Myeloid cells|R428|weak [t=375s]
+
+reference (same folds): NN base obj 0.957 (A15 0.988, V1w 1.064, V1 2.088) | NN base_I1 0.951 | KRR v1 1.000
+
+best config per (inputs, kernel family, loss):
+                                      A15     V1w      V1  objective
+I1|rbf(g=0.5)|mse|lam=0.01         1.0006  1.0850  2.4516     0.9723
+I1|rbf(g=0.5)|mrrmse|lam=0.01      1.0006  1.0854  2.4519     0.9725
+base|rbf(g=0.25)|mrrmse|lam=0.003  1.0026  1.1213  2.1401     0.9890
+base|rbf(g=0.25)|mse|lam=0.01      1.0060  1.1224  2.1447     0.9911
+I1|linear|mrrmse|lam=1             1.0157  1.1189  2.1309     0.9946
+base|linear|mrrmse|lam=1           1.0147  1.1736  2.3640     1.0176
+I1|linear|mse|lam=0.1              1.1417  1.1151  2.5174     1.0566
+base|linear|mse|lam=0.1            1.2389  1.3238  2.2186     1.1954
+
+median over the grid per (inputs, family, loss):
+                         A15     V1w      V1  objective
+inputs family loss                                     
+I1     linear mrrmse  1.1247  1.0937  2.5052     1.0334
+              mse     1.1906  1.1364  2.7445     1.1148
+       rbf    mrrmse  1.0148  1.1029  2.6597     0.9880
+              mse     1.0196  1.1029  2.6487     0.9890
+base   linear mrrmse  1.0877  1.2739  2.2664     1.0976
+              mse     1.2671  1.4043  2.3236     1.2421
+       rbf    mrrmse  1.0160  1.1282  2.6104     0.9966
+              mse     1.0224  1.1314  2.6059     0.9990
+DONE [t=376s]

@@ -1,0 +1,17 @@
+{
+  "A": 0.9374,
+  "A15": 0.9878,
+  "V1": 2.1044,
+  "V1w": 1.0503,
+  "objective": 0.9509,
+  "A_NK cells": 1.0634,
+  "A_T cells CD4+": 0.9567,
+  "A_T cells CD8+": 0.7863,
+  "A_T regulatory cells": 0.9432,
+  "seeds": 3,
+  "kaggle_private": 0.798,
+  "kaggle_public": 0.588,
+  "kaggle_file": "07_nn_base_I1_kaggle_ids.7z",
+  "kaggle_submitted": "2026-10-13",
+  "kaggle_precision": "3 位小数"
+}

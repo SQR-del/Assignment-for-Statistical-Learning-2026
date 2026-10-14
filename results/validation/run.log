@@ -1,0 +1,60 @@
+fold 1/34 A NK cells [t=17s]
+fold 2/34 A T cells CD4+ [t=29s]
+fold 3/34 A T cells CD8+ [t=42s]
+fold 4/34 A T regulatory cells [t=54s]
+fold 5/34 V1 B cells|Alvocidib [t=68s]
+fold 6/34 V1 B cells|CHIR-99021|weak [t=81s]
+fold 7/34 V1 B cells|Crizotinib|weak [t=94s]
+fold 8/34 V1 B cells|Dactolisib|weak [t=106s]
+fold 9/34 V1 B cells|Foretinib|weak [t=119s]
+fold 10/34 V1 B cells|Idelalisib|weak [t=132s]
+fold 11/34 V1 B cells|LDN 193189|weak [t=145s]
+fold 12/34 V1 B cells|Linagliptin|weak [t=158s]
+fold 13/34 V1 B cells|MLN 2238 [t=171s]
+fold 14/34 V1 B cells|O-Demethylated Adapalene|weak [t=184s]
+fold 15/34 V1 B cells|Oprozomib (ONX 0912) [t=196s]
+fold 16/34 V1 B cells|Palbociclib|weak [t=209s]
+fold 17/34 V1 B cells|Penfluridol|weak [t=222s]
+fold 18/34 V1 B cells|Porcn Inhibitor III|weak [t=235s]
+fold 19/34 V1 B cells|R428|weak [t=248s]
+fold 20/34 V1 Myeloid cells|Alvocidib [t=261s]
+fold 21/34 V1 Myeloid cells|CHIR-99021|weak [t=273s]
+fold 22/34 V1 Myeloid cells|Crizotinib|weak [t=286s]
+fold 23/34 V1 Myeloid cells|Dactolisib|weak [t=299s]
+fold 24/34 V1 Myeloid cells|Foretinib|weak [t=312s]
+fold 25/34 V1 Myeloid cells|Idelalisib|weak [t=325s]
+fold 26/34 V1 Myeloid cells|LDN 193189|weak [t=338s]
+fold 27/34 V1 Myeloid cells|Linagliptin|weak [t=351s]
+fold 28/34 V1 Myeloid cells|MLN 2238 [t=364s]
+fold 29/34 V1 Myeloid cells|O-Demethylated Adapalene|w [t=378s]
+fold 30/34 V1 Myeloid cells|Oprozomib (ONX 0912) [t=391s]
+fold 31/34 V1 Myeloid cells|Palbociclib|weak [t=404s]
+fold 32/34 V1 Myeloid cells|Penfluridol|weak [t=417s]
+fold 33/34 V1 Myeloid cells|Porcn Inhibitor III|weak [t=431s]
+fold 34/34 V1 Myeloid cells|R428|weak [t=444s]
+
+lower is better; objective = mean(V1w / 1.1625, A15 / 0.9894)  (KRR v1 = 1.000 by construction)
+                 A     A15      V1     V1w  objective
+blend       0.9214  0.9604  1.8420  1.0257     0.9265
+base_I2     0.9372  0.9778  1.9032  1.0303     0.9373
+base_I1_I2  0.9490  0.9864  1.9901  1.0244     0.9391
+base_I1     0.9374  0.9878  2.1044  1.0503     0.9509
+base        0.9382  0.9880  2.0881  1.0643     0.9570
+base+magic  0.9521  1.0066  2.1168  1.1001     0.9819
+krr_v2      0.9464  0.9946  1.7311  1.1325     0.9897
+krr_v1      0.9402  0.9894  1.8898  1.1625     1.0000
+blend       V1w delta vs base = -0.0386  95% CI [-0.1164, +0.0237]  n=24
+blend       A15 delta vs base = -0.0276  95% CI [-0.0776, +0.0161]  n=387
+base_I2     V1w delta vs base = -0.0340  95% CI [-0.1158, +0.0333]  n=24
+base_I2     A15 delta vs base = -0.0102  95% CI [-0.0569, +0.0342]  n=387
+base_I1_I2  V1w delta vs base = -0.0398  95% CI [-0.1269, +0.0318]  n=24
+base_I1_I2  A15 delta vs base = -0.0016  95% CI [-0.0567, +0.0494]  n=387
+base_I1     V1w delta vs base = -0.0140  95% CI [-0.0264, -0.0039]  n=24
+base_I1     A15 delta vs base = -0.0002  95% CI [-0.0206, +0.0156]  n=387
+base+magic  V1w delta vs base = +0.0359  95% CI [+0.0085, +0.0675]  n=24
+base+magic  A15 delta vs base = +0.0186  95% CI [+0.0134, +0.0239]  n=387
+krr_v2      V1w delta vs base = +0.0682  95% CI [+0.0265, +0.1136]  n=24
+krr_v2      A15 delta vs base = +0.0066  95% CI [-0.0441, +0.0483]  n=387
+krr_v1      V1w delta vs base = +0.0982  95% CI [+0.0526, +0.1502]  n=24
+krr_v1      A15 delta vs base = +0.0014  95% CI [-0.0331, +0.0298]  n=387
+DONE [t=444s] -> /home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/results/validation

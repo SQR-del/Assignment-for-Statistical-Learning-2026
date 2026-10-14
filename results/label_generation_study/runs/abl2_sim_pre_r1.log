@@ -1,0 +1,20 @@
+  NK cells: visible target rows 17; strong rows official RMS 8.88 -> seen 8.86
+fold 1/4 A NK cells [t=33s]
+  T cells CD4+: visible target rows 17; strong rows official RMS 8.21 -> seen 8.44
+fold 2/4 A T cells CD4+ [t=60s]
+  T cells CD8+: visible target rows 15; strong rows official RMS 4.17 -> seen 2.99
+fold 3/4 A T cells CD8+ [t=87s]
+  T regulatory cells: visible target rows 17; strong rows official RMS 6.00 -> seen 4.31
+fold 4/4 A T regulatory cells [t=114s]
+
+protocol A (shift=sim, calib=pre); official private relative to KRR v1: base 0.980, base_I2 0.907, blend 0.906
+name        NK cells  T cells CD4+  T cells CD8+  T regulatory cells       A     A15  A15_rel_krr_v1  pred/truth RMS
+variant                                                                                                             
+base          1.0724        0.9553        0.7912              0.9603  0.9448  0.9960          1.0037          0.2838
+base_I1_I2    1.0506        1.0069        0.8191              0.9215  0.9495  0.9930          1.0007          0.4892
+base_I2       1.0454        0.9562        0.8131              0.9268  0.9354  0.9761          0.9836          0.4683
+blend         1.0192        0.9478        0.8001              0.9257  0.9232  0.9642          0.9717          0.4545
+krr_v1        1.0209        0.9700        0.7885              0.9862  0.9414  0.9923          1.0000          0.3928
+krr_v2        1.0288        0.9663        0.7939              0.9975  0.9466  0.9976          1.0053          0.5019
+{"out": "abl2_sim_pre_r1", "K": 64, "E": 8, "seeds": 3, "epochs": 400, "hidden": 512, "dropout": 0.3, "wd": 0.0001, "lr": 0.001, "sigma": 0.1, "alpha": 1.0, "seed": 20268849, "variants": "base,base_I2,base_I1_I2", "protos": "A", "shift": "sim", "calib": "pre", "final": "", "poison_check": false, "save_preds": true}
+DONE [t=114s]

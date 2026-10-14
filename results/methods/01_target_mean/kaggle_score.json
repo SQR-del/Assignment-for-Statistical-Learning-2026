@@ -1,0 +1,12 @@
+{
+  "method": "目标细胞均值",
+  "kaggle_private": 1.496,
+  "kaggle_public": 1.0,
+  "kaggle_file": "01_target_mean_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "4 位小数",
+  "uploaded_file": "submissions/methods_20261013/01_target_mean_kaggle_ids.7z",
+  "uploaded_sha256": "8264c852c6d7402483402a5ce097bdac0072c8797bd9f76e3e9919c3da2f1b04",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

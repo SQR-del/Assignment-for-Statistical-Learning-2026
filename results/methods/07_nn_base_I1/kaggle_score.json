@@ -1,0 +1,12 @@
+{
+  "method": "底座 + I1",
+  "kaggle_private": 0.798,
+  "kaggle_public": 0.588,
+  "kaggle_file": "07_nn_base_I1_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "3 位小数",
+  "uploaded_file": "submissions/methods_20261013/07_nn_base_I1_kaggle_ids.7z",
+  "uploaded_sha256": "b45dac637996f29f971d7f2d1e9c58f8b2fd3f4bf967183ffbe38f76431a60d5",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

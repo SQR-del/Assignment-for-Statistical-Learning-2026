@@ -1,0 +1,361 @@
+outer,inner,c,alpha,MRRMSE
+NK cells,T cells CD4+,0.0,1.0,1.0250187448336041
+NK cells,T cells CD4+,0.0,3.0,0.9986206001175563
+NK cells,T cells CD4+,0.0,10.0,0.970022511373688
+NK cells,T cells CD4+,0.0,30.0,0.9641313605881944
+NK cells,T cells CD4+,0.0,100.0,0.9691962276982092
+NK cells,T cells CD4+,0.0,300.0,0.9727356481983195
+NK cells,T cells CD4+,0.1,1.0,1.0128837449327062
+NK cells,T cells CD4+,0.1,3.0,0.985834355102418
+NK cells,T cells CD4+,0.1,10.0,0.9575228344779236
+NK cells,T cells CD4+,0.1,30.0,0.9520372913827498
+NK cells,T cells CD4+,0.1,100.0,0.9571272348196269
+NK cells,T cells CD4+,0.1,300.0,0.9606254845896992
+NK cells,T cells CD4+,0.2,1.0,1.003909211983117
+NK cells,T cells CD4+,0.2,3.0,0.9770096577311912
+NK cells,T cells CD4+,0.2,10.0,0.9496427772069154
+NK cells,T cells CD4+,0.2,30.0,0.9448237451464452
+NK cells,T cells CD4+,0.2,100.0,0.9500332611846501
+NK cells,T cells CD4+,0.2,300.0,0.9535121380776964
+NK cells,T cells CD4+,0.3,1.0,0.9981636826344277
+NK cells,T cells CD4+,0.3,3.0,0.97225134805938
+NK cells,T cells CD4+,0.3,10.0,0.9464815301600755
+NK cells,T cells CD4+,0.3,30.0,0.9425586375187951
+NK cells,T cells CD4+,0.3,100.0,0.947970179761899
+NK cells,T cells CD4+,0.3,300.0,0.9514485058570523
+NK cells,T cells CD4+,0.4,1.0,0.9956804154301746
+NK cells,T cells CD4+,0.4,3.0,0.971600277221332
+NK cells,T cells CD4+,0.4,10.0,0.9480430429466963
+NK cells,T cells CD4+,0.4,30.0,0.9451972839453128
+NK cells,T cells CD4+,0.4,100.0,0.9508736448551633
+NK cells,T cells CD4+,0.4,300.0,0.9543656049979434
+NK cells,T cells CD8+,0.0,1.0,0.8146285065394012
+NK cells,T cells CD8+,0.0,3.0,0.8084130340135037
+NK cells,T cells CD8+,0.0,10.0,0.7976957295442234
+NK cells,T cells CD8+,0.0,30.0,0.7947740839036888
+NK cells,T cells CD8+,0.0,100.0,0.7961924682465968
+NK cells,T cells CD8+,0.0,300.0,0.797330084447195
+NK cells,T cells CD8+,0.1,1.0,0.8026239978077833
+NK cells,T cells CD8+,0.1,3.0,0.7958400596496754
+NK cells,T cells CD8+,0.1,10.0,0.7862738922783822
+NK cells,T cells CD8+,0.1,30.0,0.7844956787752849
+NK cells,T cells CD8+,0.1,100.0,0.7865618185957469
+NK cells,T cells CD8+,0.1,300.0,0.7879404975142975
+NK cells,T cells CD8+,0.2,1.0,0.7961756007318558
+NK cells,T cells CD8+,0.2,3.0,0.7894810993820786
+NK cells,T cells CD8+,0.2,10.0,0.7817641832349079
+NK cells,T cells CD8+,0.2,30.0,0.781623663857815
+NK cells,T cells CD8+,0.2,100.0,0.7847047837125373
+NK cells,T cells CD8+,0.2,300.0,0.7864751879266489
+NK cells,T cells CD8+,0.3,1.0,0.79546099948186
+NK cells,T cells CD8+,0.3,3.0,0.7895145942994527
+NK cells,T cells CD8+,0.3,10.0,0.7843279931679271
+NK cells,T cells CD8+,0.3,30.0,0.7864369062063115
+NK cells,T cells CD8+,0.3,100.0,0.7910016998993191
+NK cells,T cells CD8+,0.3,300.0,0.7933335285824453
+NK cells,T cells CD8+,0.4,1.0,0.8005342806806731
+NK cells,T cells CD8+,0.4,3.0,0.7959660913408582
+NK cells,T cells CD8+,0.4,10.0,0.7939611454593413
+NK cells,T cells CD8+,0.4,30.0,0.7989353953219993
+NK cells,T cells CD8+,0.4,100.0,0.8053103873190564
+NK cells,T cells CD8+,0.4,300.0,0.8082700756423271
+NK cells,T regulatory cells,0.0,1.0,0.9541335528304103
+NK cells,T regulatory cells,0.0,3.0,0.9647817572607352
+NK cells,T regulatory cells,0.0,10.0,0.9738963152873794
+NK cells,T regulatory cells,0.0,30.0,0.9798788379852921
+NK cells,T regulatory cells,0.0,100.0,0.9834150271453057
+NK cells,T regulatory cells,0.0,300.0,0.9847054117891318
+NK cells,T regulatory cells,0.1,1.0,0.9439006250442162
+NK cells,T regulatory cells,0.1,3.0,0.9539184973697119
+NK cells,T regulatory cells,0.1,10.0,0.9629733082875982
+NK cells,T regulatory cells,0.1,30.0,0.969195755175424
+NK cells,T regulatory cells,0.1,100.0,0.9729512790583735
+NK cells,T regulatory cells,0.1,300.0,0.9743326757220729
+NK cells,T regulatory cells,0.2,1.0,0.9388741039574727
+NK cells,T regulatory cells,0.2,3.0,0.9483512542541697
+NK cells,T regulatory cells,0.2,10.0,0.957430475189709
+NK cells,T regulatory cells,0.2,30.0,0.9639865841302367
+NK cells,T regulatory cells,0.2,100.0,0.968036441219917
+NK cells,T regulatory cells,0.2,300.0,0.969539743151868
+NK cells,T regulatory cells,0.3,1.0,0.9390751141207794
+NK cells,T regulatory cells,0.3,3.0,0.9481134773877916
+NK cells,T regulatory cells,0.3,10.0,0.957314365748337
+NK cells,T regulatory cells,0.3,30.0,0.9643057336247692
+NK cells,T regulatory cells,0.3,100.0,0.9687288872056098
+NK cells,T regulatory cells,0.3,300.0,0.9703862693796365
+NK cells,T regulatory cells,0.4,1.0,0.9443189454314983
+NK cells,T regulatory cells,0.4,3.0,0.9530387992010465
+NK cells,T regulatory cells,0.4,10.0,0.9624679776528375
+NK cells,T regulatory cells,0.4,30.0,0.9699968955330595
+NK cells,T regulatory cells,0.4,100.0,0.9748713640914293
+NK cells,T regulatory cells,0.4,300.0,0.9767145263177374
+T cells CD4+,NK cells,0.0,1.0,1.1796794878929164
+T cells CD4+,NK cells,0.0,3.0,1.1284678257086147
+T cells CD4+,NK cells,0.0,10.0,1.0610001381539056
+T cells CD4+,NK cells,0.0,30.0,1.0481488672828894
+T cells CD4+,NK cells,0.0,100.0,1.062154302971651
+T cells CD4+,NK cells,0.0,300.0,1.0719959190000232
+T cells CD4+,NK cells,0.1,1.0,1.179571320080016
+T cells CD4+,NK cells,0.1,3.0,1.1296121314487166
+T cells CD4+,NK cells,0.1,10.0,1.057917869480289
+T cells CD4+,NK cells,0.1,30.0,1.0414819437920495
+T cells CD4+,NK cells,0.1,100.0,1.0528514971427954
+T cells CD4+,NK cells,0.1,300.0,1.0617886153370646
+T cells CD4+,NK cells,0.2,1.0,1.1823352512012275
+T cells CD4+,NK cells,0.2,3.0,1.1342541362174126
+T cells CD4+,NK cells,0.2,10.0,1.0592106588904995
+T cells CD4+,NK cells,0.2,30.0,1.0397104439164773
+T cells CD4+,NK cells,0.2,100.0,1.0486656077040641
+T cells CD4+,NK cells,0.2,300.0,1.0567004049632815
+T cells CD4+,NK cells,0.3,1.0,1.1879583453028024
+T cells CD4+,NK cells,0.3,3.0,1.142356758320139
+T cells CD4+,NK cells,0.3,10.0,1.0649341786150999
+T cells CD4+,NK cells,0.3,30.0,1.0428416157545832
+T cells CD4+,NK cells,0.3,100.0,1.0496711542554664
+T cells CD4+,NK cells,0.3,300.0,1.056838076249589
+T cells CD4+,NK cells,0.4,1.0,1.1964050844359637
+T cells CD4+,NK cells,0.4,3.0,1.153867068733743
+T cells CD4+,NK cells,0.4,10.0,1.0751015904220387
+T cells CD4+,NK cells,0.4,30.0,1.0507916347934736
+T cells CD4+,NK cells,0.4,100.0,1.0557965065492039
+T cells CD4+,NK cells,0.4,300.0,1.062149030488517
+T cells CD4+,T cells CD8+,0.0,1.0,0.8488490745002594
+T cells CD4+,T cells CD8+,0.0,3.0,0.8382465144990154
+T cells CD4+,T cells CD8+,0.0,10.0,0.8186314213483544
+T cells CD4+,T cells CD8+,0.0,30.0,0.8048218317894322
+T cells CD4+,T cells CD8+,0.0,100.0,0.7993552187147077
+T cells CD4+,T cells CD8+,0.0,300.0,0.7983415819453776
+T cells CD4+,T cells CD8+,0.1,1.0,0.8441488079566791
+T cells CD4+,T cells CD8+,0.1,3.0,0.8321066443317029
+T cells CD4+,T cells CD8+,0.1,10.0,0.8113391846775654
+T cells CD4+,T cells CD8+,0.1,30.0,0.7970955606071694
+T cells CD4+,T cells CD8+,0.1,100.0,0.7916800326006199
+T cells CD4+,T cells CD8+,0.1,300.0,0.7909028518581774
+T cells CD4+,T cells CD8+,0.2,1.0,0.8444492382994839
+T cells CD4+,T cells CD8+,0.2,3.0,0.8314878270486045
+T cells CD4+,T cells CD8+,0.2,10.0,0.8104954387364355
+T cells CD4+,T cells CD8+,0.2,30.0,0.7968848596189544
+T cells CD4+,T cells CD8+,0.2,100.0,0.792675994437307
+T cells CD4+,T cells CD8+,0.2,300.0,0.7928602724809098
+T cells CD4+,T cells CD8+,0.3,1.0,0.849661664395084
+T cells CD4+,T cells CD8+,0.3,3.0,0.8362990607225246
+T cells CD4+,T cells CD8+,0.3,10.0,0.8159479662874177
+T cells CD4+,T cells CD8+,0.3,30.0,0.8041425965784225
+T cells CD4+,T cells CD8+,0.3,100.0,0.8028511500104885
+T cells CD4+,T cells CD8+,0.3,300.0,0.8050625714997598
+T cells CD4+,T cells CD8+,0.4,1.0,0.8595556991845084
+T cells CD4+,T cells CD8+,0.4,3.0,0.8462645074710664
+T cells CD4+,T cells CD8+,0.4,10.0,0.827310788258543
+T cells CD4+,T cells CD8+,0.4,30.0,0.8185385203677245
+T cells CD4+,T cells CD8+,0.4,100.0,0.8220801167434941
+T cells CD4+,T cells CD8+,0.4,300.0,0.827015067223484
+T cells CD4+,T regulatory cells,0.0,1.0,0.9607055645211815
+T cells CD4+,T regulatory cells,0.0,3.0,0.9652443218665472
+T cells CD4+,T regulatory cells,0.0,10.0,0.9698308252070656
+T cells CD4+,T regulatory cells,0.0,30.0,0.9760554055541087
+T cells CD4+,T regulatory cells,0.0,100.0,0.9816511713776961
+T cells CD4+,T regulatory cells,0.0,300.0,0.9840320448391741
+T cells CD4+,T regulatory cells,0.1,1.0,0.9577567379702681
+T cells CD4+,T regulatory cells,0.1,3.0,0.9615400795555454
+T cells CD4+,T regulatory cells,0.1,10.0,0.964667391013966
+T cells CD4+,T regulatory cells,0.1,30.0,0.9685106965100296
+T cells CD4+,T regulatory cells,0.1,100.0,0.9723605215598816
+T cells CD4+,T regulatory cells,0.1,300.0,0.9741018469834599
+T cells CD4+,T regulatory cells,0.2,1.0,0.9593827610354758
+T cells CD4+,T regulatory cells,0.2,3.0,0.9626140927046016
+T cells CD4+,T regulatory cells,0.2,10.0,0.9649660654103328
+T cells CD4+,T regulatory cells,0.2,30.0,0.9674093799439333
+T cells CD4+,T regulatory cells,0.2,100.0,0.9698236333123139
+T cells CD4+,T regulatory cells,0.2,300.0,0.9709604431345338
+T cells CD4+,T regulatory cells,0.3,1.0,0.9655217186256023
+T cells CD4+,T regulatory cells,0.3,3.0,0.9683333352985661
+T cells CD4+,T regulatory cells,0.3,10.0,0.9702690561897528
+T cells CD4+,T regulatory cells,0.3,30.0,0.9721094285019508
+T cells CD4+,T regulatory cells,0.3,100.0,0.9738242096251948
+T cells CD4+,T regulatory cells,0.3,300.0,0.9746155253854693
+T cells CD4+,T regulatory cells,0.4,1.0,0.9760179756808871
+T cells CD4+,T regulatory cells,0.4,3.0,0.9785120735970275
+T cells CD4+,T regulatory cells,0.4,10.0,0.9802139351752021
+T cells CD4+,T regulatory cells,0.4,30.0,0.9818319886085063
+T cells CD4+,T regulatory cells,0.4,100.0,0.9833047407099212
+T cells CD4+,T regulatory cells,0.4,300.0,0.9839712408352078
+T cells CD8+,NK cells,0.0,1.0,1.0794280470668507
+T cells CD8+,NK cells,0.0,3.0,1.0208063319781107
+T cells CD8+,NK cells,0.0,10.0,1.0366896559477454
+T cells CD8+,NK cells,0.0,30.0,1.0840614030886917
+T cells CD8+,NK cells,0.0,100.0,1.122505103596702
+T cells CD8+,NK cells,0.0,300.0,1.1376770418342452
+T cells CD8+,NK cells,0.1,1.0,1.0792261924763835
+T cells CD8+,NK cells,0.1,3.0,1.017390060793898
+T cells CD8+,NK cells,0.1,10.0,1.0242101755060142
+T cells CD8+,NK cells,0.1,30.0,1.0646042562158986
+T cells CD8+,NK cells,0.1,100.0,1.0985957780782842
+T cells CD8+,NK cells,0.1,300.0,1.112280517306284
+T cells CD8+,NK cells,0.2,1.0,1.0829342476173878
+T cells CD8+,NK cells,0.2,3.0,1.0189625599766865
+T cells CD8+,NK cells,0.2,10.0,1.0170827893231738
+T cells CD8+,NK cells,0.2,30.0,1.0510116732529597
+T cells CD8+,NK cells,0.2,100.0,1.0805624502301001
+T cells CD8+,NK cells,0.2,300.0,1.0927030595986384
+T cells CD8+,NK cells,0.3,1.0,1.0905803672498657
+T cells CD8+,NK cells,0.3,3.0,1.0253858714708781
+T cells CD8+,NK cells,0.3,10.0,1.015415811898253
+T cells CD8+,NK cells,0.3,30.0,1.0434652819654617
+T cells CD8+,NK cells,0.3,100.0,1.0687943353272273
+T cells CD8+,NK cells,0.3,300.0,1.0793792362517869
+T cells CD8+,NK cells,0.4,1.0,1.1021409795088126
+T cells CD8+,NK cells,0.4,3.0,1.036484236894859
+T cells CD8+,NK cells,0.4,10.0,1.019231665760076
+T cells CD8+,NK cells,0.4,30.0,1.0419751685608425
+T cells CD8+,NK cells,0.4,100.0,1.0634769137927969
+T cells CD8+,NK cells,0.4,300.0,1.0725719443059951
+T cells CD8+,T cells CD4+,0.0,1.0,1.0081724959440255
+T cells CD8+,T cells CD4+,0.0,3.0,0.9954844281088654
+T cells CD8+,T cells CD4+,0.0,10.0,0.9921733738065803
+T cells CD8+,T cells CD4+,0.0,30.0,1.0031047885200333
+T cells CD8+,T cells CD4+,0.0,100.0,1.0211712914187747
+T cells CD8+,T cells CD4+,0.0,300.0,1.0304809546433848
+T cells CD8+,T cells CD4+,0.1,1.0,0.9918572757556633
+T cells CD8+,T cells CD4+,0.1,3.0,0.9812734130520199
+T cells CD8+,T cells CD4+,0.1,10.0,0.9772374156712851
+T cells CD8+,T cells CD4+,0.1,30.0,0.9841186692850828
+T cells CD8+,T cells CD4+,0.1,100.0,0.9980706437830033
+T cells CD8+,T cells CD4+,0.1,300.0,1.0055839731779252
+T cells CD8+,T cells CD4+,0.2,1.0,0.9794321181072457
+T cells CD8+,T cells CD4+,0.2,3.0,0.9714584067093398
+T cells CD8+,T cells CD4+,0.2,10.0,0.9674497646474133
+T cells CD8+,T cells CD4+,0.2,30.0,0.9711745972004634
+T cells CD8+,T cells CD4+,0.2,100.0,0.9816093548706265
+T cells CD8+,T cells CD4+,0.2,300.0,0.9875495202010409
+T cells CD8+,T cells CD4+,0.3,1.0,0.9710388364641283
+T cells CD8+,T cells CD4+,0.3,3.0,0.9661541569733602
+T cells CD8+,T cells CD4+,0.3,10.0,0.962907717980557
+T cells CD8+,T cells CD4+,0.3,30.0,0.9644834746357553
+T cells CD8+,T cells CD4+,0.3,100.0,0.9721220978443822
+T cells CD8+,T cells CD4+,0.3,300.0,0.9767682539136089
+T cells CD8+,T cells CD4+,0.4,1.0,0.9667712647895551
+T cells CD8+,T cells CD4+,0.4,3.0,0.9654102734942455
+T cells CD8+,T cells CD4+,0.4,10.0,0.9636143983672338
+T cells CD8+,T cells CD4+,0.4,30.0,0.9641116922964239
+T cells CD8+,T cells CD4+,0.4,100.0,0.9697937972926077
+T cells CD8+,T cells CD4+,0.4,300.0,0.9734737739361186
+T cells CD8+,T regulatory cells,0.0,1.0,0.9854614714173053
+T cells CD8+,T regulatory cells,0.0,3.0,0.9867367461491968
+T cells CD8+,T regulatory cells,0.0,10.0,0.9909635293451996
+T cells CD8+,T regulatory cells,0.0,30.0,0.9966478418237806
+T cells CD8+,T regulatory cells,0.0,100.0,1.0013747285159136
+T cells CD8+,T regulatory cells,0.0,300.0,1.0033623718782412
+T cells CD8+,T regulatory cells,0.1,1.0,0.9811370801417897
+T cells CD8+,T regulatory cells,0.1,3.0,0.9813990727990768
+T cells CD8+,T regulatory cells,0.1,10.0,0.9833327788867656
+T cells CD8+,T regulatory cells,0.1,30.0,0.9860866211387054
+T cells CD8+,T regulatory cells,0.1,100.0,0.9885192736039186
+T cells CD8+,T regulatory cells,0.1,300.0,0.9895768821224076
+T cells CD8+,T regulatory cells,0.2,1.0,0.9834040418710307
+T cells CD8+,T regulatory cells,0.2,3.0,0.9829803208865313
+T cells CD8+,T regulatory cells,0.2,10.0,0.9837222213690308
+T cells CD8+,T regulatory cells,0.2,30.0,0.9853040676884721
+T cells CD8+,T regulatory cells,0.2,100.0,0.9869366447413278
+T cells CD8+,T regulatory cells,0.2,300.0,0.9876841534538192
+T cells CD8+,T regulatory cells,0.3,1.0,0.9921241257397042
+T cells CD8+,T regulatory cells,0.3,3.0,0.9913573400982721
+T cells CD8+,T regulatory cells,0.3,10.0,0.9919850747188776
+T cells CD8+,T regulatory cells,0.3,30.0,0.9940072880475908
+T cells CD8+,T regulatory cells,0.3,100.0,0.9961264961399701
+T cells CD8+,T regulatory cells,0.3,300.0,0.997080854089614
+T cells CD8+,T regulatory cells,0.4,1.0,1.0068205873283915
+T cells CD8+,T regulatory cells,0.4,3.0,1.0060308618871225
+T cells CD8+,T regulatory cells,0.4,10.0,1.0073936110600321
+T cells CD8+,T regulatory cells,0.4,30.0,1.0108068791008078
+T cells CD8+,T regulatory cells,0.4,100.0,1.0140612279963643
+T cells CD8+,T regulatory cells,0.4,300.0,1.0154786586655173
+T regulatory cells,NK cells,0.0,1.0,1.0278454877969518
+T regulatory cells,NK cells,0.0,3.0,1.0320346968455774
+T regulatory cells,NK cells,0.0,10.0,1.0434409476063915
+T regulatory cells,NK cells,0.0,30.0,1.0584799709786945
+T regulatory cells,NK cells,0.0,100.0,1.0705639834063083
+T regulatory cells,NK cells,0.0,300.0,1.0755413277316939
+T regulatory cells,NK cells,0.1,1.0,1.0087137712857008
+T regulatory cells,NK cells,0.1,3.0,1.011882017485794
+T regulatory cells,NK cells,0.1,10.0,1.0238114170081345
+T regulatory cells,NK cells,0.1,30.0,1.0402609896026411
+T regulatory cells,NK cells,0.1,100.0,1.0535386062119332
+T regulatory cells,NK cells,0.1,300.0,1.0590050216960292
+T regulatory cells,NK cells,0.2,1.0,0.9935970254272418
+T regulatory cells,NK cells,0.2,3.0,0.9958806855418864
+T regulatory cells,NK cells,0.2,10.0,1.008539862334336
+T regulatory cells,NK cells,0.2,30.0,1.0266289737219103
+T regulatory cells,NK cells,0.2,100.0,1.0412552919465772
+T regulatory cells,NK cells,0.2,300.0,1.047270105835103
+T regulatory cells,NK cells,0.3,1.0,0.9827643952998542
+T regulatory cells,NK cells,0.3,3.0,0.9843517228137677
+T regulatory cells,NK cells,0.3,10.0,0.9979726813918408
+T regulatory cells,NK cells,0.3,30.0,1.0179268824887329
+T regulatory cells,NK cells,0.3,100.0,1.034048316993641
+T regulatory cells,NK cells,0.3,300.0,1.0406657607086893
+T regulatory cells,NK cells,0.4,1.0,0.976434564312294
+T regulatory cells,NK cells,0.4,3.0,0.9775657733281907
+T regulatory cells,NK cells,0.4,10.0,0.9923966284517673
+T regulatory cells,NK cells,0.4,30.0,1.0144231671671922
+T regulatory cells,NK cells,0.4,100.0,1.0321550732285352
+T regulatory cells,NK cells,0.4,300.0,1.039408135242323
+T regulatory cells,T cells CD4+,0.0,1.0,0.9811253014953536
+T regulatory cells,T cells CD4+,0.0,3.0,0.9753686918779803
+T regulatory cells,T cells CD4+,0.0,10.0,0.9664631310688745
+T regulatory cells,T cells CD4+,0.0,30.0,0.965227733883876
+T regulatory cells,T cells CD4+,0.0,100.0,0.9699451457748911
+T regulatory cells,T cells CD4+,0.0,300.0,0.9730303636071296
+T regulatory cells,T cells CD4+,0.1,1.0,0.963249686780583
+T regulatory cells,T cells CD4+,0.1,3.0,0.9568601348212336
+T regulatory cells,T cells CD4+,0.1,10.0,0.9470145272996122
+T regulatory cells,T cells CD4+,0.1,30.0,0.9448581019055466
+T regulatory cells,T cells CD4+,0.1,100.0,0.9490262643597496
+T regulatory cells,T cells CD4+,0.1,300.0,0.9519340647981718
+T regulatory cells,T cells CD4+,0.2,1.0,0.9492248647369954
+T regulatory cells,T cells CD4+,0.2,3.0,0.9424103993520969
+T regulatory cells,T cells CD4+,0.2,10.0,0.9319475680027712
+T regulatory cells,T cells CD4+,0.2,30.0,0.9292692251705695
+T regulatory cells,T cells CD4+,0.2,100.0,0.9331782760132882
+T regulatory cells,T cells CD4+,0.2,300.0,0.9360143631595405
+T regulatory cells,T cells CD4+,0.3,1.0,0.9392055246098552
+T regulatory cells,T cells CD4+,0.3,3.0,0.9321946399836889
+T regulatory cells,T cells CD4+,0.3,10.0,0.9214802591656862
+T regulatory cells,T cells CD4+,0.3,30.0,0.9187304371668995
+T regulatory cells,T cells CD4+,0.3,100.0,0.9227019334304075
+T regulatory cells,T cells CD4+,0.3,300.0,0.9255820611546045
+T regulatory cells,T cells CD4+,0.4,1.0,0.9333036489532014
+T regulatory cells,T cells CD4+,0.4,3.0,0.9263409575229475
+T regulatory cells,T cells CD4+,0.4,10.0,0.9157730042255295
+T regulatory cells,T cells CD4+,0.4,30.0,0.91343497108033
+T regulatory cells,T cells CD4+,0.4,100.0,0.9178079521160049
+T regulatory cells,T cells CD4+,0.4,300.0,0.9208504596848887
+T regulatory cells,T cells CD8+,0.0,1.0,0.8250145809674398
+T regulatory cells,T cells CD8+,0.0,3.0,0.8187067778060704
+T regulatory cells,T cells CD8+,0.0,10.0,0.8080319642461573
+T regulatory cells,T cells CD8+,0.0,30.0,0.800958867383747
+T regulatory cells,T cells CD8+,0.0,100.0,0.7984371223311328
+T regulatory cells,T cells CD8+,0.0,300.0,0.798100704358007
+T regulatory cells,T cells CD8+,0.1,1.0,0.8142819433268438
+T regulatory cells,T cells CD8+,0.1,3.0,0.80748748773974
+T regulatory cells,T cells CD8+,0.1,10.0,0.7962615441709472
+T regulatory cells,T cells CD8+,0.1,30.0,0.7887579179885411
+T regulatory cells,T cells CD8+,0.1,100.0,0.7860959809807054
+T regulatory cells,T cells CD8+,0.1,300.0,0.7858395882623291
+T regulatory cells,T cells CD8+,0.2,1.0,0.8109840222631262
+T regulatory cells,T cells CD8+,0.2,3.0,0.8040278252637241
+T regulatory cells,T cells CD8+,0.2,10.0,0.7928778226965947
+T regulatory cells,T cells CD8+,0.2,30.0,0.7859341812686859
+T regulatory cells,T cells CD8+,0.2,100.0,0.7844391213726003
+T regulatory cells,T cells CD8+,0.2,300.0,0.7850332796472619
+T regulatory cells,T cells CD8+,0.3,1.0,0.8149153549144764
+T regulatory cells,T cells CD8+,0.3,3.0,0.8081081834434265
+T regulatory cells,T cells CD8+,0.3,10.0,0.7977451979203907
+T regulatory cells,T cells CD8+,0.3,30.0,0.7928603840601557
+T regulatory cells,T cells CD8+,0.3,100.0,0.7946235777436499
+T regulatory cells,T cells CD8+,0.3,300.0,0.7969717947499035
+T regulatory cells,T cells CD8+,0.4,1.0,0.8256445630192587
+T regulatory cells,T cells CD8+,0.4,3.0,0.8192806018737266
+T regulatory cells,T cells CD8+,0.4,10.0,0.8105305698887313
+T regulatory cells,T cells CD8+,0.4,30.0,0.8096138912108222
+T regulatory cells,T cells CD8+,0.4,100.0,0.8161135435311155
+T regulatory cells,T cells CD8+,0.4,300.0,0.8203836985036725

@@ -1,0 +1,12 @@
+{
+  "method": "局部 KRR（v2 配置）",
+  "kaggle_private": 0.799,
+  "kaggle_public": 0.594,
+  "kaggle_file": "05a_krr_local_kaggle_ids.7z",
+  "submitted": "2026-10-14",
+  "precision": "3 位小数",
+  "uploaded_file": "submissions/methods_20261013/05a_krr_local_kaggle_ids.7z",
+  "uploaded_sha256": "fb316c4c88ed9aede47cd3c62b0ed753492323abf4598dca9876bebae19fab51",
+  "note": "与 blend 中的 KRR v2 分量是同一组预测",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

@@ -1,0 +1,12 @@
+{
+  "method": "目标细胞中位数（null 参照）",
+  "kaggle_private": 0.896,
+  "kaggle_public": 0.652,
+  "kaggle_file": "02_null_median_kaggle_ids.7z",
+  "submitted": "2026-10-13",
+  "precision": "4 位小数",
+  "uploaded_file": "submissions/methods_20261013/02_null_median_kaggle_ids.7z",
+  "uploaded_sha256": "4387e44ed30c1d45341db5ce797d2e97a8b359370f5fd6dde51a76e61f5bbac4",
+  "note": "",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}

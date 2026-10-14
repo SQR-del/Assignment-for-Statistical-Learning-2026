@@ -1,0 +1,59 @@
+official private relative to KRR v1:  base 0.980 | base_I2 0.907 | blend 0.906
+
+truth = official restricted-fit anchor (old V1)
+               V1    V1w  V1_strong  V1/krr1  V1w/krr1  V1_strong/krr1
+model                                                                 
+krr_v1      1.890  1.163      4.799    1.000     1.000           1.000
+base        2.088  1.064      6.183    1.105     0.915           1.288
+base_I2     1.903  1.030      5.395    1.007     0.886           1.124
+blend       1.842  1.026      5.107    0.975     0.882           1.064
+krr_v2      1.731  1.132      4.126    0.916     0.974           0.860
+base_I1_I2  1.990  1.024      5.853    1.053     0.881           1.220
+
+truth = anchor mapped to full-fit df (V1-full)
+               V1    V1w  V1_strong  V1/krr1  V1w/krr1  V1_strong/krr1
+model                                                                 
+krr_v1      2.395  1.287      6.826    1.000     1.000           1.000
+base        2.601  1.182      8.278    1.086     0.919           1.213
+base_I2     2.198  1.135      6.453    0.918     0.882           0.945
+blend       2.142  1.137      6.161    0.894     0.883           0.903
+krr_v2      2.097  1.255      5.468    0.876     0.975           0.801
+base_I1_I2  2.270  1.131      6.829    0.948     0.878           1.000
+
+candidate magnitude corrections under V1-full (truth F):
+                    V1    V1w  V1_strong  V1/krr1
+model                                            
+base_I1_I2       2.270  1.131      6.829    0.948
+base_I1_I2+post  2.472  1.110      7.922    1.032
+base_I1_I2+pre   2.417  1.117      7.617    1.009
+base_I2          2.198  1.135      6.453    0.918
+base_I2+post     2.376  1.114      7.426    0.992
+base_I2+pre      2.254  1.121      6.785    0.941
+blend            2.142  1.137      6.161    0.894
+blend+post       2.288  1.116      6.973    0.955
+blend+pre        2.206  1.121      6.544    0.921
+krr_v2           2.097  1.255      5.468    0.876
+krr_v2+post      2.109  1.250      5.546    0.881
+krr_v2+pre       2.053  1.251      5.260    0.857
+
+mean pred RMS / truth RMS (strong rows):
+                 pred_rms  truth_R_rms  truth_F_rms
+model                                              
+base                 3.74         9.46         11.6
+base+post            4.06         9.46         11.6
+base+pre             3.83         9.46         11.6
+base_I1_I2           9.49         9.46         11.6
+base_I1_I2+post     11.68         9.46         11.6
+base_I1_I2+pre      11.49         9.46         11.6
+base_I2              9.60         9.46         11.6
+base_I2+post        11.91         9.46         11.6
+base_I2+pre         11.07         9.46         11.6
+blend                9.02         9.46         11.6
+blend+post          11.01         9.46         11.6
+blend+pre           10.67         9.46         11.6
+krr_v1               5.08         9.46         11.6
+krr_v1+post          5.67         9.46         11.6
+krr_v1+pre           6.06         9.46         11.6
+krr_v2               7.48         9.46         11.6
+krr_v2+post          8.82         9.46         11.6
+krr_v2+pre           8.97         9.46         11.6

@@ -1,0 +1,12 @@
+{
+  "method": "blend（最终模型）",
+  "kaggle_private": 0.752,
+  "kaggle_public": 0.591,
+  "kaggle_file": "blend_v1_kaggle_ids.csv",
+  "submitted": "2026-09-30",
+  "precision": "全精度",
+  "uploaded_file": "results/blend_v1/blend_v1_kaggle_ids.csv",
+  "uploaded_sha256": "16a8ebaf281dfe3f64943997cc002081ac8374b4d8ca1ced1d9bd7843467b2eb",
+  "note": "最终模型；与当前导出文件最大差异 1e-07",
+  "source": "Kaggle \"Open Problems – Single-Cell Perturbations\" 提交记录页（赛后提交），总表见 results/kaggle_scores.csv"
+}
