@@ -1,0 +1,10 @@
+{
+  "mrrmse": 0.9374,
+  "mse": 1.9405,
+  "r2": 0.1207,
+  "params": {
+    "n_extra": 64,
+    "reps": 3
+  },
+  "source": "results/extend_hybrid_mean.csv (ids+dsig)"
+}

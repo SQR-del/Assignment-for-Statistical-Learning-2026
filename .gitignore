@@ -1,0 +1,13 @@
+# --- data: NOT shipped (download from Kaggle) ---
+data/
+*.parquet
+
+# --- large generated artifacts (regenerate with code/predict.py) ---
+results/submission*.csv
+results/predictions/
+results/_inner_comp.npz
+
+# --- python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

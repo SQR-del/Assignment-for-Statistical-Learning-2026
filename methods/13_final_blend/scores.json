@@ -1,0 +1,12 @@
+{
+  "params": {
+    "seeds_embed": 7,
+    "seeds_other": 3,
+    "weights": {
+      "embed": 0.5,
+      "smiles": 0.3,
+      "hybrid": 0.2
+    }
+  },
+  "note": "最终提交配方；详见 README 与 SUMMARY.md §六。"
+}

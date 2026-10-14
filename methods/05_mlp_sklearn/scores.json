@@ -1,0 +1,11 @@
+{
+  "P1": {
+    "mrrmse": 1.052,
+    "mse": 2.3099,
+    "r2": -0.1187,
+    "pearson": 0.1803
+  },
+  "params": {
+    "method": "mlp_sklearn"
+  }
+}

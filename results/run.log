@@ -1,0 +1,588 @@
+[01:22:27] === run start  protocols=['P1'] models=['global_mean', 'cell_anchor_mean', 'drug_mean', 'additive', 'ridge', 'pg_anchor_ridge', 'pg_anchor_affine', 'krr_linear_sig'] save_preds=False
+[01:22:28] rows=602 genes=18211 anchors=15
+[01:22:28] fingerprint PCA -> 128 dims
+[01:22:28] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:22:34]     global_mean        r2=-0.001 mse=2.096 pear=+0.128 (0.1s)
+[01:22:34]     cell_anchor_mean   r2=-0.454 mse=3.044 pear=+0.122 (0.1s)
+[01:22:34]     drug_mean          r2=+0.190 mse=1.694 pear=+0.260 (0.1s)
+[01:22:34]     additive           r2=-0.208 mse=2.529 pear=+0.204 (0.1s)
+[01:22:34]     ridge              r2=+0.303 mse=1.459 pear=+0.270 (0.2s)
+[01:24:41]     pg_anchor_ridge    r2=-0.076 mse=2.252 pear=+0.242 (127.2s)
+[01:34:58] === run start  protocols=['P1'] models=['pg_anchor_ridge', 'pg_anchor_affine', 'knn', 'pls', 'bayesridge', 'linear', 'krr_linear_sig', 'krr_rbf_sig'] save_preds=False
+[01:34:59] rows=602 genes=18211 anchors=15
+[01:34:59] fingerprint PCA -> 128 dims
+[01:34:59] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:35:04]     pg_anchor_ridge    r2=-1.172 mse=4.546 pear=+0.121 (0.1s)
+[01:35:04]     pg_anchor_affine   r2=-153.025 mse=322.377 pear=+0.119 (0.1s)
+[01:35:05]     knn                r2=+0.243 mse=1.584 pear=+0.256 (0.3s)
+[01:35:08]     pls                r2=+0.199 mse=1.676 pear=+0.160 (3.3s)
+[01:35:08]     bayesridge         FAILED
+Traceback (most recent call last):
+  File "G:\大学\大三上\统计学习\project\exp\run_benchmark.py", line 90, in main
+    yp = fn(view)
+  File "G:\大学\大三上\统计学习\project\exp\models.py", line 78, in m_bayesridge
+    m = BayesianRidge(max_iter=300).fit(Xtr, view["y_train"])
+  File "D:\python\Lib\site-packages\sklearn\base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "D:\python\Lib\site-packages\sklearn\linear_model\_bayes.py", line 238, in fit
+    X, y = validate_data(
+           ~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        y_numeric=True,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\python\Lib\site-packages\sklearn\utils\validation.py", line 3055, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\sklearn\utils\validation.py", line 1344, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+  File "D:\python\Lib\site-packages\sklearn\utils\validation.py", line 1365, in _check_y
+    y = column_or_1d(y, warn=True)
+  File "D:\python\Lib\site-packages\sklearn\utils\validation.py", line 1447, in column_or_1d
+    raise ValueError(
+        "y should be a 1d array, got an array of shape {} instead.".format(shape)
+    )
+ValueError: y should be a 1d array, got an array of shape (443, 18211) instead.
+
+[01:35:09]     linear             r2=-0.234 mse=2.582 pear=+0.281 (0.6s)
+[01:35:09]     krr_linear_sig     r2=-0.349 mse=2.823 pear=+0.184 (0.3s)
+[01:35:10]     krr_rbf_sig        r2=+0.165 mse=1.747 pear=+0.292 (1.0s)
+[01:35:10] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_013510.csv
+[01:35:10] === summary (mean over folds) ===
+[01:35:10]   P1 knn                r2=+0.243±nan mse=1.584 pear=+0.256
+[01:35:10]   P1 krr_linear_sig     r2=-0.349±nan mse=2.823 pear=+0.184
+[01:35:10]   P1 krr_rbf_sig        r2=+0.165±nan mse=1.747 pear=+0.292
+[01:35:10]   P1 linear             r2=-0.234±nan mse=2.582 pear=+0.281
+[01:35:10]   P1 pg_anchor_affine   r2=-153.025±nan mse=322.377 pear=+0.119
+[01:35:10]   P1 pg_anchor_ridge    r2=-1.172±nan mse=4.546 pear=+0.121
+[01:35:10]   P1 pls                r2=+0.199±nan mse=1.676 pear=+0.160
+[01:35:15] === run start  protocols=['P1'] models=['mlp_torch'] save_preds=False
+[01:35:15] rows=602 genes=18211 anchors=15
+[01:35:15] fingerprint PCA -> 128 dims
+[01:35:15] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:35:43]     mlp_torch          r2=+0.379 mse=1.300 pear=+0.309 (22.7s)
+[01:35:43] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_013543.csv
+[01:35:43] === summary (mean over folds) ===
+[01:35:43]   P1 mlp_torch          r2=+0.379±nan mse=1.300 pear=+0.309
+[01:35:47] === run start  protocols=['P1'] models=['mlp_sklearn', 'xgb_multi'] save_preds=False
+[01:35:47] rows=602 genes=18211 anchors=15
+[01:35:47] fingerprint PCA -> 128 dims
+[01:35:47] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:36:16]     mlp_sklearn        r2=+0.259 mse=1.551 pear=+0.218 (24.1s)
+[01:56:11] === run start  protocols=['P1'] models=['pca_ridge', 'pca_xgb', 'pca_rf', 'pca_mlp'] save_preds=False
+[01:56:12] rows=602 genes=18211 anchors=15
+[01:56:12] fingerprint PCA -> 128 dims
+[01:56:12] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:56:18]     pca_ridge          r2=+0.331 mse=1.400 pear=+0.283 (0.3s)
+[01:57:42]     pca_xgb            r2=+0.166 mse=1.746 pear=+0.169 (84.5s)
+[01:57:44]     pca_rf             r2=+0.287 mse=1.492 pear=+0.189 (1.2s)
+[01:57:45]     pca_mlp            r2=+0.252 mse=1.565 pear=+0.182 (1.0s)
+[01:57:45] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_015745.csv
+[01:57:45] === summary (mean over folds) ===
+[01:57:45]   P1 pca_mlp            r2=+0.252±nan mse=1.565 pear=+0.182
+[01:57:45]   P1 pca_rf             r2=+0.287±nan mse=1.492 pear=+0.189
+[01:57:45]   P1 pca_ridge          r2=+0.331±nan mse=1.400 pear=+0.283
+[01:57:45]   P1 pca_xgb            r2=+0.166±nan mse=1.746 pear=+0.169
+[01:57:58] === run start  protocols=['P1'] models=['ridge_resid', 'knn_resid', 'mlp_resid', 'mlp_torch'] save_preds=False
+[01:57:59] rows=602 genes=18211 anchors=15
+[01:57:59] fingerprint PCA -> 128 dims
+[01:57:59] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[01:58:04]     ridge_resid        r2=+0.059 mse=1.970 pear=+0.001 (0.2s)
+[01:58:05]     knn_resid          r2=-0.189 mse=2.488 pear=-0.094 (0.3s)
+[01:59:09]     mlp_resid          r2=+0.256 mse=1.558 pear=+0.222 (64.3s)
+[01:59:59]     mlp_torch          r2=+0.373 mse=1.312 pear=+0.313 (50.4s)
+[01:59:59] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_015959.csv
+[01:59:59] === summary (mean over folds) ===
+[01:59:59]   P1 knn_resid          r2=-0.189±nan mse=2.488 pear=-0.094
+[01:59:59]   P1 mlp_resid          r2=+0.256±nan mse=1.558 pear=+0.222
+[01:59:59]   P1 mlp_torch          r2=+0.373±nan mse=1.312 pear=+0.313
+[01:59:59]   P1 ridge_resid        r2=+0.059±nan mse=1.970 pear=+0.001
+[02:00:17] === run start  protocols=['P1'] models=['global_mean', 'ridge'] save_preds=False
+[02:00:17] rows=602 genes=18211 anchors=15
+[02:00:17] fingerprint PCA -> 128 dims
+[02:00:17] --- fold P1_NK cells  n_train=443 n_test=129
+[02:00:22]     global_mean        r2=+0.029 mse=3.975 pear=+0.206 (0.1s)
+[02:00:23]     ridge              r2=+0.459 mse=2.213 pear=+0.321 (0.1s)
+[02:00:23] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_020023.csv
+[02:00:23] === summary (mean over folds) ===
+[02:00:23]   P1 global_mean        r2=+0.029±nan mse=3.975 pear=+0.206
+[02:00:23]   P1 ridge              r2=+0.459±nan mse=2.213 pear=+0.321
+[02:04:02] === run start  protocols=['P1', 'P2'] models=['global_mean', 'cell_anchor_mean', 'drug_mean', 'additive', 'linear', 'ridge', 'pls', 'knn', 'krr_rbf', 'krr_linear_sig', 'krr_rbf_sig', 'pg_anchor_ridge', 'pca_ridge', 'pca_xgb', 'pca_rf', 'pca_mlp', 'mlp_sklearn', 'mlp_torch', 'mlp_torch_wide', 'ridge_resid', 'knn_resid', 'mlp_resid'] save_preds=False
+[02:04:03] rows=602 genes=18211 anchors=15
+[02:04:03] fingerprint PCA -> 128 dims
+[02:04:03] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[02:04:08]     global_mean        r2=-0.001 mse=2.096 pear=+0.128 (0.1s)
+[02:04:08]     cell_anchor_mean   r2=-0.454 mse=3.044 pear=+0.122 (0.1s)
+[02:04:08]     drug_mean          r2=+0.190 mse=1.694 pear=+0.260 (0.1s)
+[02:04:08]     additive           r2=-0.208 mse=2.529 pear=+0.204 (0.1s)
+[02:04:09]     linear             r2=-0.234 mse=2.582 pear=+0.281 (0.6s)
+[02:04:09]     ridge              r2=+0.314 mse=1.435 pear=+0.290 (0.1s)
+[02:04:12]     pls                r2=+0.199 mse=1.676 pear=+0.160 (3.5s)
+[02:04:13]     knn                r2=+0.243 mse=1.584 pear=+0.256 (0.3s)
+[02:04:13]     krr_rbf            r2=+0.194 mse=1.686 pear=+0.300 (0.2s)
+[02:04:13]     krr_linear_sig     r2=-0.349 mse=2.823 pear=+0.184 (0.2s)
+[02:04:14]     krr_rbf_sig        r2=+0.165 mse=1.747 pear=+0.292 (0.9s)
+[02:04:14]     pg_anchor_ridge    r2=-1.172 mse=4.546 pear=+0.121 (0.1s)
+[02:04:14]     pca_ridge          r2=+0.331 mse=1.401 pear=+0.294 (0.4s)
+[02:04:58]     pca_xgb            r2=-0.782 mse=3.731 pear=+0.093 (43.2s)
+[02:04:59]     pca_rf             r2=+0.283 mse=1.500 pear=+0.192 (1.7s)
+[02:05:00]     pca_mlp            r2=+0.002 mse=2.088 pear=+0.129 (0.6s)
+[02:05:24]     mlp_sklearn        r2=+0.259 mse=1.551 pear=+0.218 (24.5s)
+[02:05:48]     mlp_torch          r2=+0.358 mse=1.343 pear=+0.294 (23.8s)
+[02:06:36]     mlp_torch_wide     r2=+0.352 mse=1.356 pear=+0.304 (47.4s)
+[02:06:36]     ridge_resid        r2=+0.059 mse=1.970 pear=+0.001 (0.2s)
+[02:06:36]     knn_resid          r2=-0.189 mse=2.488 pear=-0.094 (0.3s)
+[02:06:58]     mlp_resid          r2=+0.271 mse=1.526 pear=+0.229 (22.1s)
+[02:06:58] --- fold P1_T regulatory cells  n_train=443 n_test=129
+[02:07:03]     global_mean        r2=+0.027 mse=2.008 pear=+0.214 (0.1s)
+[02:07:03]     cell_anchor_mean   r2=+0.054 mse=1.953 pear=+0.277 (0.1s)
+[02:07:03]     drug_mean          r2=-0.351 mse=2.790 pear=+0.171 (0.1s)
+[02:07:03]     additive           r2=-0.310 mse=2.704 pear=+0.244 (0.1s)
+[02:07:04]     linear             r2=-0.042 mse=2.151 pear=+0.260 (0.7s)
+[02:07:04]     ridge              r2=+0.186 mse=1.681 pear=+0.256 (0.1s)
+[02:07:09]     pls                r2=+0.262 mse=1.523 pear=+0.260 (4.6s)
+[02:07:09]     knn                r2=-0.003 mse=2.070 pear=+0.162 (0.3s)
+[02:07:09]     krr_rbf            r2=+0.124 mse=1.808 pear=+0.222 (0.1s)
+[02:07:10]     krr_linear_sig     r2=-0.058 mse=2.184 pear=+0.258 (0.2s)
+[02:07:10]     krr_rbf_sig        r2=+0.104 mse=1.850 pear=+0.287 (1.0s)
+[02:07:11]     pg_anchor_ridge    r2=-0.005 mse=2.075 pear=+0.209 (0.1s)
+[02:07:11]     pca_ridge          r2=+0.218 mse=1.615 pear=+0.274 (0.4s)
+[02:07:53]     pca_xgb            r2=+0.167 mse=1.721 pear=+0.246 (42.3s)
+[02:07:55]     pca_rf             r2=+0.250 mse=1.549 pear=+0.192 (1.7s)
+[02:07:56]     pca_mlp            r2=+0.030 mse=2.003 pear=+0.209 (0.6s)
+[02:08:10]     mlp_sklearn        r2=+0.378 mse=1.284 pear=+0.272 (14.2s)
+[02:08:31]     mlp_torch          r2=+0.329 mse=1.386 pear=+0.302 (21.5s)
+[02:09:16]     mlp_torch_wide     r2=+0.358 mse=1.325 pear=+0.308 (45.0s)
+[02:09:16]     ridge_resid        r2=-0.089 mse=2.247 pear=-0.021 (0.2s)
+[02:09:17]     knn_resid          r2=-0.936 mse=3.997 pear=-0.155 (0.3s)
+[02:09:39]     mlp_resid          r2=+0.110 mse=1.838 pear=+0.169 (21.9s)
+[02:09:39] --- fold P1_T cells CD8+  n_train=445 n_test=127
+[02:09:44]     global_mean        r2=-0.163 mse=1.265 pear=+0.052 (0.1s)
+[02:09:44]     cell_anchor_mean   r2=-0.139 mse=1.239 pear=+0.062 (0.1s)
+[02:09:44]     drug_mean          r2=-0.812 mse=1.972 pear=+0.126 (0.0s)
+[02:09:44]     additive           r2=-0.905 mse=2.072 pear=+0.140 (0.1s)
+[02:09:44]     linear             r2=-0.487 mse=1.617 pear=+0.252 (0.6s)
+[02:09:45]     ridge              r2=-0.069 mse=1.163 pear=+0.257 (0.1s)
+[02:09:50]     pls                r2=-0.167 mse=1.269 pear=+0.238 (5.4s)
+[02:09:50]     knn                r2=-0.271 mse=1.382 pear=+0.135 (0.3s)
+[02:09:50]     krr_rbf            r2=-0.058 mse=1.151 pear=+0.159 (0.1s)
+[02:09:51]     krr_linear_sig     r2=-0.300 mse=1.414 pear=+0.253 (0.2s)
+[02:09:52]     krr_rbf_sig        r2=+0.088 mse=0.992 pear=+0.180 (1.0s)
+[02:09:52]     pg_anchor_ridge    r2=-0.950 mse=2.121 pear=+0.079 (0.1s)
+[02:09:52]     pca_ridge          r2=-0.017 mse=1.106 pear=+0.276 (0.4s)
+[02:10:34]     pca_xgb            r2=+0.087 mse=0.994 pear=+0.135 (41.8s)
+[02:10:36]     pca_rf             r2=-0.053 mse=1.145 pear=+0.095 (1.8s)
+[02:10:36]     pca_mlp            r2=-0.161 mse=1.263 pear=+0.053 (0.7s)
+[02:10:49]     mlp_sklearn        r2=-0.062 mse=1.156 pear=+0.182 (12.8s)
+[02:11:12]     mlp_torch          r2=+0.065 mse=1.017 pear=+0.213 (22.5s)
+[02:11:59]     mlp_torch_wide     r2=+0.053 mse=1.030 pear=+0.211 (47.7s)
+[02:11:59]     ridge_resid        r2=-0.615 mse=1.757 pear=-0.020 (0.2s)
+[02:12:00]     knn_resid          r2=-1.555 mse=2.779 pear=-0.144 (0.3s)
+[02:12:22]     mlp_resid          r2=-0.334 mse=1.451 pear=+0.129 (22.5s)
+[02:12:22] --- fold P1_NK cells  n_train=443 n_test=129
+[02:12:27]     global_mean        r2=+0.029 mse=3.975 pear=+0.206 (0.1s)
+[02:12:27]     cell_anchor_mean   r2=-0.738 mse=7.113 pear=+0.214 (0.0s)
+[02:12:27]     drug_mean          r2=+0.175 mse=3.376 pear=+0.248 (0.1s)
+[02:12:27]     additive           r2=-0.523 mse=6.232 pear=+0.254 (0.1s)
+[02:12:28]     linear             r2=-0.135 mse=4.645 pear=+0.299 (0.6s)
+[02:12:28]     ridge              r2=+0.511 mse=2.000 pear=+0.338 (0.1s)
+[02:12:33]     pls                r2=+0.490 mse=2.089 pear=+0.286 (5.1s)
+[02:12:34]     knn                r2=+0.146 mse=3.496 pear=+0.249 (0.3s)
+[02:12:34]     krr_rbf            r2=+0.151 mse=3.473 pear=+0.304 (0.1s)
+[02:12:34]     krr_linear_sig     r2=+0.288 mse=2.916 pear=+0.289 (0.2s)
+[02:12:35]     krr_rbf_sig        r2=+0.050 mse=3.888 pear=+0.297 (1.0s)
+[02:12:35]     pg_anchor_ridge    r2=-0.035 mse=4.237 pear=+0.167 (0.1s)
+[02:12:35]     pca_ridge          r2=+0.520 mse=1.963 pear=+0.344 (0.4s)
+[02:13:17]     pca_xgb            r2=+0.328 mse=2.751 pear=+0.241 (41.3s)
+[02:13:18]     pca_rf             r2=+0.264 mse=3.011 pear=+0.207 (1.7s)
+[02:13:19]     pca_mlp            r2=+0.031 mse=3.964 pear=+0.209 (0.7s)
+[02:13:30]     mlp_sklearn        r2=+0.270 mse=2.989 pear=+0.233 (10.9s)
+[02:13:54]     mlp_torch          r2=+0.512 mse=1.998 pear=+0.345 (24.1s)
+[02:14:43]     mlp_torch_wide     r2=+0.514 mse=1.989 pear=+0.356 (49.2s)
+[02:14:44]     ridge_resid        r2=+0.270 mse=2.987 pear=+0.075 (0.2s)
+[02:14:44]     knn_resid          r2=-0.236 mse=5.057 pear=-0.103 (0.3s)
+[02:15:06]     mlp_resid          r2=+0.288 mse=2.914 pear=+0.243 (21.8s)
+[02:15:06] --- fold P2_T cells CD4+  n_train=428 n_test=144
+[02:15:11]     global_mean        r2=+0.012 mse=3.241 pear=+0.123 (0.1s)
+[02:15:11]     cell_anchor_mean   r2=-0.271 mse=4.171 pear=+0.123 (0.1s)
+[02:15:11]     drug_mean          r2=+0.315 mse=2.248 pear=+0.264 (0.1s)
+[02:15:11]     additive           r2=+0.046 mse=3.129 pear=+0.205 (0.1s)
+[02:15:11]     linear             r2=-180.894 mse=596.702 pear=-0.016 (0.6s)
+[02:15:12]     ridge              r2=-7.256 mse=27.083 pear=-0.014 (0.1s)
+[02:15:16]     pls                r2=-1.711 mse=8.895 pear=-0.033 (4.0s)
+[02:15:16]     knn                r2=+0.080 mse=3.019 pear=+0.230 (0.3s)
+[02:15:16]     krr_rbf            r2=-0.003 mse=3.291 pear=+0.195 (0.1s)
+[02:15:16]     krr_linear_sig     r2=-2.769 mse=12.363 pear=-0.026 (0.2s)
+[02:15:17]     krr_rbf_sig        r2=+0.066 mse=3.064 pear=+0.198 (1.0s)
+[02:15:17]     pg_anchor_ridge    r2=+nan mse=nan pear=+nan (0.1s)
+[02:15:18]     pca_ridge          r2=-6.836 mse=25.707 pear=-0.016 (0.4s)
+[02:15:59]     pca_xgb            r2=+0.082 mse=3.011 pear=+0.194 (41.7s)
+[02:16:01]     pca_rf             r2=+0.166 mse=2.734 pear=+0.177 (1.7s)
+[02:16:02]     pca_mlp            r2=+0.011 mse=3.246 pear=+0.118 (0.7s)
+[02:16:23]     mlp_sklearn        r2=-0.360 mse=4.460 pear=+0.062 (21.4s)
+[02:16:46]     mlp_torch          r2=-0.318 mse=4.323 pear=+0.094 (22.5s)
+[02:17:32]     mlp_torch_wide     r2=-0.322 mse=4.335 pear=+0.091 (46.6s)
+[02:17:33]     ridge_resid        r2=-1.285 mse=7.497 pear=-0.045 (0.2s)
+[02:17:33]     knn_resid          r2=-0.059 mse=3.473 pear=-0.026 (0.3s)
+[02:17:55]     mlp_resid          r2=-0.225 mse=4.020 pear=+0.106 (22.6s)
+[02:17:55] --- fold P2_T regulatory cells  n_train=428 n_test=144
+[02:18:00]     global_mean        r2=+0.027 mse=1.965 pear=+0.214 (0.1s)
+[02:18:00]     cell_anchor_mean   r2=+0.052 mse=1.913 pear=+0.284 (0.1s)
+[02:18:01]     drug_mean          r2=-0.835 mse=3.704 pear=+0.174 (0.1s)
+[02:18:01]     additive           r2=-0.810 mse=3.652 pear=+0.250 (0.1s)
+[02:18:01]     linear             r2=-184.374 mse=374.136 pear=+0.179 (0.6s)
+[02:18:01]     ridge              r2=-0.188 mse=2.397 pear=+0.207 (0.1s)
+[02:18:05]     pls                r2=-0.123 mse=2.266 pear=+0.242 (3.7s)
+[02:18:05]     knn                r2=-0.077 mse=2.173 pear=+0.175 (0.3s)
+[02:18:06]     krr_rbf            r2=+0.118 mse=1.779 pear=+0.214 (0.1s)
+[02:18:06]     krr_linear_sig     r2=-1.070 mse=4.178 pear=+0.043 (0.2s)
+[02:18:07]     krr_rbf_sig        r2=+0.008 mse=2.001 pear=+0.156 (1.0s)
+[02:18:07]     pg_anchor_ridge    r2=+nan mse=nan pear=+nan (0.1s)
+[02:18:07]     pca_ridge          r2=-0.153 mse=2.327 pear=+0.219 (0.4s)
+[02:18:49]     pca_xgb            r2=-0.022 mse=2.063 pear=+0.244 (41.4s)
+[02:18:50]     pca_rf             r2=+0.000 mse=2.018 pear=+0.184 (1.7s)
+[02:18:51]     pca_mlp            r2=+0.027 mse=1.963 pear=+0.209 (0.7s)
+[02:19:07]     mlp_sklearn        r2=+0.175 mse=1.665 pear=+0.234 (15.7s)
+[02:19:30]     mlp_torch          r2=+0.140 mse=1.736 pear=+0.240 (22.7s)
+[02:20:18]     mlp_torch_wide     r2=+0.134 mse=1.748 pear=+0.242 (48.5s)
+[02:20:18]     ridge_resid        r2=-0.290 mse=2.604 pear=-0.020 (0.2s)
+[02:20:18]     knn_resid          r2=-1.485 mse=5.015 pear=-0.126 (0.3s)
+[02:20:40]     mlp_resid          r2=-0.203 mse=2.428 pear=+0.124 (21.9s)
+[02:20:40] --- fold P2_T cells CD8+  n_train=432 n_test=140
+[02:20:45]     global_mean        r2=-0.182 mse=1.399 pear=+0.046 (0.1s)
+[02:20:45]     cell_anchor_mean   r2=-0.126 mse=1.334 pear=+0.062 (0.1s)
+[02:20:45]     drug_mean          r2=-0.883 mse=2.230 pear=+0.126 (0.1s)
+[02:20:45]     additive           r2=-0.967 mse=2.328 pear=+0.137 (0.1s)
+[02:20:46]     linear             r2=-67.954 mse=81.638 pear=+0.047 (0.5s)
+[02:20:46]     ridge              r2=-0.340 mse=1.586 pear=+0.196 (0.1s)
+[02:20:51]     pls                r2=-0.450 mse=1.717 pear=+0.186 (4.4s)
+[02:20:51]     knn                r2=-0.430 mse=1.694 pear=+0.131 (0.3s)
+[02:20:51]     krr_rbf            r2=-0.174 mse=1.390 pear=+0.140 (0.1s)
+[02:20:51]     krr_linear_sig     r2=-1.214 mse=2.621 pear=+0.101 (0.2s)
+[02:20:52]     krr_rbf_sig        r2=-0.013 mse=1.199 pear=+0.078 (1.0s)
+[02:20:52]     pg_anchor_ridge    r2=+nan mse=nan pear=+nan (0.1s)
+[02:20:53]     pca_ridge          r2=-0.303 mse=1.542 pear=+0.202 (0.4s)
+[02:21:35]     pca_xgb            r2=-0.241 mse=1.470 pear=+0.093 (42.4s)
+[02:21:37]     pca_rf             r2=-0.220 mse=1.444 pear=+0.081 (1.7s)
+[02:21:37]     pca_mlp            r2=-0.179 mse=1.396 pear=+0.048 (0.7s)
+[02:22:05]     mlp_sklearn        r2=-0.326 mse=1.570 pear=+0.182 (27.8s)
+[02:22:27]     mlp_torch          r2=-0.284 mse=1.520 pear=+0.155 (22.2s)
+[02:23:15]     mlp_torch_wide     r2=-0.291 mse=1.529 pear=+0.153 (47.3s)
+[02:23:15]     ridge_resid        r2=-0.953 mse=2.313 pear=-0.061 (0.2s)
+[02:23:15]     knn_resid          r2=-1.921 mse=3.459 pear=-0.143 (0.3s)
+[02:23:38]     mlp_resid          r2=-0.687 mse=1.998 pear=+0.084 (22.5s)
+[02:23:38] --- fold P2_NK cells  n_train=428 n_test=144
+[02:23:43]     global_mean        r2=+0.016 mse=6.141 pear=+0.195 (0.1s)
+[02:23:43]     cell_anchor_mean   r2=-0.412 mse=8.812 pear=+0.224 (0.1s)
+[02:23:43]     drug_mean          r2=+0.213 mse=4.913 pear=+0.246 (0.1s)
+[02:23:43]     additive           r2=-0.218 mse=7.604 pear=+0.254 (0.1s)
+[02:23:44]     linear             r2=-52.469 mse=333.728 pear=+0.040 (0.7s)
+[02:23:44]     ridge              r2=-0.112 mse=6.939 pear=+0.144 (0.1s)
+[02:23:49]     pls                r2=+0.062 mse=5.857 pear=+0.162 (5.3s)
+[02:23:49]     knn                r2=+0.092 mse=5.669 pear=+0.235 (0.3s)
+[02:23:49]     krr_rbf            r2=+0.069 mse=5.810 pear=+0.270 (0.1s)
+[02:23:50]     krr_linear_sig     r2=-6.812 mse=48.761 pear=-0.076 (0.2s)
+[02:23:51]     krr_rbf_sig        r2=+0.010 mse=6.178 pear=+0.274 (1.0s)
+[02:23:51]     pg_anchor_ridge    r2=+nan mse=nan pear=+nan (0.1s)
+[02:23:51]     pca_ridge          r2=-0.107 mse=6.908 pear=+0.147 (0.4s)
+[02:24:33]     pca_xgb            r2=+0.202 mse=4.981 pear=+0.219 (41.5s)
+[02:24:34]     pca_rf             r2=+0.178 mse=5.131 pear=+0.186 (1.7s)
+[02:24:35]     pca_mlp            r2=+0.020 mse=6.116 pear=+0.199 (0.7s)
+[02:25:05]     mlp_sklearn        r2=+0.099 mse=5.625 pear=+0.212 (29.6s)
+[02:25:27]     mlp_torch          r2=+0.174 mse=5.157 pear=+0.262 (22.3s)
+[02:26:13]     mlp_torch_wide     r2=+0.182 mse=5.107 pear=+0.279 (46.3s)
+[02:26:13]     ridge_resid        r2=-0.159 mse=7.232 pear=-0.131 (0.2s)
+[02:26:14]     knn_resid          r2=-0.146 mse=7.155 pear=-0.100 (0.3s)
+[02:26:36]     mlp_resid          r2=-0.204 mse=7.515 pear=+0.094 (21.9s)
+[02:26:36] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_022636.csv
+[02:26:36] === summary (mean over folds) ===
+[02:26:36]   P1 additive           r2=-0.487±0.308 mse=3.385 pear=+0.211
+[02:26:36]   P1 cell_anchor_mean   r2=-0.319±0.349 mse=3.337 pear=+0.169
+[02:26:36]   P1 drug_mean          r2=-0.200±0.480 mse=2.458 pear=+0.201
+[02:26:36]   P1 global_mean        r2=-0.027±0.091 mse=2.336 pear=+0.150
+[02:26:36]   P1 knn                r2=+0.029±0.224 mse=2.133 pear=+0.201
+[02:26:36]   P1 knn_resid          r2=-0.729±0.648 mse=3.580 pear=-0.124
+[02:26:36]   P1 krr_linear_sig     r2=-0.105±0.291 mse=2.334 pear=+0.246
+[02:26:36]   P1 krr_rbf            r2=+0.103±0.111 mse=2.029 pear=+0.246
+[02:26:36]   P1 krr_rbf_sig        r2=+0.102±0.048 mse=2.119 pear=+0.264
+[02:26:36]   P1 linear             r2=-0.224±0.192 mse=2.749 pear=+0.273
+[02:26:36]   P1 mlp_resid          r2=+0.084±0.290 mse=1.932 pear=+0.193
+[02:26:36]   P1 mlp_sklearn        r2=+0.211±0.190 mse=1.745 pear=+0.226
+[02:26:36]   P1 mlp_torch          r2=+0.316±0.186 mse=1.436 pear=+0.288
+[02:26:36]   P1 mlp_torch_wide     r2=+0.319±0.193 mse=1.425 pear=+0.295
+[02:26:36]   P1 pca_mlp            r2=-0.024±0.092 mse=2.329 pear=+0.150
+[02:26:36]   P1 pca_rf             r2=+0.186±0.160 mse=1.801 pear=+0.172
+[02:26:36]   P1 pca_ridge          r2=+0.263±0.224 mse=1.521 pear=+0.297
+[02:26:36]   P1 pca_xgb            r2=-0.050±0.498 mse=2.299 pear=+0.179
+[02:26:36]   P1 pg_anchor_ridge    r2=-0.541±0.608 mse=3.245 pear=+0.144
+[02:26:36]   P1 pls                r2=+0.196±0.272 mse=1.639 pear=+0.236
+[02:26:36]   P1 ridge              r2=+0.236±0.243 mse=1.570 pear=+0.285
+[02:26:36]   P1 ridge_resid        r2=-0.094±0.378 mse=2.240 pear=+0.009
+[02:26:36]   P2 additive           r2=-0.487±0.480 mse=4.178 pear=+0.212
+[02:26:36]   P2 cell_anchor_mean   r2=-0.189±0.199 mse=4.057 pear=+0.173
+[02:26:36]   P2 drug_mean          r2=-0.298±0.650 mse=3.274 pear=+0.203
+[02:26:36]   P2 global_mean        r2=-0.032±0.100 mse=3.186 pear=+0.145
+[02:26:36]   P2 knn                r2=-0.084±0.243 mse=3.139 pear=+0.193
+[02:26:36]   P2 knn_resid          r2=-0.903±0.942 mse=4.775 pear=-0.099
+[02:26:36]   P2 krr_linear_sig     r2=-2.966±2.677 mse=16.981 pear=+0.011
+[02:26:36]   P2 krr_rbf            r2=+0.003±0.128 mse=3.068 pear=+0.204
+[02:26:36]   P2 krr_rbf_sig        r2=+0.018±0.034 mse=3.111 pear=+0.176
+[02:26:36]   P2 linear             r2=-121.423±70.977 mse=346.551 pear=+0.062
+[02:26:36]   P2 mlp_resid          r2=-0.330±0.239 mse=3.990 pear=+0.102
+[02:26:36]   P2 mlp_sklearn        r2=-0.103±0.279 mse=3.330 pear=+0.173
+[02:26:36]   P2 mlp_torch          r2=-0.072±0.265 mse=3.184 pear=+0.188
+[02:26:36]   P2 mlp_torch_wide     r2=-0.074±0.269 mse=3.180 pear=+0.191
+[02:26:36]   P2 pca_mlp            r2=-0.030±0.100 mse=3.180 pear=+0.143
+[02:26:36]   P2 pca_rf             r2=+0.031±0.186 mse=2.832 pear=+0.157
+[02:26:36]   P2 pca_ridge          r2=-1.850±3.325 mse=9.121 pear=+0.138
+[02:26:36]   P2 pca_xgb            r2=+0.005±0.188 mse=2.881 pear=+0.188
+[02:26:36]   P2 pg_anchor_ridge    r2=+nan±nan mse=nan pear=+nan
+[02:26:36]   P2 pls                r2=-0.556±0.799 mse=4.684 pear=+0.139
+[02:26:36]   P2 ridge              r2=-1.974±3.523 mse=9.501 pear=+0.133
+[02:26:36]   P2 ridge_resid        r2=-0.672±0.537 mse=4.911 pear=-0.064
+[02:27:09] === run start  protocols=['P1', 'P2'] models=['global_mean', 'cell_anchor_mean', 'drug_mean', 'additive', 'linear', 'ridge', 'pls', 'knn', 'krr_rbf', 'krr_linear_sig', 'krr_rbf_sig', 'pg_anchor_ridge', 'pca_ridge', 'pca_xgb', 'pca_rf', 'pca_mlp', 'mlp_sklearn', 'mlp_torch', 'mlp_torch_wide', 'ridge_resid', 'knn_resid', 'mlp_resid', 'ensemble'] save_preds=True
+[02:27:10] rows=602 genes=18211 anchors=15
+[02:27:10] fingerprint PCA -> 128 dims
+[02:27:10] --- fold P1_T cells CD4+  n_train=443 n_test=129
+[02:27:15]     global_mean        r2=-0.001 mse=2.096 pear=+0.128 (0.2s)
+[02:27:15]     cell_anchor_mean   r2=-0.454 mse=3.044 pear=+0.122 (0.2s)
+[02:27:15]     drug_mean          r2=+0.190 mse=1.694 pear=+0.260 (0.2s)
+[02:27:15]     additive           r2=-0.208 mse=2.529 pear=+0.204 (0.2s)
+[02:27:16]     linear             r2=-0.072 mse=2.243 pear=+0.278 (0.8s)
+[02:27:17]     ridge              r2=+0.319 mse=1.426 pear=+0.290 (0.3s)
+[02:27:20]     pls                r2=+0.202 mse=1.671 pear=+0.161 (3.4s)
+[02:27:20]     knn                r2=+0.243 mse=1.584 pear=+0.256 (0.4s)
+[02:27:21]     krr_rbf            r2=+0.194 mse=1.686 pear=+0.300 (0.3s)
+[02:27:21]     krr_linear_sig     r2=-0.235 mse=2.586 pear=+0.188 (0.4s)
+[02:27:22]     krr_rbf_sig        r2=+0.165 mse=1.747 pear=+0.292 (1.1s)
+[02:27:22]     pg_anchor_ridge    r2=-0.833 mse=3.836 pear=+0.117 (0.2s)
+[02:27:23]     pca_ridge          r2=+0.335 mse=1.393 pear=+0.295 (0.6s)
+[02:28:05]     pca_xgb            r2=-0.782 mse=3.731 pear=+0.093 (42.0s)
+[02:28:07]     pca_rf             r2=+0.283 mse=1.500 pear=+0.192 (1.9s)
+[02:28:08]     pca_mlp            r2=+0.002 mse=2.088 pear=+0.129 (0.8s)
+[02:28:32]     mlp_sklearn        r2=+0.260 mse=1.550 pear=+0.218 (24.6s)
+[02:28:56]     mlp_torch          r2=+0.358 mse=1.343 pear=+0.294 (24.0s)
+[02:29:43]     mlp_torch_wide     r2=+0.352 mse=1.356 pear=+0.304 (47.0s)
+[02:29:44]     ridge_resid        r2=+0.066 mse=1.954 pear=+0.002 (0.3s)
+[02:29:44]     knn_resid          r2=-0.187 mse=2.484 pear=-0.094 (0.4s)
+[02:30:07]     mlp_resid          r2=+0.272 mse=1.523 pear=+0.230 (23.2s)
+[02:30:12]     ensemble           r2=+0.346 mse=1.370 pear=+0.315 (5.1s)
+[02:30:16] --- fold P1_T regulatory cells  n_train=443 n_test=129
+[02:30:21]     global_mean        r2=+0.027 mse=2.008 pear=+0.214 (0.2s)
+[02:30:21]     cell_anchor_mean   r2=+0.054 mse=1.953 pear=+0.277 (0.2s)
+[02:30:22]     drug_mean          r2=-0.351 mse=2.790 pear=+0.171 (0.2s)
+[02:30:22]     additive           r2=-0.310 mse=2.704 pear=+0.244 (0.2s)
+[02:30:23]     linear             r2=+0.210 mse=1.630 pear=+0.262 (0.8s)
+[02:30:23]     ridge              r2=+0.229 mse=1.592 pear=+0.258 (0.3s)
+[02:30:28]     pls                r2=+0.272 mse=1.503 pear=+0.261 (4.8s)
+[02:30:28]     knn                r2=-0.003 mse=2.070 pear=+0.162 (0.4s)
+[02:30:28]     krr_rbf            r2=+0.124 mse=1.808 pear=+0.222 (0.3s)
+[02:30:29]     krr_linear_sig     r2=+0.076 mse=1.908 pear=+0.263 (0.4s)
+[02:30:30]     krr_rbf_sig        r2=+0.104 mse=1.850 pear=+0.287 (1.1s)
+[02:30:30]     pg_anchor_ridge    r2=+0.011 mse=2.041 pear=+0.214 (0.2s)
+[02:30:30]     pca_ridge          r2=+0.260 mse=1.527 pear=+0.277 (0.6s)
+[02:31:12]     pca_xgb            r2=+0.167 mse=1.721 pear=+0.246 (41.6s)
+[02:31:14]     pca_rf             r2=+0.250 mse=1.549 pear=+0.192 (1.9s)
+[02:31:15]     pca_mlp            r2=+0.030 mse=2.003 pear=+0.209 (0.8s)
+[02:31:29]     mlp_sklearn        r2=+0.379 mse=1.281 pear=+0.272 (14.4s)
+[02:31:52]     mlp_torch          r2=+0.329 mse=1.386 pear=+0.302 (22.7s)
+[02:32:39]     mlp_torch_wide     r2=+0.358 mse=1.324 pear=+0.308 (47.3s)
+[02:32:39]     ridge_resid        r2=-0.081 mse=2.232 pear=-0.021 (0.3s)
+[02:32:40]     knn_resid          r2=-0.935 mse=3.995 pear=-0.155 (0.4s)
+[02:33:02]     mlp_resid          r2=+0.111 mse=1.836 pear=+0.169 (22.0s)
+[02:33:08]     ensemble           r2=+0.282 mse=1.483 pear=+0.293 (6.1s)
+[02:33:12] --- fold P1_T cells CD8+  n_train=445 n_test=127
+[02:33:17]     global_mean        r2=-0.163 mse=1.265 pear=+0.052 (0.2s)
+[02:33:17]     cell_anchor_mean   r2=-0.139 mse=1.239 pear=+0.062 (0.2s)
+[02:33:17]     drug_mean          r2=-0.812 mse=1.972 pear=+0.126 (0.2s)
+[02:33:17]     additive           r2=-0.905 mse=2.072 pear=+0.140 (0.2s)
+[02:33:18]     linear             r2=-0.059 mse=1.152 pear=+0.253 (0.8s)
+[02:33:18]     ridge              r2=-0.066 mse=1.160 pear=+0.257 (0.3s)
+[02:33:24]     pls                r2=-0.165 mse=1.268 pear=+0.238 (5.4s)
+[02:33:24]     knn                r2=-0.271 mse=1.382 pear=+0.135 (0.4s)
+[02:33:24]     krr_rbf            r2=-0.058 mse=1.151 pear=+0.159 (0.3s)
+[02:33:25]     krr_linear_sig     r2=-0.281 mse=1.393 pear=+0.253 (0.4s)
+[02:33:26]     krr_rbf_sig        r2=+0.088 mse=0.992 pear=+0.180 (1.1s)
+[02:33:26]     pg_anchor_ridge    r2=-0.672 mse=1.818 pear=+0.081 (0.2s)
+[02:33:27]     pca_ridge          r2=-0.014 mse=1.103 pear=+0.276 (0.5s)
+[02:34:08]     pca_xgb            r2=+0.087 mse=0.994 pear=+0.135 (41.5s)
+[02:34:10]     pca_rf             r2=-0.053 mse=1.145 pear=+0.095 (1.9s)
+[02:34:11]     pca_mlp            r2=-0.161 mse=1.263 pear=+0.053 (0.8s)
+[02:34:24]     mlp_sklearn        r2=-0.062 mse=1.156 pear=+0.182 (12.7s)
+[02:34:47]     mlp_torch          r2=+0.065 mse=1.017 pear=+0.213 (23.1s)
+[02:35:32]     mlp_torch_wide     r2=+0.053 mse=1.030 pear=+0.211 (45.6s)
+[02:35:32]     ridge_resid        r2=-0.615 mse=1.756 pear=-0.020 (0.3s)
+[02:35:33]     knn_resid          r2=-1.549 mse=2.773 pear=-0.144 (0.4s)
+[02:35:56]     mlp_resid          r2=-0.333 mse=1.451 pear=+0.129 (23.3s)
+[02:36:03]     ensemble           r2=+0.151 mse=0.923 pear=+0.267 (7.1s)
+[02:36:07] --- fold P1_NK cells  n_train=443 n_test=129
+[02:36:12]     global_mean        r2=+0.029 mse=3.975 pear=+0.206 (0.2s)
+[02:36:12]     cell_anchor_mean   r2=-0.738 mse=7.113 pear=+0.214 (0.2s)
+[02:36:12]     drug_mean          r2=+0.175 mse=3.376 pear=+0.248 (0.2s)
+[02:36:13]     additive           r2=-0.523 mse=6.232 pear=+0.254 (0.2s)
+[02:36:13]     linear             r2=+0.119 mse=3.607 pear=+0.300 (0.8s)
+[02:36:14]     ridge              r2=+0.514 mse=1.990 pear=+0.338 (0.3s)
+[02:36:19]     pls                r2=+0.492 mse=2.077 pear=+0.286 (5.2s)
+[02:36:19]     knn                r2=+0.146 mse=3.496 pear=+0.249 (0.4s)
+[02:36:20]     krr_rbf            r2=+0.151 mse=3.473 pear=+0.304 (0.3s)
+[02:36:20]     krr_linear_sig     r2=+0.321 mse=2.779 pear=+0.292 (0.4s)
+[02:36:21]     krr_rbf_sig        r2=+0.050 mse=3.888 pear=+0.297 (1.1s)
+[02:36:21]     pg_anchor_ridge    r2=-0.018 mse=4.166 pear=+0.170 (0.2s)
+[02:36:22]     pca_ridge          r2=+0.523 mse=1.953 pear=+0.345 (0.6s)
+[02:37:02]     pca_xgb            r2=+0.328 mse=2.751 pear=+0.241 (40.6s)
+[02:37:04]     pca_rf             r2=+0.264 mse=3.011 pear=+0.207 (1.9s)
+[02:37:05]     pca_mlp            r2=+0.031 mse=3.964 pear=+0.209 (0.8s)
+[02:37:16]     mlp_sklearn        r2=+0.270 mse=2.988 pear=+0.233 (11.1s)
+[02:37:39]     mlp_torch          r2=+0.512 mse=1.998 pear=+0.345 (23.1s)
+[02:38:27]     mlp_torch_wide     r2=+0.514 mse=1.989 pear=+0.356 (48.0s)
+[02:38:28]     ridge_resid        r2=+0.275 mse=2.966 pear=+0.076 (0.3s)
+[02:38:28]     knn_resid          r2=-0.231 mse=5.038 pear=-0.102 (0.4s)
+[02:38:50]     mlp_resid          r2=+0.291 mse=2.902 pear=+0.244 (22.1s)
+[02:38:57]     ensemble           r2=+0.438 mse=2.298 pear=+0.359 (6.7s)
+[02:39:00] --- fold P2_T cells CD4+  n_train=428 n_test=144
+[02:39:06]     global_mean        r2=+0.012 mse=3.241 pear=+0.123 (0.2s)
+[02:39:06]     cell_anchor_mean   r2=-0.271 mse=4.170 pear=+0.123 (0.2s)
+[02:39:06]     drug_mean          r2=+0.315 mse=2.248 pear=+0.264 (0.2s)
+[02:39:06]     additive           r2=+0.046 mse=3.129 pear=+0.205 (0.2s)
+[02:39:07]     linear             r2=-16.492 mse=57.381 pear=+0.018 (0.8s)
+[02:39:07]     ridge              r2=-3.717 mse=15.475 pear=+0.002 (0.3s)
+[02:39:11]     pls                r2=-0.977 mse=6.486 pear=-0.024 (3.9s)
+[02:39:12]     knn                r2=+0.080 mse=3.019 pear=+0.230 (0.4s)
+[02:39:12]     krr_rbf            r2=-0.003 mse=3.291 pear=+0.195 (0.3s)
+[02:39:12]     krr_linear_sig     r2=-0.993 mse=6.538 pear=-0.016 (0.4s)
+[02:39:13]     krr_rbf_sig        r2=+0.066 mse=3.064 pear=+0.198 (1.1s)
+[02:39:14]     pg_anchor_ridge    r2=+0.315 mse=2.248 pear=+0.264 (0.2s)
+[02:39:14]     pca_ridge          r2=-3.511 mse=14.797 pear=+0.000 (0.5s)
+[02:39:56]     pca_xgb            r2=+0.082 mse=3.011 pear=+0.194 (41.4s)
+[02:39:57]     pca_rf             r2=+0.166 mse=2.734 pear=+0.177 (1.9s)
+[02:39:58]     pca_mlp            r2=+0.011 mse=3.246 pear=+0.118 (0.8s)
+[02:40:20]     mlp_sklearn        r2=-0.350 mse=4.429 pear=+0.064 (21.4s)
+[02:40:43]     mlp_torch          r2=-0.316 mse=4.317 pear=+0.094 (23.3s)
+[02:41:31]     mlp_torch_wide     r2=-0.320 mse=4.329 pear=+0.091 (47.6s)
+[02:41:31]     ridge_resid        r2=-1.090 mse=6.855 pear=-0.039 (0.3s)
+[02:41:31]     knn_resid          r2=-0.056 mse=3.463 pear=-0.025 (0.4s)
+[02:41:54]     mlp_resid          r2=-0.222 mse=4.010 pear=+0.106 (22.6s)
+[02:42:00]     ensemble           r2=-1.183 mse=7.163 pear=+0.007 (5.9s)
+[02:42:04] --- fold P2_T regulatory cells  n_train=428 n_test=144
+[02:42:09]     global_mean        r2=+0.027 mse=1.965 pear=+0.214 (0.2s)
+[02:42:09]     cell_anchor_mean   r2=+0.052 mse=1.913 pear=+0.284 (0.2s)
+[02:42:10]     drug_mean          r2=-0.835 mse=3.704 pear=+0.174 (0.2s)
+[02:42:10]     additive           r2=-0.809 mse=3.652 pear=+0.250 (0.2s)
+[02:42:11]     linear             r2=-99.873 mse=203.589 pear=+0.185 (0.8s)
+[02:42:11]     ridge              r2=+0.037 mse=1.943 pear=+0.208 (0.3s)
+[02:42:15]     pls                r2=-0.051 mse=2.121 pear=+0.242 (4.2s)
+[02:42:15]     knn                r2=-0.077 mse=2.173 pear=+0.175 (0.5s)
+[02:42:16]     krr_rbf            r2=+0.118 mse=1.779 pear=+0.214 (0.3s)
+[02:42:16]     krr_linear_sig     r2=-0.489 mse=3.006 pear=+0.044 (0.4s)
+[02:42:17]     krr_rbf_sig        r2=+0.008 mse=2.001 pear=+0.156 (1.2s)
+[02:42:18]     pg_anchor_ridge    r2=-0.835 mse=3.704 pear=+0.174 (0.2s)
+[02:42:18]     pca_ridge          r2=+0.070 mse=1.876 pear=+0.219 (0.6s)
+[02:42:59]     pca_xgb            r2=-0.022 mse=2.063 pear=+0.244 (40.7s)
+[02:43:01]     pca_rf             r2=+0.000 mse=2.018 pear=+0.184 (1.8s)
+[02:43:01]     pca_mlp            r2=+0.027 mse=1.963 pear=+0.209 (0.8s)
+[02:43:17]     mlp_sklearn        r2=+0.176 mse=1.662 pear=+0.235 (16.0s)
+[02:43:40]     mlp_torch          r2=+0.140 mse=1.736 pear=+0.240 (22.1s)
+[02:44:26]     mlp_torch_wide     r2=+0.134 mse=1.748 pear=+0.242 (46.7s)
+[02:44:27]     ridge_resid        r2=-0.283 mse=2.590 pear=-0.020 (0.3s)
+[02:44:27]     knn_resid          r2=-1.476 mse=4.997 pear=-0.126 (0.4s)
+[02:44:49]     mlp_resid          r2=-0.202 mse=2.427 pear=+0.124 (21.8s)
+[02:44:54]     ensemble           r2=+0.163 mse=1.690 pear=+0.241 (5.5s)
+[02:44:58] --- fold P2_T cells CD8+  n_train=432 n_test=140
+[02:45:03]     global_mean        r2=-0.182 mse=1.399 pear=+0.046 (0.2s)
+[02:45:04]     cell_anchor_mean   r2=-0.126 mse=1.334 pear=+0.062 (0.2s)
+[02:45:04]     drug_mean          r2=-0.883 mse=2.230 pear=+0.126 (0.2s)
+[02:45:04]     additive           r2=-0.965 mse=2.326 pear=+0.137 (0.2s)
+[02:45:05]     linear             r2=-33.475 mse=40.816 pear=+0.059 (0.7s)
+[02:45:05]     ridge              r2=-0.334 mse=1.580 pear=+0.196 (0.3s)
+[02:45:10]     pls                r2=-0.447 mse=1.713 pear=+0.186 (4.7s)
+[02:45:10]     knn                r2=-0.430 mse=1.694 pear=+0.131 (0.4s)
+[02:45:11]     krr_rbf            r2=-0.174 mse=1.390 pear=+0.140 (0.3s)
+[02:45:11]     krr_linear_sig     r2=-0.896 mse=2.245 pear=+0.111 (0.4s)
+[02:45:12]     krr_rbf_sig        r2=-0.013 mse=1.199 pear=+0.078 (1.1s)
+[02:45:12]     pg_anchor_ridge    r2=-0.883 mse=2.230 pear=+0.126 (0.2s)
+[02:45:13]     pca_ridge          r2=-0.298 mse=1.536 pear=+0.203 (0.6s)
+[02:45:54]     pca_xgb            r2=-0.241 mse=1.470 pear=+0.093 (41.5s)
+[02:45:56]     pca_rf             r2=-0.220 mse=1.444 pear=+0.081 (1.9s)
+[02:45:57]     pca_mlp            r2=-0.179 mse=1.396 pear=+0.048 (0.8s)
+[02:46:25]     mlp_sklearn        r2=-0.317 mse=1.559 pear=+0.183 (27.8s)
+[02:46:47]     mlp_torch          r2=-0.284 mse=1.520 pear=+0.155 (22.5s)
+[02:47:35]     mlp_torch_wide     r2=-0.291 mse=1.529 pear=+0.153 (47.5s)
+[02:47:35]     ridge_resid        r2=-0.947 mse=2.305 pear=-0.061 (0.3s)
+[02:47:35]     knn_resid          r2=-1.914 mse=3.450 pear=-0.143 (0.4s)
+[02:47:58]     mlp_resid          r2=-0.687 mse=1.997 pear=+0.084 (22.5s)
+[02:48:04]     ensemble           r2=-0.088 mse=1.288 pear=+0.191 (6.4s)
+[02:48:09] --- fold P2_NK cells  n_train=428 n_test=144
+[02:48:14]     global_mean        r2=+0.016 mse=6.141 pear=+0.195 (0.2s)
+[02:48:14]     cell_anchor_mean   r2=-0.412 mse=8.812 pear=+0.224 (0.2s)
+[02:48:14]     drug_mean          r2=+0.213 mse=4.913 pear=+0.246 (0.2s)
+[02:48:14]     additive           r2=-0.218 mse=7.604 pear=+0.254 (0.2s)
+[02:48:15]     linear             r2=-11.053 mse=75.226 pear=+0.064 (0.7s)
+[02:48:15]     ridge              r2=-0.089 mse=6.800 pear=+0.143 (0.3s)
+[02:48:21]     pls                r2=+0.071 mse=5.798 pear=+0.163 (5.4s)
+[02:48:21]     knn                r2=+0.092 mse=5.669 pear=+0.235 (0.4s)
+[02:48:21]     krr_rbf            r2=+0.069 mse=5.810 pear=+0.270 (0.3s)
+[02:48:22]     krr_linear_sig     r2=-6.310 mse=45.623 pear=-0.070 (0.4s)
+[02:48:23]     krr_rbf_sig        r2=+0.010 mse=6.178 pear=+0.274 (1.2s)
+[02:48:23]     pg_anchor_ridge    r2=+0.213 mse=4.913 pear=+0.246 (0.2s)
+[02:48:24]     pca_ridge          r2=-0.084 mse=6.765 pear=+0.145 (0.6s)
+[02:49:05]     pca_xgb            r2=+0.202 mse=4.981 pear=+0.219 (41.3s)
+[02:49:07]     pca_rf             r2=+0.178 mse=5.131 pear=+0.186 (1.9s)
+[02:49:08]     pca_mlp            r2=+0.020 mse=6.116 pear=+0.199 (0.8s)
+[02:49:37]     mlp_sklearn        r2=+0.099 mse=5.623 pear=+0.212 (29.2s)
+[02:49:59]     mlp_torch          r2=+0.174 mse=5.157 pear=+0.262 (22.0s)
+[02:50:44]     mlp_torch_wide     r2=+0.182 mse=5.107 pear=+0.279 (44.6s)
+[02:50:44]     ridge_resid        r2=-0.142 mse=7.128 pear=-0.131 (0.3s)
+[02:50:44]     knn_resid          r2=-0.143 mse=7.136 pear=-0.099 (0.4s)
+[02:51:06]     mlp_resid          r2=-0.200 mse=7.492 pear=+0.095 (21.6s)
+[02:51:13]     ensemble           r2=+0.028 mse=6.064 pear=+0.207 (6.9s)
+[02:51:17] saved raw metrics -> G:\大学\大三上\统计学习\project\exp\results\metrics_raw_20261001_025117.csv
+[02:51:17] === summary (mean over folds) ===
+[02:51:17]   P1 additive           r2=-0.487±0.308 mse=3.384 pear=+0.211
+[02:51:17]   P1 cell_anchor_mean   r2=-0.319±0.349 mse=3.337 pear=+0.169
+[02:51:17]   P1 drug_mean          r2=-0.200±0.480 mse=2.458 pear=+0.201
+[02:51:17]   P1 ensemble           r2=+0.304±0.121 mse=1.519 pear=+0.308
+[02:51:17]   P1 global_mean        r2=-0.027±0.091 mse=2.336 pear=+0.150
+[02:51:17]   P1 knn                r2=+0.029±0.224 mse=2.133 pear=+0.201
+[02:51:17]   P1 knn_resid          r2=-0.725±0.647 mse=3.572 pear=-0.124
+[02:51:17]   P1 krr_linear_sig     r2=-0.030±0.283 mse=2.167 pear=+0.249
+[02:51:17]   P1 krr_rbf            r2=+0.103±0.111 mse=2.029 pear=+0.246
+[02:51:17]   P1 krr_rbf_sig        r2=+0.102±0.048 mse=2.119 pear=+0.264
+[02:51:17]   P1 linear             r2=+0.050±0.138 mse=2.158 pear=+0.273
+[02:51:17]   P1 mlp_resid          r2=+0.085±0.291 mse=1.928 pear=+0.193
+[02:51:17]   P1 mlp_sklearn        r2=+0.212±0.191 mse=1.744 pear=+0.226
+[02:51:17]   P1 mlp_torch          r2=+0.316±0.186 mse=1.436 pear=+0.288
+[02:51:17]   P1 mlp_torch_wide     r2=+0.319±0.193 mse=1.425 pear=+0.295
+[02:51:17]   P1 pca_mlp            r2=-0.024±0.092 mse=2.329 pear=+0.150
+[02:51:17]   P1 pca_rf             r2=+0.186±0.160 mse=1.801 pear=+0.172
+[02:51:17]   P1 pca_ridge          r2=+0.276±0.223 mse=1.494 pear=+0.298
+[02:51:17]   P1 pca_xgb            r2=-0.050±0.498 mse=2.299 pear=+0.179
+[02:51:17]   P1 pg_anchor_ridge    r2=-0.378±0.438 mse=2.965 pear=+0.145
+[02:51:17]   P1 pls                r2=+0.200±0.273 mse=1.630 pear=+0.237
+[02:51:17]   P1 ridge              r2=+0.249±0.241 mse=1.542 pear=+0.286
+[02:51:17]   P1 ridge_resid        r2=-0.089±0.380 mse=2.227 pear=+0.009
+[02:51:17]   P2 additive           r2=-0.487±0.479 mse=4.178 pear=+0.212
+[02:51:17]   P2 cell_anchor_mean   r2=-0.189±0.199 mse=4.057 pear=+0.173
+[02:51:17]   P2 drug_mean          r2=-0.298±0.650 mse=3.274 pear=+0.203
+[02:51:17]   P2 ensemble           r2=-0.270±0.617 mse=4.051 pear=+0.161
+[02:51:17]   P2 global_mean        r2=-0.032±0.100 mse=3.186 pear=+0.145
+[02:51:17]   P2 knn                r2=-0.084±0.243 mse=3.139 pear=+0.193
+[02:51:17]   P2 knn_resid          r2=-0.897±0.939 mse=4.762 pear=-0.098
+[02:51:17]   P2 krr_linear_sig     r2=-2.172±2.767 mse=14.353 pear=+0.017
+[02:51:17]   P2 krr_rbf            r2=+0.003±0.128 mse=3.068 pear=+0.204
+[02:51:17]   P2 krr_rbf_sig        r2=+0.018±0.034 mse=3.111 pear=+0.176
+[02:51:17]   P2 linear             r2=-40.223±40.897 mse=94.253 pear=+0.082
+[02:51:17]   P2 mlp_resid          r2=-0.328±0.239 mse=3.981 pear=+0.102
+[02:51:17]   P2 mlp_sklearn        r2=-0.098±0.274 mse=3.318 pear=+0.173
+[02:51:17]   P2 mlp_torch          r2=-0.072±0.264 mse=3.182 pear=+0.188
+[02:51:17]   P2 mlp_torch_wide     r2=-0.074±0.268 mse=3.178 pear=+0.191
+[02:51:17]   P2 pca_mlp            r2=-0.030±0.100 mse=3.180 pear=+0.143
+[02:51:17]   P2 pca_rf             r2=+0.031±0.186 mse=2.832 pear=+0.157
+[02:51:17]   P2 pca_ridge          r2=-0.955±1.710 mse=6.244 pear=+0.142
+[02:51:17]   P2 pca_xgb            r2=+0.005±0.188 mse=2.881 pear=+0.188
+[02:51:17]   P2 pg_anchor_ridge    r2=-0.298±0.650 mse=3.274 pear=+0.203
+[02:51:17]   P2 pls                r2=-0.351±0.472 mse=4.029 pear=+0.142
+[02:51:17]   P2 ridge              r2=-1.026±1.801 mse=6.449 pear=+0.137
+[02:51:17]   P2 ridge_resid        r2=-0.616±0.472 mse=4.720 pear=-0.062

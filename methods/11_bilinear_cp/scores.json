@@ -1,0 +1,11 @@
+{
+  "mrrmse": 1.2755,
+  "mse": 3.2588,
+  "r2": -0.5946,
+  "pearson": 0.195,
+  "params": {
+    "R": 20,
+    "steps": 1200
+  },
+  "source": "results/round2_bilinear_mean.csv (cp_R20)"
+}

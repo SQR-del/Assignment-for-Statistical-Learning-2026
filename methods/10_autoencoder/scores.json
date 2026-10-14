@@ -1,0 +1,11 @@
+{
+  "mrrmse": 0.963,
+  "mse": 1.9759,
+  "r2": 0.1033,
+  "pearson": 0.1753,
+  "params": {
+    "k": 25,
+    "hidden": 256
+  },
+  "note": "ae 变体未优于 svd_d25；见 results/round2_ae_mean.csv 与 REPORT_ROUND2.md。"
+}

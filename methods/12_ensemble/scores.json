@@ -1,0 +1,11 @@
+{
+  "P1": {
+    "mrrmse": 1.0033,
+    "mse": 2.1708,
+    "r2": -0.0119,
+    "pearson": 0.2442
+  },
+  "params": {
+    "method": "ensemble"
+  }
+}

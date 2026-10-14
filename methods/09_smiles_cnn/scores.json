@@ -1,0 +1,12 @@
+{
+  "mrrmse": 0.9035,
+  "mse": 1.665,
+  "r2": 0.222,
+  "pearson": 0.2691,
+  "params": {
+    "n_dim": 25,
+    "use_drug_emb": true,
+    "reps": 3
+  },
+  "source": "results/round2_smiles_mean.csv (smiles_cell_drug)"
+}

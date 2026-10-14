@@ -1,0 +1,145 @@
+model,config,outer,inner,r2,mse,pearson,seconds
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.19071541372104583,2.458208817330425,0.18828453524881647,2.1
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.1849471765008197,2.4463004037566884,0.2059838883172917,3.3
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.14962349839160294,2.373375357193916,0.1958840596438351,1.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.14407468554850933,2.361919940979908,0.21359520550775582,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.14699464931680684,2.367948149398814,0.20065879823957145,2.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.1430457257804143,2.35979567354752,0.21667893839642308,2.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.10884546854246824,2.2891899075277786,0.20661911862181384,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.10510288961842584,2.2814634261161664,0.2224871713996151,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.07470432895071077,2.21870618873901,0.19649128574181743,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.06865916068811262,2.2062260564134144,0.21432002504576259,3.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T regulatory cells,-0.04073823679011013,2.1485838519679437,0.20256963103715947,1.9
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T regulatory cells,-0.034899383034248554,2.1365296519295756,0.22032084060138005,3.1
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.841840662231975,2.0035883629909614,0.12459557455614248,2.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.8528998009171009,2.0156186987461564,0.12421708456366395,2.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.7412107124435996,1.89412124105218,0.1259410188515733,1.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.7519542389590865,1.9058082480475784,0.12547425049336922,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.856562646060598,2.019603209488826,0.11982107159244942,1.7
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.8664989466625865,2.0304121011945826,0.11972980903061277,2.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.7540218971487713,1.9080574848965874,0.1209280494900693,1.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.7636425629981569,1.9185230232763812,0.12078200563614172,3.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.7488365124583354,1.902416727454085,0.11339175067056471,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.7557269589092672,1.9099122826386303,0.11376473123094082,3.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,T cells CD8+,-0.652232995080948,1.7973296332171833,0.11435399426397101,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,T cells CD8+,-0.6588078478634636,1.8044818797679048,0.11471664012877943,3.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,NK cells,0.14708964575099304,3.490731063408106,0.23605207160153607,1.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,NK cells,0.14220192931206932,3.510735162921594,0.23778774828974328,3.7
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,NK cells,0.1561210158310733,3.453768111877954,0.2370492027891188,1.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,NK cells,0.15162232825791533,3.4721800216149603,0.23886041365635016,3.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,NK cells,0.1557906659051279,3.4551201446473385,0.239877138316378,1.7
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,NK cells,0.15049678900698216,3.4767865489091174,0.24130507890275438,3.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,NK cells,0.1662922516687675,3.4121399985422314,0.24177080010874416,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,NK cells,0.16138745868800952,3.4322139877161506,0.2433402185932111,3.9
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD4+,NK cells,0.17943540693853421,3.3583486239354974,0.24057121986094152,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD4+,NK cells,0.17495166128195638,3.37669938045506,0.24203522273659037,3.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD4+,NK cells,0.18764028209017503,3.324768292285712,0.2420388305797726,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD4+,NK cells,0.18354851592181998,3.341514782930272,0.24358292254135805,3.7
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.05853431316720159,1.9705069885390336,0.2697153414443143,1.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.06641628776011355,1.9540098540857644,0.2811793922350189,3.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.06312062774000837,1.9609077380897082,0.27026427617915744,2.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.07172794761353873,1.9428924410899413,0.2826046521855272,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.04717443062556992,1.9942834556480715,0.2634049361525458,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.05706427292876304,1.9735838129032033,0.27568307006296267,3.2
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.05046141206039023,1.9874037361010948,0.2633519738591125,1.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.06107207082121391,1.9651954097291118,0.27653437816424264,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.0738861232049075,1.938375335320964,0.2573599913520891,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.08504871325999497,1.9150118054320064,0.27074852471653227,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD4+,0.07223248873366606,1.9418364261792325,0.2557204939934274,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD4+,0.08411822777600264,1.9169593306308368,0.2700180409118489,3.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.7041589939002191,1.8538156958307097,0.1553884368424865,2.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.7480526890627375,1.9015640698565721,0.15350498345546035,3.1
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.6155520079368526,1.7574273764737203,0.1558364942505688,1.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.6590255515740668,1.8047187018937754,0.15354693094513194,3.2
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.6982010898685183,1.8473345775502246,0.15702542275537576,2.0
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.7329133614163117,1.885095229029088,0.15578101399345462,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.6070715490746699,1.7482021763586884,0.15789629673861272,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.641361675564508,1.7855036106300286,0.15630284259554467,3.4
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.6087394407166105,1.7500165397577852,0.15175241948494156,1.9
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.6314245679021779,1.7746938409890947,0.15152519153779,3.6
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,T cells CD8+,-0.5224243817452463,1.6561214210039554,0.15253022296930788,2.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,T cells CD8+,-0.5446888396593386,1.6803411104155896,0.1520842476646999,3.3
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,NK cells,0.09918668681231047,3.686784899503996,0.29447051827758614,2.4
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,NK cells,0.10373761706556162,3.6681591746276516,0.2943083475153186,4.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,NK cells,0.10303265182687704,3.6710444064049885,0.2964323100366401,2.6
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,NK cells,0.10809074262317142,3.6503430107938284,0.2962055990970259,3.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,NK cells,0.1431775167390964,3.5067423478272195,0.2921611825188698,2.6
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,NK cells,0.1464267809530292,3.4934439894847618,0.29193393873836904,4.0
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,NK cells,0.14748612248359128,3.489108391529984,0.295090041879917,2.3
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,NK cells,0.15124603908501533,3.4737200712791747,0.2947482866125454,4.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T regulatory cells,NK cells,0.15951689791937507,3.4398696862881466,0.28875893082949394,2.3
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T regulatory cells,NK cells,0.1639211003274138,3.421844478740028,0.28871005835390073,4.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T regulatory cells,NK cells,0.16206834927107028,3.4294272869834987,0.2911498201031171,2.3
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T regulatory cells,NK cells,0.16698560807027574,3.409302278591125,0.2909671894598416,4.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.0751661422088139,1.9356962292973068,0.2851290053951245,1.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.07880023970534478,1.9280899887150962,0.2910889060491948,2.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.10204965804840371,1.8794284793630283,0.2862479105433697,2.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.10653495498084797,1.870040660906482,0.29265851113012886,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.06407466244087678,1.9589109238970486,0.28001928954182576,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.06879382940122414,1.9490336106762867,0.2869565013383432,3.0
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.09145783946131492,1.9015973728650417,0.28058464789871124,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.09702822062619265,1.889938450858926,0.28803836645403963,3.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.08748652855893357,1.9099094080207037,0.2729686341293549,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.0929593276525269,1.8984547272908356,0.28059388528111145,2.9
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T cells CD4+,0.11129128980433467,1.8600855545859936,0.2729824924593984,1.9
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T cells CD4+,0.1176152316183543,1.846849414688467,0.2811852501933668,3.1
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.42838098854654394,2.9488647749838077,0.13608364476033877,1.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.4659369972587015,3.026398424667117,0.13237231448123948,3.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.3829982752263985,2.85517304583307,0.13253884369834282,1.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.419595535574927,2.9307273781632017,0.12857938225763435,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.3680749182256162,2.824364065500103,0.16484447841326616,1.7
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.4027362870593292,2.8959217874426666,0.16064877555017743,3.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.3208906379088212,2.726953036317517,0.16311471374358189,1.9
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.3545924255546413,2.796529721557405,0.15854185399848744,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.2820237305437563,2.646713061856625,0.17100737583814832,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.31193920922130447,2.70847298585895,0.16795004875279268,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,T regulatory cells,-0.23886383760162055,2.5576103021519865,0.16991699642631405,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,T regulatory cells,-0.26781985742263625,2.6173894420023514,0.1663285840586978,3.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,NK cells,0.18504953566652682,3.3353715156765276,0.32171801233288616,2.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,NK cells,0.18152060402484116,3.349814477050965,0.3209595671424033,3.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,NK cells,0.18479912609939686,3.3363963742096674,0.32284128027120157,2.1
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,NK cells,0.1814655712707952,3.3500397112072817,0.32216829347407416,3.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,NK cells,0.20023349517924427,3.2732276820690167,0.32503569682249367,2.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,NK cells,0.19726206470290442,3.285388942176651,0.32427120905257695,3.6
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,NK cells,0.20025707517671465,3.273131175526172,0.326403384167563,2.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,NK cells,0.19748114389616744,3.2844923103777055,0.3257358057574879,3.7
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",T cells CD8+,NK cells,0.2036381278760353,3.259293442608824,0.3223396009735638,2.3
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",T cells CD8+,NK cells,0.2016223795817197,3.2675433543984105,0.32196731766869763,3.5
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",T cells CD8+,NK cells,0.20228759548249897,3.264820805894743,0.3231433540547902,2.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",T cells CD8+,NK cells,0.2004672887219653,3.2722708284232205,0.3229190449060738,3.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD4+,0.08490219204314586,1.9153184773434826,0.22857566360767392,1.7
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD4+,0.08589453710648365,1.91324147877657,0.230950110938114,3.7
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD4+,0.11424571958627472,1.8539018724679064,0.2305873443572483,1.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD4+,0.1156334399585518,1.8509973452716904,0.23347331750213257,3.4
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD4+,0.04968596493027755,1.9890267628459888,0.23194009984846317,1.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD4+,0.05169811253623424,1.9848152966449757,0.2343624669936225,3.6
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD4+,0.08211093470563946,1.9211606361893037,0.23393425958797795,1.8
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD4+,0.08446989452076481,1.9162232849226581,0.23688535316764883,3.3
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD4+,0.09223781949264487,1.899964858664947,0.2288088792536469,1.7
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD4+,0.09509465097388103,1.893985451791615,0.23212718173169936,3.6
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD4+,0.12042092542690652,1.8409770400127081,0.22997292796121255,1.8
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD4+,0.12367090156078009,1.8341747733194556,0.23389916997029858,3.4
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T regulatory cells,-0.19905224618486872,2.4754200458364304,0.1992579924519972,2.4
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T regulatory cells,-0.1958718103555257,2.4688540979125584,0.21024505070329202,3.9
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T regulatory cells,-0.1663377695496362,2.4078816449789455,0.20698241792105543,2.4
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T regulatory cells,-0.16309476493979114,2.4011865250244204,0.2172986111112725,4.0
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T regulatory cells,-0.14581215972354422,2.365506922627863,0.2179791189806464,2.5
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T regulatory cells,-0.1476658418821315,2.3693338133981166,0.22539060509868902,4.3
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T regulatory cells,-0.1149818143031156,2.301858274025087,0.2239141191977389,2.5
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T regulatory cells,-0.11676975798294342,2.3055494489842716,0.23062991307875758,4.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T regulatory cells,-0.1009668596380855,2.272924672649759,0.20960185890703842,2.3
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T regulatory cells,-0.09945430084234874,2.2698020244287274,0.21896873813927972,4.1
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T regulatory cells,-0.07294709486705919,2.215078413143961,0.21525247436350403,2.4
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T regulatory cells,-0.07136440268292343,2.2118109759063724,0.2240477453124181,3.8
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD8+,-0.3486507337544156,1.467087230344381,0.1570166737140402,2.2
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD8+,-0.3660314777761675,1.4859943253913037,0.15757408959661628,3.4
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD8+,-0.29439389841816954,1.4080656406262537,0.1583931408613794,2.0
+ensemble,"{""ridge_alpha"": 1, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD8+,-0.31072425778245294,1.4258301078012203,0.15892159208997506,3.4
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD8+,-0.34726076628678615,1.4655751980061962,0.15827494526207586,2.0
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD8+,-0.36362591662788235,1.4833775114496857,0.15881321658838138,3.2
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD8+,-0.29240384058946356,1.4059008188862219,0.1597443317133132,2.1
+ensemble,"{""ridge_alpha"": 10, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD8+,-0.307718542809992,1.4225604354214214,0.16024756388958913,3.5
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 10}",NK cells,T cells CD8+,-0.2884528302149787,1.4016028366716358,0.1555498943654393,2.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 5, ""pls_n"": 20}",NK cells,T cells CD8+,-0.3012731746342534,1.4155490446225816,0.15627138183807998,3.2
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 10}",NK cells,T cells CD8+,-0.23777290677056984,1.3464722779144846,0.15706541443885158,2.0
+ensemble,"{""ridge_alpha"": 100, ""knn_k"": 10, ""pls_n"": 20}",NK cells,T cells CD8+,-0.24954289862049706,1.3592758928995263,0.1577640592517021,3.4

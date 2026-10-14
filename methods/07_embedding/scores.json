@@ -1,0 +1,12 @@
+{
+  "mrrmse": 0.8994,
+  "mse": 1.6346,
+  "r2": 0.2402,
+  "pearson": 0.2682,
+  "params": {
+    "emb": 128,
+    "n_dim": 25,
+    "reps": 5
+  },
+  "source": "results/round2_final_mean.csv (tuned_embed_seed5)"
+}

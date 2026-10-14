@@ -1,0 +1,11 @@
+{
+  "P1": {
+    "mrrmse": 1.0819,
+    "mse": 2.4138,
+    "r2": -0.1713,
+    "pearson": 0.2441
+  },
+  "params": {
+    "method": "krr_linear_sig"
+  }
+}
