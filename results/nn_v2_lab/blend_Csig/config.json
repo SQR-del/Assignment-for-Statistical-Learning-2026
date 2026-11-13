@@ -1,0 +1,1 @@
+{"overrides": {"K": 32, "epochs": 800, "dropout": 0.2, "sigma": 0.05}, "seeds": 3, "base_seed": 20260930}

@@ -16,3 +16,8 @@ blend_v1_kaggle_ids.csv,2026-09-30,10_blend,blend（最终模型）,0.752,0.591,
 09_nn_base_I1_I2_kaggle_ids.7z,2026-10-13,09_nn_base_I1_I2,底座 + I1 + I2,0.764,0.614,True,3 位小数,submissions/methods_20261013/09_nn_base_I1_I2_kaggle_ids.7z,ac9780b46117fe0e6cf87aa4c5cbea0d67a349c740ca530bd90898d9dd333ddd,results/methods/09_nn_base_I1_I2/09_nn_base_I1_I2_kaggle_ids.csv,
 11_kernel_te_kaggle_ids.7z,2026-10-14,05b_krr_joint,联合 KRR,0.823,0.598,True,3 位小数,submissions/methods_20261013/11_kernel_te_kaggle_ids.7z,a3914e3f6a8716467fedf38d67e96954425363482c479c2147a8472d0268dc3d,results/methods/05b_krr_joint/05b_krr_joint_kaggle_ids.csv,提交时用的是改名前的名字 11_kernel_te
 05a_krr_local_kaggle_ids.7z,2026-10-14,05a_krr_local,局部 KRR（v2 配置）,0.799,0.594,True,3 位小数,submissions/methods_20261013/05a_krr_local_kaggle_ids.7z,fb316c4c88ed9aede47cd3c62b0ed753492323abf4598dca9876bebae19fab51,results/methods/05a_krr_local/05a_krr_local_kaggle_ids.csv,与 blend 中的 KRR v2 分量是同一组预测
+v2_base.zip,2026-11-13,nn_v2_lab/v2_base,12 设置的底座,0.775,0.591,True,全精度,,907bc4395dfac474bc3b515f974352b8d1e4067726c66ee2913ad43e81f32877,全精度,
+v2_base_I1.zip,2026-11-13,nn_v2_lab/v2_base_I1,12 设置的底座 + I1,0.772,0.581,True,全精度,,1c9830595a69d70fedd5cefd5436f686081f18f3f742fc6cb57330394e8a798a,全精度,
+v2_base_I2.zip,2026-11-13,12_nn_v2_tuned_I2,12 设置的底座 + I2,0.735,0.577,True,全精度,,5c5680ed13cf67780b2278f7d089e3caf2aeffab1972fab0809344db618ef848,全精度,
+v2_base_I1_I2.zip,2026-11-13,nn_v2_lab/v2_base_I1_I2,12 设置的底座 + I1 + I2,0.742,0.588,True,全精度,,2d3255d02a10f230a7243b37380520a578b36e92881ea7f811c49fb08318e0db,全精度,
+v2_blend.zip,2026-11-13,13_blend_v2,blend v2,0.734,0.573,True,全精度,,99078ef1b2107bcaddce8f4a19353e8510002a2384c669073430f9dfeb181349,全精度,

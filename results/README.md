@@ -61,8 +61,7 @@
 | `krr_null_v1/` | KRR v1（局部 KRR 第一版，已归档）：超参数选择记录、内部分数；`krr_null_v1_kaggle_ids.csv` 是提交文件 | 0.830 / 0.604 |
 | `methods/` | 12 个方法的全精度提交文件（由 `methods/<方法>/run.py --export` 生成），以及各自的 `kaggle_score.json` | 见上表 |
 | `krr_joint_study/` | 联合 KRR 的参数网格（140 个配置），用来区分数据和学习器的作用；见 `methods/05b_krr_joint` | — |
-| `label_generation_study/` | 标签生成研究：复现 limma 流程，做少样本与全样本拟合的模拟和常数基因检验，建立对齐标签生成方式的验证，并评估校正效果（结论：不采用） | — |
-| `pseudobulk_train/` | 由训练部分原始计数生成的伪 bulk 矩阵和各版本的 limma 结果，供标签生成研究使用（约 2 GB） | — |
+| `../Question 2/` | 标签生成研究（官方流程）：按组织方原始脚本重建伪 bulk 和 limma 拟合，与官方训练标签逐数值一致；小模型 / 大模型模拟。旧的 `label_generation_study/` 和 `pseudobulk_train/` 使用了与官方不同的设置，已删除 | — |
 | `../methods/`（项目根目录） | 基线和代表性方法，每个方法一个文件夹，含做法说明、运行脚本和内部验证分数 | 见 `methods/README.md` |
 
 以下内容已移到 `../archive/`：

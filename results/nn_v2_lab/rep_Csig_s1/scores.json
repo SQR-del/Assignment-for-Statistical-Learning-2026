@@ -1,0 +1,15 @@
+{
+  "A": 0.9209,
+  "A15": 0.9524,
+  "V1": 1.6112,
+  "V1w": 1.0178,
+  "objective": 0.9191,
+  "A_NK cells": 1.015,
+  "A_T cells CD4+": 0.9274,
+  "A_T cells CD8+": 0.8263,
+  "A_T regulatory cells": 0.915,
+  "seeds": 3,
+  "kaggle_private": null,
+  "kaggle_public": null,
+  "kaggle_file": "未提交"
+}

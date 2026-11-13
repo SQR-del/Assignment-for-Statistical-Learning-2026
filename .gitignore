@@ -5,3 +5,6 @@ submissions/methods/upload_7z/
 
 __pycache__/
 *.pyc
+
+# nn_v2 的 Kaggle 提交压缩包（约 125 MB），可在服务器上用 methods/nn_v2_lab/run_export.py 重新生成
+submissions/nn_v2/

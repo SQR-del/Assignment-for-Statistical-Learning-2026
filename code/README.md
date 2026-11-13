@@ -81,7 +81,7 @@ python validate.py
 
 - **提交顺序**：Kaggle 要求按 (cell_type, sm_name) 排序，id 0–127 为 B 细胞，128–254 为 Myeloid。`data/id_map.csv` 本身的行序与此不同，是 B/Myeloid 交错排列，不能直接使用；`common.Table.kaggle` 已经处理。
 - **内部验证的局限**：内部验证能判断方向，但会低估幅度建模的作用。I2 相对底座的提升，内部 objective 是 −2.1%，官方 private 是 −7.4%。
-- **标签生成研究（`results/label_generation_study/`）**：用原始计数复现了组织方的 limma 流程，确认 B/Myeloid 训练标签只用训练孔拟合（自由度约 130），而测试标签来自全样本拟合（约 380）。但把锚点按自由度校正到测试尺度会让 blend 变差（+0.007），因此没有采用。
+- **标签生成研究（`Question 2/`）**：按组织方公开的原始脚本重建了标签生成流程，结果与 `de_train.parquet` 逐数值一致；确认 B/Myeloid 训练标签只用训练孔拟合（自由度约 168），测试标签用全部样本拟合（按 NK 类推约 424）。旧目录 `results/label_generation_study/` 用的协变量和计数与官方不同，其中的放大倍数和校准实验结论已作废并删除。
 - **旧代码**：原 LGT 代码已移到 `archive/code_lgt_20260930/`。`results/krr_null_v1/`、`results/krr_v2/` 里的旧脚本依赖其中的 `experiment.py`。
 
 ## 其他方法
