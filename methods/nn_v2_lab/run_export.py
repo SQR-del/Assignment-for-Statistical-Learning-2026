@@ -1,6 +1,6 @@
 """导出 Kaggle 提交文件：用全部训练行训练（10 个随机种子），按 Kaggle 的 id 顺序写出 255 行预测。
 用法: CUDA_VISIBLE_DEVICES=3 python run_export.py <base|base_I1|base_I2|base_I1_I2|blend> [--seeds 10]
-设置固定为 K=32, epochs=800, dropout=0.2（methods/12、13）。输出: results/methods/v2_<变体>/v2_<变体>_kaggle_ids.csv
+设置固定为 K=32, epochs=800, dropout=0.2（methods/11–15）。输出: results/methods/v2_<变体>/v2_<变体>_kaggle_ids.csv
 测试行在交给模型前标签为 NaN（与 methods/harness.py 的 export 相同）。
 """
 import os, sys, argparse
