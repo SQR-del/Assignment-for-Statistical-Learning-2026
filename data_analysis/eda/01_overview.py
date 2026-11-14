@@ -3,7 +3,7 @@
 Produces the figures 01..05 in this folder (label distribution, drug coverage,
 per-cell-type response strength, cross-cell-type correlation, top genes).
 
-Run:  python eda/01_explore.py
+Run:  python data_analysis/eda/01_overview.py
 """
 import os
 import sys
@@ -15,10 +15,12 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(os.path.dirname(HERE), "code"))
+ROOT = os.path.dirname(os.path.dirname(HERE))
+sys.path.insert(0, os.path.join(ROOT, "code"))
 import common as C  # noqa: E402
 
-OUT = HERE
+OUT = os.path.join(HERE, "outputs", "overview")
+os.makedirs(OUT, exist_ok=True)
 df = pd.read_parquet(C.data_path("de_train.parquet"))
 genes = [c for c in df.columns if c not in ["cell_type", "sm_name", "sm_lincs_id", "SMILES", "control"]]
 drug = df[~df.control].copy()

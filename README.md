@@ -5,6 +5,9 @@
 `−log10 p`，18,211 个基因），并在官方 test 标签不公开的条件下构造可复现的离线验证。
 
 > 详细实验记录见 [`SUMMARY.md`](SUMMARY.md)、[`REPORT.md`](REPORT.md)、[`REPORT_ROUND2.md`](REPORT_ROUND2.md)。
+> 数据研究（EDA、Limma 复现、标签噪声、误差分解）的结论与代码全部合并到
+> [`data_analysis/README.md`](data_analysis/README.md)（复现入口 `data_analysis/run_all.py`）。
+> 药物簇 + 化学辅助的三模型调整与提交见 [`REPORT_CLUSTER_ADAPT.md`](REPORT_CLUSTER_ADAPT.md)（代码 `methods/14_cluster_adapt/`，提交 `results/submission_cluster.csv`）。
 
 ## 目录结构
 
@@ -13,7 +16,7 @@
 | `code/` | 核心库：数据/特征/指标、经典模型、神经网络、融合、提交 | `code/README.md`、`code/predict.py` |
 | `methods/` | 各方法族（一目录一方法）：`run.py` + `README.md` + `scores.json`（+ `rows.csv`） | `methods/README.md`（总表） |
 | `results/` | 历次实验的指标 CSV、图 `figures/`、预测 `predictions/`、提交文件 | `results/README.md` |
-| `eda/` | 探索性数据分析脚本与图 | `eda/README.md` |
+| `data_analysis/` | 数据研究：EDA、Limma 复现、标签噪声、误差分解（结论 + 可复现代码） | `data_analysis/README.md`、`data_analysis/run_all.py` |
 
 ## 数据准备（必须）
 
@@ -23,12 +26,14 @@
 ```
 data/
 ├─ de_train.parquet        # 主表：cell_type × drug，18,211 基因标签
+├─ adata_train.parquet     # 单细胞长表：Limma 复现/噪声分析必需
+├─ adata_obs_meta.csv      # 单细胞元数据：Limma 复现/噪声分析必需
 ├─ id_map.csv              # 官方测试映射（B cells 128 + Myeloid 127）
 └─ sample_submission.csv   # 提交格式模板
 ```
 
 若数据在别处，设置环境变量 `SCP_DATA_DIR` 指向该文件夹即可（见 `code/common.py`）。
-`adata_train.parquet`（单细胞长表，用于 control pseudo-bulk 基线）为可选。
+只用建模/提交时 `adata_*` 可省略；运行 `data_analysis/` 的 Limma 部分则需要。
 
 ## 环境
 
@@ -73,6 +78,7 @@ python code/predict.py                           # 生成 results/submission.csv
 ## 复现入口
 
 ```bash
+python data_analysis/run_all.py    # 数据研究全流程（EDA + Limma + 噪声/误差分解）
 python code/validate.py            # 基准（经典模型 + 若干 torch 模型）
 python code/predict.py             # 最终提交（多随机种子融合）
 python methods/<族>/run.py         # 单方法族验证 / --export 生成提交

@@ -1,0 +1,64 @@
+{
+  "prior": 0.1,
+  "mean_noise_donor": 0.08287133880210999,
+  "mean_noise_technical": 0.1208653994516674,
+  "mean_abs_de": 0.7769386767165357,
+  "mrrmse_floor_donor": 0.255978332432863,
+  "mrrmse_floor_technical": 0.30629498842403524,
+  "rms_label": 1.3366564335401112,
+  "half_vs_full": {
+    "slope_large_on_small": 0.8079329499936466,
+    "corr_small_large": 0.8045290457298442,
+    "amp_ratio": 0.9545603397554596
+  },
+  "calibration": [
+    {
+      "cell_type": "T cells CD4+",
+      "slope_de_on_repro": 0.9101732376431675,
+      "intercept": 0.22907350890612063,
+      "pearson": 0.4009774485020861,
+      "spearman": 0.7593420354514229,
+      "n_drug": 144
+    },
+    {
+      "cell_type": "T regulatory cells",
+      "slope_de_on_repro": 0.5439484991933227,
+      "intercept": 0.17514821517490825,
+      "pearson": 0.39215597540805247,
+      "spearman": 0.5616472061779907,
+      "n_drug": 142
+    },
+    {
+      "cell_type": "T cells CD8+",
+      "slope_de_on_repro": 0.38043799355374164,
+      "intercept": -0.01534343655824223,
+      "pearson": 0.36261145404369655,
+      "spearman": 0.5169105859391953,
+      "n_drug": 133
+    },
+    {
+      "cell_type": "NK cells",
+      "slope_de_on_repro": 1.0826145053416665,
+      "intercept": 0.32550888202401895,
+      "pearson": 0.367659707479342,
+      "spearman": 0.7274980762594245,
+      "n_drug": 143
+    },
+    {
+      "cell_type": "B cells",
+      "slope_de_on_repro": 1.7095383966846294,
+      "intercept": 0.8599965203480888,
+      "pearson": 0.37223094178800126,
+      "spearman": 0.757316942178205,
+      "n_drug": 14
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "slope_de_on_repro": 2.4464557824839104,
+      "intercept": 0.8764686381842566,
+      "pearson": 0.5244262220850955,
+      "spearman": 0.7532689067763387,
+      "n_drug": 13
+    }
+  ]
+}

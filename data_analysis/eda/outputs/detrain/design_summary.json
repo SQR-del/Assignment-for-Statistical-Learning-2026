@@ -1,0 +1,56 @@
+{
+  "rows_total": 614,
+  "rows_drug": 602,
+  "rows_control": 12,
+  "genes": 18211,
+  "cell_types": [
+    "T cells CD4+",
+    "T regulatory cells",
+    "T cells CD8+",
+    "NK cells",
+    "B cells",
+    "Myeloid cells"
+  ],
+  "n_drugs": 144,
+  "drugs_per_cell": {
+    "T cells CD4+": 144,
+    "T regulatory cells": 144,
+    "T cells CD8+": 140,
+    "NK cells": 144,
+    "B cells": 15,
+    "Myeloid cells": 15
+  },
+  "anchors_B_Myeloid": [
+    "Alvocidib",
+    "CHIR-99021",
+    "Crizotinib",
+    "Dactolisib",
+    "Foretinib",
+    "Idelalisib",
+    "LDN 193189",
+    "Linagliptin",
+    "MLN 2238",
+    "O-Demethylated Adapalene",
+    "Oprozomib (ONX 0912)",
+    "Palbociclib",
+    "Penfluridol",
+    "Porcn Inhibitor III",
+    "R428"
+  ],
+  "B_only": [],
+  "Myeloid_only": [],
+  "CD8_missing": [
+    "Alvocidib",
+    "CGP 60474",
+    "Oprozomib (ONX 0912)",
+    "Resminostat"
+  ],
+  "control_drugs": [
+    "Belinostat",
+    "Dabrafenib"
+  ],
+  "shared_all6": 13,
+  "shared_all4": 140,
+  "test_drugs_total": 129,
+  "test_drugs_in_balanced4": 127
+}

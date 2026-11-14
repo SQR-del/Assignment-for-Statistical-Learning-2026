@@ -7,6 +7,10 @@ results/submission*.csv
 results/predictions/
 results/_inner_comp.npz
 
+# --- raw-DE analysis artifacts ---
+data_analysis/limma/outputs/*.npz
+data_analysis/limma/outputs/duck_tmp/
+
 # --- python ---
 __pycache__/
 *.pyc

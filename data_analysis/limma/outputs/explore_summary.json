@@ -1,0 +1,453 @@
+{
+  "obs_rows": 240090,
+  "control_cells": {
+    "False": 161223,
+    "True": 78867
+  },
+  "dose_by_control": {
+    "(False, '5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine')": [
+      1.0
+    ],
+    "(False, 'ABT-199 (GDC-0199)')": [
+      1.0
+    ],
+    "(False, 'ABT737')": [
+      1.0
+    ],
+    "(False, 'AMD-070 (hydrochloride)')": [
+      1.0
+    ],
+    "(False, 'AT 7867')": [
+      1.0
+    ],
+    "(False, 'AT13387')": [
+      1.0
+    ],
+    "(False, 'AVL-292')": [
+      1.0
+    ],
+    "(False, 'AZ628')": [
+      1.0
+    ],
+    "(False, 'AZD-8330')": [
+      1.0
+    ],
+    "(False, 'AZD3514')": [
+      1.0
+    ],
+    "(False, 'AZD4547')": [
+      1.0
+    ],
+    "(False, 'Alogliptin')": [
+      1.0
+    ],
+    "(False, 'Alvocidib')": [
+      1.0
+    ],
+    "(False, 'Amiodarone')": [
+      1.0
+    ],
+    "(False, 'Atorvastatin')": [
+      1.0
+    ],
+    "(False, 'Azacitidine')": [
+      1.0
+    ],
+    "(False, 'BAY 61-3606')": [
+      1.0
+    ],
+    "(False, 'BAY 87-2243')": [
+      1.0
+    ],
+    "(False, 'BI-D1870')": [
+      1.0
+    ],
+    "(False, 'BMS-265246')": [
+      1.0
+    ],
+    "(False, 'BMS-387032')": [
+      1.0
+    ],
+    "(False, 'BMS-536924')": [
+      1.0
+    ],
+    "(False, 'BMS-777607')": [
+      1.0
+    ],
+    "(False, 'BX 912')": [
+      1.0
+    ],
+    "(False, 'Bosutinib')": [
+      1.0
+    ],
+    "(False, 'Buspirone')": [
+      1.0
+    ],
+    "(False, 'CC-401')": [
+      1.0
+    ],
+    "(False, 'CEP-18770 (Delanzomib)')": [
+      1.0
+    ],
+    "(False, 'CEP-37440')": [
+      1.0
+    ],
+    "(False, 'CGM-097')": [
+      1.0
+    ],
+    "(False, 'CGP 60474')": [
+      1.0
+    ],
+    "(False, 'CHIR-99021')": [
+      1.0
+    ],
+    "(False, 'Cabozantinib')": [
+      1.0
+    ],
+    "(False, 'Canertinib')": [
+      1.0
+    ],
+    "(False, 'Ceritinib')": [
+      1.0
+    ],
+    "(False, 'Chlorpheniramine')": [
+      1.0
+    ],
+    "(False, 'Clemastine')": [
+      1.0
+    ],
+    "(False, 'Clomipramine')": [
+      1.0
+    ],
+    "(False, 'Clotrimazole')": [
+      1.0
+    ],
+    "(False, 'Colchicine')": [
+      1.0
+    ],
+    "(False, 'Colforsin')": [
+      1.0
+    ],
+    "(False, 'Crizotinib')": [
+      1.0
+    ],
+    "(False, 'Dactolisib')": [
+      1.0
+    ],
+    "(False, 'Dasatinib')": [
+      1.0
+    ],
+    "(False, 'Decitabine')": [
+      1.0
+    ],
+    "(False, 'Defactinib')": [
+      1.0
+    ],
+    "(False, 'Desloratadine')": [
+      1.0
+    ],
+    "(False, 'Disulfiram')": [
+      1.0
+    ],
+    "(False, 'Dovitinib')": [
+      1.0
+    ],
+    "(False, 'Doxorubicin')": [
+      1.0
+    ],
+    "(False, 'FK 866')": [
+      1.0
+    ],
+    "(False, 'Flutamide')": [
+      1.0
+    ],
+    "(False, 'Foretinib')": [
+      1.0
+    ],
+    "(False, 'GLPG0634')": [
+      1.0
+    ],
+    "(False, 'GO-6976')": [
+      1.0
+    ],
+    "(False, 'GSK-1070916')": [
+      1.0
+    ],
+    "(False, 'GSK256066')": [
+      1.0
+    ],
+    "(False, 'GW843682X')": [
+      1.0
+    ],
+    "(False, 'Ganetespib (STA-9090)')": [
+      1.0
+    ],
+    "(False, 'HMN-214')": [
+      1.0
+    ],
+    "(False, 'HYDROXYUREA')": [
+      1.0
+    ],
+    "(False, 'I-BET151')": [
+      1.0
+    ],
+    "(False, 'IKK Inhibitor VII')": [
+      1.0
+    ],
+    "(False, 'IMD-0354')": [
+      1.0
+    ],
+    "(False, 'IN1451')": [
+      1.0
+    ],
+    "(False, 'Idelalisib')": [
+      1.0
+    ],
+    "(False, 'Imatinib')": [
+      1.0
+    ],
+    "(False, 'Isoniazid')": [
+      1.0
+    ],
+    "(False, 'Ixabepilone')": [
+      1.0
+    ],
+    "(False, 'K-02288')": [
+      1.0
+    ],
+    "(False, 'Ketoconazole')": [
+      1.0
+    ],
+    "(False, 'LDN 193189')": [
+      1.0
+    ],
+    "(False, 'LY2090314')": [
+      1.0
+    ],
+    "(False, 'Lamivudine')": [
+      1.0
+    ],
+    "(False, 'Lapatinib')": [
+      1.0
+    ],
+    "(False, 'Linagliptin')": [
+      1.0
+    ],
+    "(False, 'MGCD-265')": [
+      1.0
+    ],
+    "(False, 'MK-5108')": [
+      1.0
+    ],
+    "(False, 'MLN 2238')": [
+      1.0
+    ],
+    "(False, 'Masitinib')": [
+      1.0
+    ],
+    "(False, 'Methotrexate')": [
+      1.0
+    ],
+    "(False, 'Midostaurin')": [
+      1.0
+    ],
+    "(False, 'Mometasone Furoate')": [
+      1.0
+    ],
+    "(False, 'Mubritinib (TAK 165)')": [
+      1.0
+    ],
+    "(False, 'Navitoclax')": [
+      1.0
+    ],
+    "(False, 'Nefazodone')": [
+      1.0
+    ],
+    "(False, 'Nilotinib')": [
+      1.0
+    ],
+    "(False, 'O-Demethylated Adapalene')": [
+      1.0
+    ],
+    "(False, 'OSI-930')": [
+      1.0
+    ],
+    "(False, 'Oprozomib (ONX 0912)')": [
+      1.0
+    ],
+    "(False, 'Oxybenzone')": [
+      1.0
+    ],
+    "(False, 'PD-0325901')": [
+      1.0
+    ],
+    "(False, 'PF-03814735')": [
+      1.0
+    ],
+    "(False, 'PF-04691502')": [
+      1.0
+    ],
+    "(False, 'PRT-062607')": [
+      1.0
+    ],
+    "(False, 'Palbociclib')": [
+      1.0
+    ],
+    "(False, 'Penfluridol')": [
+      1.0
+    ],
+    "(False, 'Perhexiline')": [
+      1.0
+    ],
+    "(False, 'Phenylbutazone')": [
+      1.0
+    ],
+    "(False, 'Pitavastatin Calcium')": [
+      1.0
+    ],
+    "(False, 'Pomalidomide')": [
+      1.0
+    ],
+    "(False, 'Porcn Inhibitor III')": [
+      1.0
+    ],
+    "(False, 'Prednisolone')": [
+      1.0
+    ],
+    "(False, 'Proscillaridin A;Proscillaridin-A')": [
+      1.0
+    ],
+    "(False, 'Protriptyline')": [
+      1.0
+    ],
+    "(False, 'Quizartinib')": [
+      1.0
+    ],
+    "(False, 'R428')": [
+      1.0
+    ],
+    "(False, 'RG7090')": [
+      1.0
+    ],
+    "(False, 'RG7112')": [
+      1.0
+    ],
+    "(False, 'RN-486')": [
+      1.0
+    ],
+    "(False, 'RVX-208')": [
+      1.0
+    ],
+    "(False, 'Raloxifene')": [
+      1.0
+    ],
+    "(False, 'Resminostat')": [
+      1.0
+    ],
+    "(False, 'Ricolinostat')": [
+      1.0
+    ],
+    "(False, 'Riociguat')": [
+      1.0
+    ],
+    "(False, 'Ruxolitinib')": [
+      1.0
+    ],
+    "(False, 'SB525334')": [
+      1.0
+    ],
+    "(False, 'SCH-58261')": [
+      1.0
+    ],
+    "(False, 'SLx-2119')": [
+      1.0
+    ],
+    "(False, 'STK219801')": [
+      1.0
+    ],
+    "(False, 'Saracatinib')": [
+      1.0
+    ],
+    "(False, 'Scriptaid')": [
+      1.0
+    ],
+    "(False, 'Selumetinib')": [
+      1.0
+    ],
+    "(False, 'Sgc-cbp30')": [
+      1.0
+    ],
+    "(False, 'Sunitinib')": [
+      1.0
+    ],
+    "(False, 'TGX 221')": [
+      1.0
+    ],
+    "(False, 'TIE2 Kinase Inhibitor')": [
+      1.0
+    ],
+    "(False, 'TL_HRAS26')": [
+      1.0
+    ],
+    "(False, 'TPCA-1')": [
+      1.0
+    ],
+    "(False, 'TR-14035')": [
+      1.0
+    ],
+    "(False, 'Tacalcitol')": [
+      1.0
+    ],
+    "(False, 'Tamatinib')": [
+      1.0
+    ],
+    "(False, 'Tipifarnib')": [
+      1.0
+    ],
+    "(False, 'Tivantinib')": [
+      1.0
+    ],
+    "(False, 'Tivozanib')": [
+      1.0
+    ],
+    "(False, 'Topotecan')": [
+      1.0
+    ],
+    "(False, 'Tosedostat')": [
+      1.0
+    ],
+    "(False, 'Trametinib')": [
+      1.0
+    ],
+    "(False, 'UNII-BXU45ZH6LI')": [
+      1.0
+    ],
+    "(False, 'Vandetanib')": [
+      1.0
+    ],
+    "(False, 'Vanoxerine')": [
+      1.0
+    ],
+    "(False, 'Vardenafil')": [
+      1.0
+    ],
+    "(False, 'Vorinostat')": [
+      1.0
+    ],
+    "(False, 'YK 4-279')": [
+      1.0
+    ],
+    "(True, 'Belinostat')": [
+      0.1
+    ],
+    "(True, 'Dabrafenib')": [
+      1.0
+    ],
+    "(True, 'Dimethyl Sulfoxide')": [
+      14.1
+    ]
+  },
+  "de_genes": 18211,
+  "adata_genes": 21255,
+  "gene_overlap": 18211
+}

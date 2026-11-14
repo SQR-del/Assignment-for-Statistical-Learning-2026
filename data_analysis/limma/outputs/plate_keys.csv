@@ -1,0 +1,1862 @@
+group_id,cell_type,donor_id,plate_name,sm_name,dose_uM,control
+0,T cells CD4+,donor_2,plate_4,MLN 2238,1.0,False
+1,T cells CD4+,donor_1,plate_3,BMS-265246,1.0,False
+2,T regulatory cells,donor_0,plate_0,Resminostat,1.0,False
+3,T cells CD4+,donor_0,plate_2,FK 866,1.0,False
+4,T cells CD4+,donor_2,plate_4,Nilotinib,1.0,False
+5,T cells CD8+,donor_1,plate_3,Belinostat,0.1,True
+6,T cells CD4+,donor_2,plate_1,PD-0325901,1.0,False
+7,T cells CD4+,donor_0,plate_2,Belinostat,0.1,True
+8,T cells CD4+,donor_1,plate_5,ABT737,1.0,False
+9,T cells CD4+,donor_0,plate_2,Trametinib,1.0,False
+10,T cells CD4+,donor_1,plate_3,Sunitinib,1.0,False
+11,T cells CD4+,donor_1,plate_3,Proscillaridin A;Proscillaridin-A,1.0,False
+12,NK cells,donor_2,plate_4,Prednisolone,1.0,False
+13,T cells CD8+,donor_0,plate_2,Penfluridol,1.0,False
+14,T cells CD4+,donor_1,plate_3,Belinostat,0.1,True
+15,NK cells,donor_0,plate_0,Dabrafenib,1.0,True
+16,T cells CD4+,donor_1,plate_3,Topotecan,1.0,False
+17,T cells CD4+,donor_1,plate_3,Trametinib,1.0,False
+18,T cells CD8+,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+19,T cells CD4+,donor_1,plate_3,K-02288,1.0,False
+20,B cells,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+21,NK cells,donor_0,plate_2,Topotecan,1.0,False
+22,T cells CD8+,donor_2,plate_4,CC-401,1.0,False
+23,T cells CD4+,donor_2,plate_4,OSI-930,1.0,False
+24,NK cells,donor_2,plate_4,Imatinib,1.0,False
+25,T cells CD4+,donor_1,plate_5,AZD-8330,1.0,False
+26,T cells CD4+,donor_1,plate_3,Dabrafenib,1.0,True
+27,NK cells,donor_2,plate_1,Vorinostat,1.0,False
+28,T cells CD8+,donor_1,plate_5,Defactinib,1.0,False
+29,T cells CD4+,donor_2,plate_4,AZD-8330,1.0,False
+30,T cells CD4+,donor_2,plate_1,Perhexiline,1.0,False
+31,NK cells,donor_0,plate_2,Perhexiline,1.0,False
+32,NK cells,donor_0,plate_0,Prednisolone,1.0,False
+33,NK cells,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+34,T cells CD4+,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+35,Myeloid cells,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+36,T cells CD8+,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+37,T cells CD4+,donor_0,plate_2,Foretinib,1.0,False
+38,T cells CD4+,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+39,NK cells,donor_1,plate_3,Pomalidomide,1.0,False
+40,T cells CD8+,donor_0,plate_0,CGM-097,1.0,False
+41,T cells CD4+,donor_1,plate_3,BMS-777607,1.0,False
+42,T cells CD4+,donor_2,plate_1,Palbociclib,1.0,False
+43,NK cells,donor_2,plate_1,Chlorpheniramine,1.0,False
+44,NK cells,donor_1,plate_5,Colchicine,1.0,False
+45,T cells CD4+,donor_2,plate_1,Dovitinib,1.0,False
+46,T cells CD4+,donor_1,plate_5,Belinostat,0.1,True
+47,T cells CD4+,donor_0,plate_0,Colchicine,1.0,False
+48,T cells CD4+,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+49,T cells CD4+,donor_1,plate_3,IN1451,1.0,False
+50,T cells CD4+,donor_0,plate_0,LDN 193189,1.0,False
+51,T cells CD4+,donor_2,plate_1,Methotrexate,1.0,False
+52,T cells CD4+,donor_1,plate_5,Cabozantinib,1.0,False
+53,T cells CD4+,donor_0,plate_2,Dabrafenib,1.0,True
+54,T cells CD4+,donor_2,plate_4,Colforsin,1.0,False
+55,NK cells,donor_1,plate_5,ABT-199 (GDC-0199),1.0,False
+56,T cells CD8+,donor_1,plate_5,CEP-18770 (Delanzomib),1.0,False
+57,Myeloid cells,donor_0,plate_0,Dabrafenib,1.0,True
+58,T cells CD4+,donor_0,plate_0,Nilotinib,1.0,False
+59,T cells CD4+,donor_2,plate_4,MGCD-265,1.0,False
+60,NK cells,donor_1,plate_5,Belinostat,0.1,True
+61,T cells CD4+,donor_2,plate_4,Belinostat,0.1,True
+62,T cells CD4+,donor_0,plate_0,Lamivudine,1.0,False
+63,NK cells,donor_0,plate_2,Linagliptin,1.0,False
+64,T cells CD4+,donor_1,plate_5,BX 912,1.0,False
+65,T cells CD8+,donor_2,plate_4,CHIR-99021,1.0,False
+66,NK cells,donor_1,plate_3,Clomipramine,1.0,False
+67,NK cells,donor_2,plate_4,Bosutinib,1.0,False
+68,NK cells,donor_2,plate_4,TR-14035,1.0,False
+69,T cells CD4+,donor_0,plate_2,BMS-265246,1.0,False
+70,T cells CD8+,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+71,B cells,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+72,T regulatory cells,donor_0,plate_0,Colchicine,1.0,False
+73,T cells CD4+,donor_0,plate_0,Belinostat,0.1,True
+74,NK cells,donor_0,plate_2,Tivozanib,1.0,False
+75,NK cells,donor_0,plate_0,OSI-930,1.0,False
+76,T cells CD8+,donor_2,plate_1,Tivozanib,1.0,False
+77,NK cells,donor_2,plate_4,Nefazodone,1.0,False
+78,Myeloid cells,donor_2,plate_4,CHIR-99021,1.0,False
+79,T cells CD4+,donor_0,plate_0,Defactinib,1.0,False
+80,T regulatory cells,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+81,NK cells,donor_1,plate_3,TIE2 Kinase Inhibitor,1.0,False
+82,NK cells,donor_1,plate_5,TR-14035,1.0,False
+83,Myeloid cells,donor_2,plate_4,Belinostat,0.1,True
+84,NK cells,donor_2,plate_4,AT 7867,1.0,False
+85,NK cells,donor_1,plate_5,YK 4-279,1.0,False
+86,NK cells,donor_0,plate_0,Colchicine,1.0,False
+87,T cells CD4+,donor_0,plate_2,RN-486,1.0,False
+88,T cells CD4+,donor_1,plate_3,BAY 61-3606,1.0,False
+89,T cells CD4+,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+90,T cells CD4+,donor_2,plate_1,Belinostat,0.1,True
+91,T regulatory cells,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+92,B cells,donor_0,plate_2,Belinostat,0.1,True
+93,NK cells,donor_2,plate_4,OSI-930,1.0,False
+94,NK cells,donor_2,plate_1,Linagliptin,1.0,False
+95,T cells CD4+,donor_2,plate_4,Tacalcitol,1.0,False
+96,T regulatory cells,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+97,NK cells,donor_1,plate_3,BAY 87-2243,1.0,False
+98,NK cells,donor_2,plate_4,AZ628,1.0,False
+99,T cells CD4+,donor_0,plate_0,Oxybenzone,1.0,False
+100,T cells CD4+,donor_0,plate_2,Scriptaid,1.0,False
+101,NK cells,donor_2,plate_4,GSK256066,1.0,False
+102,T cells CD4+,donor_2,plate_4,Lamivudine,1.0,False
+103,T cells CD4+,donor_0,plate_0,Mometasone Furoate,1.0,False
+104,T cells CD4+,donor_1,plate_5,Vanoxerine,1.0,False
+105,B cells,donor_1,plate_5,Dabrafenib,1.0,True
+106,NK cells,donor_2,plate_4,Dabrafenib,1.0,True
+107,T cells CD4+,donor_2,plate_4,LDN 193189,1.0,False
+108,T cells CD4+,donor_2,plate_1,Vardenafil,1.0,False
+109,NK cells,donor_1,plate_3,TL_HRAS26,1.0,False
+110,NK cells,donor_2,plate_4,MGCD-265,1.0,False
+111,T cells CD4+,donor_0,plate_0,GSK256066,1.0,False
+112,T cells CD4+,donor_1,plate_3,Dactolisib,1.0,False
+113,T cells CD4+,donor_0,plate_0,PRT-062607,1.0,False
+114,NK cells,donor_2,plate_1,Trametinib,1.0,False
+115,T cells CD4+,donor_1,plate_3,Navitoclax,1.0,False
+116,NK cells,donor_0,plate_0,AZD-8330,1.0,False
+117,T cells CD4+,donor_0,plate_2,Desloratadine,1.0,False
+118,T regulatory cells,donor_1,plate_3,IN1451,1.0,False
+119,NK cells,donor_1,plate_3,Ganetespib (STA-9090),1.0,False
+120,NK cells,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+121,T cells CD4+,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+122,T cells CD4+,donor_2,plate_4,Dabrafenib,1.0,True
+123,NK cells,donor_1,plate_5,RG7090,1.0,False
+124,T cells CD4+,donor_1,plate_3,BAY 87-2243,1.0,False
+125,T regulatory cells,donor_2,plate_1,AVL-292,1.0,False
+126,NK cells,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+127,NK cells,donor_1,plate_3,IKK Inhibitor VII,1.0,False
+128,T cells CD4+,donor_0,plate_0,HYDROXYUREA,1.0,False
+129,T cells CD4+,donor_1,plate_3,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+130,NK cells,donor_1,plate_3,Ruxolitinib,1.0,False
+131,T cells CD4+,donor_2,plate_1,Amiodarone,1.0,False
+132,T cells CD4+,donor_0,plate_0,Dabrafenib,1.0,True
+133,T cells CD4+,donor_1,plate_5,Nefazodone,1.0,False
+134,T regulatory cells,donor_0,plate_0,HMN-214,1.0,False
+135,NK cells,donor_1,plate_5,ABT737,1.0,False
+136,B cells,donor_2,plate_4,CHIR-99021,1.0,False
+137,T cells CD4+,donor_0,plate_0,CC-401,1.0,False
+138,T cells CD4+,donor_1,plate_3,Scriptaid,1.0,False
+139,B cells,donor_2,plate_1,Belinostat,0.1,True
+140,T cells CD4+,donor_2,plate_1,Atorvastatin,1.0,False
+141,T cells CD4+,donor_2,plate_4,Bosutinib,1.0,False
+142,T cells CD4+,donor_1,plate_5,GO-6976,1.0,False
+143,T cells CD4+,donor_0,plate_0,MLN 2238,1.0,False
+144,T cells CD4+,donor_0,plate_0,YK 4-279,1.0,False
+145,NK cells,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+146,B cells,donor_0,plate_2,Dabrafenib,1.0,True
+147,NK cells,donor_0,plate_2,Trametinib,1.0,False
+148,T cells CD4+,donor_1,plate_5,GLPG0634,1.0,False
+149,T regulatory cells,donor_2,plate_1,Navitoclax,1.0,False
+150,T cells CD4+,donor_0,plate_2,Ruxolitinib,1.0,False
+151,T regulatory cells,donor_0,plate_2,Linagliptin,1.0,False
+152,NK cells,donor_2,plate_1,Scriptaid,1.0,False
+153,T cells CD4+,donor_1,plate_5,Dabrafenib,1.0,True
+154,NK cells,donor_2,plate_1,PF-04691502,1.0,False
+155,T cells CD4+,donor_0,plate_2,Alogliptin,1.0,False
+156,NK cells,donor_1,plate_5,Mubritinib (TAK 165),1.0,False
+157,T cells CD4+,donor_2,plate_1,TL_HRAS26,1.0,False
+158,B cells,donor_1,plate_5,Belinostat,0.1,True
+159,NK cells,donor_1,plate_5,Riociguat,1.0,False
+160,T cells CD4+,donor_0,plate_0,GLPG0634,1.0,False
+161,T cells CD4+,donor_2,plate_4,Resminostat,1.0,False
+162,NK cells,donor_2,plate_4,Doxorubicin,1.0,False
+163,NK cells,donor_0,plate_2,Sunitinib,1.0,False
+164,NK cells,donor_0,plate_2,Canertinib,1.0,False
+165,T cells CD4+,donor_1,plate_5,BI-D1870,1.0,False
+166,T cells CD4+,donor_0,plate_2,Pomalidomide,1.0,False
+167,T cells CD4+,donor_0,plate_2,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+168,T cells CD4+,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+169,T cells CD8+,donor_2,plate_1,BAY 87-2243,1.0,False
+170,T cells CD4+,donor_1,plate_3,Sgc-cbp30,1.0,False
+171,NK cells,donor_1,plate_3,Dabrafenib,1.0,True
+172,NK cells,donor_2,plate_4,CEP-37440,1.0,False
+173,T cells CD4+,donor_2,plate_1,K-02288,1.0,False
+174,T cells CD8+,donor_1,plate_5,STK219801,1.0,False
+175,NK cells,donor_2,plate_1,Dabrafenib,1.0,True
+176,T cells CD4+,donor_2,plate_1,IKK Inhibitor VII,1.0,False
+177,B cells,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+178,T cells CD4+,donor_2,plate_1,Topotecan,1.0,False
+179,NK cells,donor_2,plate_4,R428,1.0,False
+180,T cells CD4+,donor_0,plate_2,AMD-070 (hydrochloride),1.0,False
+181,T cells CD4+,donor_1,plate_5,HMN-214,1.0,False
+182,T cells CD8+,donor_2,plate_4,RG7112,1.0,False
+183,NK cells,donor_2,plate_1,Dovitinib,1.0,False
+184,T cells CD4+,donor_2,plate_1,Lapatinib,1.0,False
+185,T cells CD4+,donor_0,plate_2,Clomipramine,1.0,False
+186,T cells CD4+,donor_1,plate_3,TL_HRAS26,1.0,False
+187,NK cells,donor_2,plate_1,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+188,T cells CD4+,donor_0,plate_0,BI-D1870,1.0,False
+189,Myeloid cells,donor_0,plate_2,Dabrafenib,1.0,True
+190,B cells,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+191,T regulatory cells,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+192,NK cells,donor_0,plate_0,Ricolinostat,1.0,False
+193,T cells CD4+,donor_2,plate_4,HYDROXYUREA,1.0,False
+194,Myeloid cells,donor_2,plate_4,Dabrafenib,1.0,True
+195,NK cells,donor_0,plate_0,CC-401,1.0,False
+196,NK cells,donor_2,plate_1,Palbociclib,1.0,False
+197,T cells CD4+,donor_0,plate_0,SCH-58261,1.0,False
+198,NK cells,donor_1,plate_5,Midostaurin,1.0,False
+199,T cells CD4+,donor_0,plate_2,AVL-292,1.0,False
+200,NK cells,donor_2,plate_4,Belinostat,0.1,True
+201,T regulatory cells,donor_2,plate_4,RG7090,1.0,False
+202,T cells CD4+,donor_0,plate_0,Selumetinib,1.0,False
+203,T cells CD8+,donor_1,plate_5,MLN 2238,1.0,False
+204,T cells CD4+,donor_1,plate_3,Protriptyline,1.0,False
+205,T cells CD4+,donor_1,plate_5,TGX 221,1.0,False
+206,B cells,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+207,T cells CD4+,donor_1,plate_5,GSK-1070916,1.0,False
+208,T cells CD4+,donor_1,plate_3,RVX-208,1.0,False
+209,T cells CD4+,donor_0,plate_0,Buspirone,1.0,False
+210,T cells CD8+,donor_2,plate_1,Sunitinib,1.0,False
+211,T cells CD8+,donor_1,plate_5,GSK256066,1.0,False
+212,T cells CD4+,donor_2,plate_1,Sunitinib,1.0,False
+213,T cells CD4+,donor_2,plate_4,TPCA-1,1.0,False
+214,T cells CD4+,donor_1,plate_3,Raloxifene,1.0,False
+215,T cells CD4+,donor_2,plate_1,Quizartinib,1.0,False
+216,T cells CD8+,donor_0,plate_2,Sunitinib,1.0,False
+217,T cells CD4+,donor_0,plate_0,Clemastine,1.0,False
+218,T cells CD4+,donor_2,plate_4,Ricolinostat,1.0,False
+219,B cells,donor_2,plate_4,Dabrafenib,1.0,True
+220,Myeloid cells,donor_0,plate_2,Belinostat,0.1,True
+221,B cells,donor_0,plate_0,Belinostat,0.1,True
+222,T cells CD4+,donor_1,plate_5,Bosutinib,1.0,False
+223,T cells CD4+,donor_1,plate_5,Mometasone Furoate,1.0,False
+224,T cells CD4+,donor_1,plate_5,AZD3514,1.0,False
+225,NK cells,donor_2,plate_4,Pitavastatin Calcium,1.0,False
+226,T cells CD4+,donor_1,plate_3,Tamatinib,1.0,False
+227,Myeloid cells,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+228,T cells CD8+,donor_1,plate_5,Clemastine,1.0,False
+229,T cells CD4+,donor_0,plate_2,Atorvastatin,1.0,False
+230,T cells CD4+,donor_0,plate_2,Methotrexate,1.0,False
+231,T cells CD8+,donor_2,plate_1,BMS-777607,1.0,False
+232,NK cells,donor_2,plate_1,Methotrexate,1.0,False
+233,T cells CD4+,donor_2,plate_4,GLPG0634,1.0,False
+234,Myeloid cells,donor_1,plate_5,LDN 193189,1.0,False
+235,T cells CD4+,donor_2,plate_4,AZD4547,1.0,False
+236,NK cells,donor_1,plate_5,AZD4547,1.0,False
+237,T cells CD4+,donor_2,plate_1,BMS-536924,1.0,False
+238,T cells CD4+,donor_2,plate_4,CEP-18770 (Delanzomib),1.0,False
+239,T regulatory cells,donor_0,plate_0,AZD-8330,1.0,False
+240,T cells CD8+,donor_0,plate_0,OSI-930,1.0,False
+241,T cells CD4+,donor_2,plate_4,PF-03814735,1.0,False
+242,T cells CD4+,donor_1,plate_5,TR-14035,1.0,False
+243,T regulatory cells,donor_0,plate_2,Foretinib,1.0,False
+244,NK cells,donor_2,plate_4,PRT-062607,1.0,False
+245,T cells CD8+,donor_1,plate_5,Prednisolone,1.0,False
+246,NK cells,donor_2,plate_1,Tamatinib,1.0,False
+247,NK cells,donor_0,plate_0,SLx-2119,1.0,False
+248,T regulatory cells,donor_1,plate_3,Oprozomib (ONX 0912),1.0,False
+249,T cells CD4+,donor_2,plate_1,Ruxolitinib,1.0,False
+250,T cells CD4+,donor_1,plate_3,Foretinib,1.0,False
+251,T cells CD4+,donor_0,plate_2,Dasatinib,1.0,False
+252,NK cells,donor_1,plate_5,Saracatinib,1.0,False
+253,T cells CD4+,donor_0,plate_0,TPCA-1,1.0,False
+254,B cells,donor_1,plate_3,Dabrafenib,1.0,True
+255,NK cells,donor_1,plate_3,PD-0325901,1.0,False
+256,B cells,donor_1,plate_3,Linagliptin,1.0,False
+257,T cells CD4+,donor_0,plate_0,CEP-18770 (Delanzomib),1.0,False
+258,T cells CD4+,donor_1,plate_3,Chlorpheniramine,1.0,False
+259,NK cells,donor_2,plate_1,Foretinib,1.0,False
+260,T cells CD4+,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+261,T cells CD4+,donor_0,plate_2,TL_HRAS26,1.0,False
+262,NK cells,donor_0,plate_2,Phenylbutazone,1.0,False
+263,NK cells,donor_2,plate_1,BAY 87-2243,1.0,False
+264,T cells CD4+,donor_1,plate_5,Defactinib,1.0,False
+265,NK cells,donor_0,plate_0,Doxorubicin,1.0,False
+266,NK cells,donor_0,plate_0,BX 912,1.0,False
+267,T cells CD4+,donor_2,plate_1,BMS-777607,1.0,False
+268,T cells CD4+,donor_2,plate_1,Oprozomib (ONX 0912),1.0,False
+269,NK cells,donor_0,plate_2,Dabrafenib,1.0,True
+270,NK cells,donor_2,plate_4,HMN-214,1.0,False
+271,NK cells,donor_2,plate_1,MK-5108,1.0,False
+272,NK cells,donor_1,plate_5,BI-D1870,1.0,False
+273,T cells CD8+,donor_1,plate_5,Dabrafenib,1.0,True
+274,T cells CD4+,donor_0,plate_2,Lapatinib,1.0,False
+275,NK cells,donor_0,plate_2,Ganetespib (STA-9090),1.0,False
+276,T cells CD4+,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+277,Myeloid cells,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+278,NK cells,donor_2,plate_4,Tipifarnib,1.0,False
+279,T cells CD4+,donor_2,plate_4,CHIR-99021,1.0,False
+280,T cells CD4+,donor_2,plate_4,Clemastine,1.0,False
+281,T cells CD4+,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+282,T cells CD4+,donor_0,plate_2,Navitoclax,1.0,False
+283,T cells CD4+,donor_1,plate_5,Lamivudine,1.0,False
+284,T cells CD4+,donor_0,plate_2,Ixabepilone,1.0,False
+285,T regulatory cells,donor_0,plate_0,Riociguat,1.0,False
+286,NK cells,donor_1,plate_5,Ricolinostat,1.0,False
+287,T cells CD4+,donor_2,plate_4,R428,1.0,False
+288,T cells CD4+,donor_2,plate_4,CGM-097,1.0,False
+289,T cells CD4+,donor_0,plate_2,Phenylbutazone,1.0,False
+290,NK cells,donor_2,plate_1,Lapatinib,1.0,False
+291,T cells CD4+,donor_2,plate_1,Protriptyline,1.0,False
+292,T cells CD4+,donor_0,plate_0,Tosedostat,1.0,False
+293,NK cells,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+294,T cells CD4+,donor_1,plate_5,Clemastine,1.0,False
+295,NK cells,donor_2,plate_4,AZD3514,1.0,False
+296,NK cells,donor_0,plate_0,Colforsin,1.0,False
+297,Myeloid cells,donor_1,plate_5,Belinostat,0.1,True
+298,T regulatory cells,donor_0,plate_0,CEP-37440,1.0,False
+299,T cells CD8+,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+300,T cells CD4+,donor_0,plate_0,Tacalcitol,1.0,False
+301,T cells CD8+,donor_0,plate_0,SB525334,1.0,False
+302,T cells CD4+,donor_2,plate_1,LY2090314,1.0,False
+303,T cells CD4+,donor_0,plate_0,Resminostat,1.0,False
+304,T cells CD4+,donor_0,plate_2,Sunitinib,1.0,False
+305,B cells,donor_1,plate_3,Belinostat,0.1,True
+306,NK cells,donor_2,plate_4,Resminostat,1.0,False
+307,T regulatory cells,donor_2,plate_4,MGCD-265,1.0,False
+308,T cells CD4+,donor_2,plate_4,Oxybenzone,1.0,False
+309,T cells CD4+,donor_2,plate_1,Navitoclax,1.0,False
+310,T cells CD4+,donor_0,plate_2,Ketoconazole,1.0,False
+311,NK cells,donor_0,plate_0,Defactinib,1.0,False
+312,NK cells,donor_1,plate_5,Bosutinib,1.0,False
+313,NK cells,donor_1,plate_3,Methotrexate,1.0,False
+314,T cells CD4+,donor_1,plate_5,Oxybenzone,1.0,False
+315,T cells CD4+,donor_1,plate_5,Clotrimazole,1.0,False
+316,T cells CD4+,donor_0,plate_0,AZD3514,1.0,False
+317,T cells CD4+,donor_2,plate_4,SCH-58261,1.0,False
+318,NK cells,donor_0,plate_2,Penfluridol,1.0,False
+319,NK cells,donor_1,plate_5,Dabrafenib,1.0,True
+320,NK cells,donor_0,plate_0,Nilotinib,1.0,False
+321,T cells CD4+,donor_1,plate_5,MGCD-265,1.0,False
+322,T cells CD4+,donor_1,plate_5,PF-03814735,1.0,False
+323,Myeloid cells,donor_2,plate_1,Belinostat,0.1,True
+324,Myeloid cells,donor_0,plate_2,Linagliptin,1.0,False
+325,B cells,donor_0,plate_0,LDN 193189,1.0,False
+326,NK cells,donor_0,plate_2,Idelalisib,1.0,False
+327,NK cells,donor_2,plate_1,Tivozanib,1.0,False
+328,T regulatory cells,donor_1,plate_3,Dabrafenib,1.0,True
+329,T regulatory cells,donor_2,plate_1,TIE2 Kinase Inhibitor,1.0,False
+330,Myeloid cells,donor_0,plate_2,Foretinib,1.0,False
+331,NK cells,donor_1,plate_5,AZD3514,1.0,False
+332,T cells CD4+,donor_2,plate_4,RG7112,1.0,False
+333,T cells CD4+,donor_2,plate_1,Dabrafenib,1.0,True
+334,NK cells,donor_1,plate_3,I-BET151,1.0,False
+335,T cells CD4+,donor_2,plate_1,Phenylbutazone,1.0,False
+336,NK cells,donor_1,plate_5,SB525334,1.0,False
+337,NK cells,donor_2,plate_1,Quizartinib,1.0,False
+338,NK cells,donor_1,plate_5,SLx-2119,1.0,False
+339,NK cells,donor_2,plate_4,Oxybenzone,1.0,False
+340,T cells CD4+,donor_0,plate_2,Quizartinib,1.0,False
+341,T cells CD4+,donor_1,plate_5,OSI-930,1.0,False
+342,T cells CD4+,donor_1,plate_3,Vorinostat,1.0,False
+343,T cells CD8+,donor_0,plate_0,TPCA-1,1.0,False
+344,T cells CD4+,donor_2,plate_1,Ganetespib (STA-9090),1.0,False
+345,T cells CD4+,donor_2,plate_1,Alogliptin,1.0,False
+346,T cells CD4+,donor_2,plate_1,BAY 87-2243,1.0,False
+347,T cells CD4+,donor_0,plate_0,Riociguat,1.0,False
+348,T cells CD4+,donor_1,plate_5,Prednisolone,1.0,False
+349,T cells CD4+,donor_2,plate_1,Dactolisib,1.0,False
+350,B cells,donor_0,plate_2,Penfluridol,1.0,False
+351,T cells CD4+,donor_1,plate_5,SB525334,1.0,False
+352,NK cells,donor_0,plate_0,Pitavastatin Calcium,1.0,False
+353,NK cells,donor_2,plate_1,Protriptyline,1.0,False
+354,T cells CD4+,donor_2,plate_1,BAY 61-3606,1.0,False
+355,NK cells,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+356,T cells CD4+,donor_0,plate_2,BMS-536924,1.0,False
+357,T cells CD4+,donor_2,plate_4,GSK256066,1.0,False
+358,T regulatory cells,donor_1,plate_3,MK-5108,1.0,False
+359,T cells CD4+,donor_0,plate_0,Cabozantinib,1.0,False
+360,B cells,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+361,NK cells,donor_0,plate_0,Belinostat,0.1,True
+362,NK cells,donor_2,plate_1,Canertinib,1.0,False
+363,T cells CD4+,donor_2,plate_4,Defactinib,1.0,False
+364,T cells CD4+,donor_2,plate_1,Pomalidomide,1.0,False
+365,B cells,donor_0,plate_2,Palbociclib,1.0,False
+366,NK cells,donor_0,plate_2,BMS-265246,1.0,False
+367,T cells CD4+,donor_1,plate_5,SLx-2119,1.0,False
+368,T cells CD4+,donor_0,plate_2,PD-0325901,1.0,False
+369,B cells,donor_0,plate_0,Dabrafenib,1.0,True
+370,T cells CD4+,donor_2,plate_4,CC-401,1.0,False
+371,T cells CD4+,donor_1,plate_3,Amiodarone,1.0,False
+372,NK cells,donor_1,plate_5,Tipifarnib,1.0,False
+373,T cells CD4+,donor_1,plate_3,Vardenafil,1.0,False
+374,NK cells,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+375,T regulatory cells,donor_2,plate_4,SB525334,1.0,False
+376,T cells CD4+,donor_0,plate_0,MGCD-265,1.0,False
+377,B cells,donor_2,plate_1,Dabrafenib,1.0,True
+378,NK cells,donor_2,plate_1,GW843682X,1.0,False
+379,T cells CD4+,donor_0,plate_2,Canertinib,1.0,False
+380,NK cells,donor_2,plate_1,PD-0325901,1.0,False
+381,T cells CD4+,donor_1,plate_3,Ixabepilone,1.0,False
+382,T cells CD4+,donor_2,plate_4,Tipifarnib,1.0,False
+383,T cells CD4+,donor_1,plate_5,Mubritinib (TAK 165),1.0,False
+384,T regulatory cells,donor_2,plate_4,Ricolinostat,1.0,False
+385,T cells CD8+,donor_2,plate_1,Dabrafenib,1.0,True
+386,T cells CD4+,donor_2,plate_1,I-BET151,1.0,False
+387,T cells CD4+,donor_2,plate_1,BMS-265246,1.0,False
+388,T cells CD4+,donor_1,plate_5,STK219801,1.0,False
+389,NK cells,donor_2,plate_1,Sunitinib,1.0,False
+390,NK cells,donor_1,plate_5,BX 912,1.0,False
+391,T cells CD4+,donor_2,plate_4,Buspirone,1.0,False
+392,T cells CD4+,donor_2,plate_4,ABT737,1.0,False
+393,T cells CD4+,donor_1,plate_5,Saracatinib,1.0,False
+394,T cells CD4+,donor_1,plate_5,PRT-062607,1.0,False
+395,T cells CD4+,donor_1,plate_3,Phenylbutazone,1.0,False
+396,NK cells,donor_0,plate_0,CHIR-99021,1.0,False
+397,NK cells,donor_1,plate_3,Tamatinib,1.0,False
+398,T cells CD4+,donor_0,plate_2,Penfluridol,1.0,False
+399,T regulatory cells,donor_1,plate_5,AZD-8330,1.0,False
+400,T cells CD4+,donor_1,plate_5,LDN 193189,1.0,False
+401,NK cells,donor_2,plate_4,YK 4-279,1.0,False
+402,T regulatory cells,donor_2,plate_4,LDN 193189,1.0,False
+403,T cells CD4+,donor_0,plate_2,LY2090314,1.0,False
+404,T cells CD4+,donor_1,plate_3,Canertinib,1.0,False
+405,T cells CD4+,donor_2,plate_4,Masitinib,1.0,False
+406,NK cells,donor_1,plate_3,Vardenafil,1.0,False
+407,NK cells,donor_2,plate_4,ABT737,1.0,False
+408,T regulatory cells,donor_2,plate_1,IN1451,1.0,False
+409,T cells CD4+,donor_2,plate_4,Mometasone Furoate,1.0,False
+410,NK cells,donor_0,plate_2,PF-04691502,1.0,False
+411,T cells CD4+,donor_2,plate_4,RG7090,1.0,False
+412,T cells CD4+,donor_1,plate_5,AZD4547,1.0,False
+413,B cells,donor_2,plate_1,Dimethyl Sulfoxide,14.1,True
+414,Myeloid cells,donor_1,plate_5,Dimethyl Sulfoxide,14.1,True
+415,T regulatory cells,donor_0,plate_2,Lapatinib,1.0,False
+416,NK cells,donor_2,plate_4,Ceritinib,1.0,False
+417,NK cells,donor_2,plate_4,Riociguat,1.0,False
+418,T cells CD4+,donor_2,plate_1,Chlorpheniramine,1.0,False
+419,T cells CD4+,donor_0,plate_2,Flutamide,1.0,False
+420,T cells CD4+,donor_0,plate_0,Saracatinib,1.0,False
+421,T cells CD4+,donor_2,plate_1,Canertinib,1.0,False
+422,T regulatory cells,donor_0,plate_0,CC-401,1.0,False
+423,NK cells,donor_0,plate_0,Tacalcitol,1.0,False
+424,T cells CD4+,donor_1,plate_3,RN-486,1.0,False
+425,NK cells,donor_1,plate_5,Prednisolone,1.0,False
+426,T cells CD4+,donor_1,plate_3,Clomipramine,1.0,False
+427,T cells CD8+,donor_2,plate_4,Azacitidine,1.0,False
+428,B cells,donor_2,plate_4,Belinostat,0.1,True
+429,NK cells,donor_2,plate_4,Saracatinib,1.0,False
+430,NK cells,donor_0,plate_0,Mubritinib (TAK 165),1.0,False
+431,T cells CD4+,donor_2,plate_4,YK 4-279,1.0,False
+432,T cells CD4+,donor_1,plate_5,Decitabine,1.0,False
+433,T cells CD8+,donor_1,plate_5,Cabozantinib,1.0,False
+434,T cells CD8+,donor_1,plate_5,AZD-8330,1.0,False
+435,T cells CD4+,donor_1,plate_3,Alogliptin,1.0,False
+436,NK cells,donor_1,plate_3,GW843682X,1.0,False
+437,T regulatory cells,donor_0,plate_2,Topotecan,1.0,False
+438,NK cells,donor_2,plate_4,Colchicine,1.0,False
+439,Myeloid cells,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+440,T cells CD8+,donor_1,plate_5,Ceritinib,1.0,False
+441,T cells CD4+,donor_0,plate_0,Masitinib,1.0,False
+442,T cells CD4+,donor_2,plate_4,BX 912,1.0,False
+443,T cells CD8+,donor_0,plate_0,GSK256066,1.0,False
+444,T cells CD4+,donor_2,plate_1,Flutamide,1.0,False
+445,T cells CD8+,donor_1,plate_3,TIE2 Kinase Inhibitor,1.0,False
+446,NK cells,donor_1,plate_3,Topotecan,1.0,False
+447,T cells CD4+,donor_2,plate_4,HMN-214,1.0,False
+448,B cells,donor_2,plate_1,Idelalisib,1.0,False
+449,T cells CD4+,donor_0,plate_2,AT13387,1.0,False
+450,T cells CD4+,donor_1,plate_3,PF-04691502,1.0,False
+451,T cells CD8+,donor_0,plate_0,ABT737,1.0,False
+452,NK cells,donor_0,plate_2,Belinostat,0.1,True
+453,NK cells,donor_2,plate_1,TIE2 Kinase Inhibitor,1.0,False
+454,NK cells,donor_1,plate_3,Chlorpheniramine,1.0,False
+455,T cells CD8+,donor_2,plate_1,Linagliptin,1.0,False
+456,B cells,donor_2,plate_1,Penfluridol,1.0,False
+457,T cells CD4+,donor_0,plate_0,CEP-37440,1.0,False
+458,T cells CD4+,donor_0,plate_0,Tivantinib,1.0,False
+459,NK cells,donor_2,plate_4,RG7112,1.0,False
+460,T cells CD8+,donor_1,plate_5,MGCD-265,1.0,False
+461,T cells CD8+,donor_0,plate_0,Tosedostat,1.0,False
+462,NK cells,donor_1,plate_5,Clotrimazole,1.0,False
+463,NK cells,donor_0,plate_2,IMD-0354,1.0,False
+464,T regulatory cells,donor_0,plate_2,IN1451,1.0,False
+465,NK cells,donor_2,plate_4,Mometasone Furoate,1.0,False
+466,T cells CD4+,donor_0,plate_0,CHIR-99021,1.0,False
+467,T cells CD4+,donor_1,plate_3,Flutamide,1.0,False
+468,Myeloid cells,donor_2,plate_1,Dabrafenib,1.0,True
+469,NK cells,donor_0,plate_0,Bosutinib,1.0,False
+470,T cells CD4+,donor_1,plate_5,CEP-37440,1.0,False
+471,T cells CD4+,donor_2,plate_1,Linagliptin,1.0,False
+472,NK cells,donor_1,plate_5,Cabozantinib,1.0,False
+473,NK cells,donor_1,plate_5,GSK256066,1.0,False
+474,NK cells,donor_0,plate_2,RVX-208,1.0,False
+475,T cells CD4+,donor_0,plate_0,Imatinib,1.0,False
+476,T cells CD8+,donor_2,plate_4,GSK256066,1.0,False
+477,NK cells,donor_1,plate_3,Disulfiram,1.0,False
+478,T cells CD8+,donor_2,plate_4,HMN-214,1.0,False
+479,T cells CD8+,donor_2,plate_4,SLx-2119,1.0,False
+480,T cells CD4+,donor_2,plate_1,GW843682X,1.0,False
+481,Myeloid cells,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+482,T cells CD4+,donor_0,plate_2,IKK Inhibitor VII,1.0,False
+483,T cells CD4+,donor_1,plate_5,CHIR-99021,1.0,False
+484,T cells CD4+,donor_2,plate_4,Tivantinib,1.0,False
+485,T cells CD4+,donor_1,plate_3,Quizartinib,1.0,False
+486,T regulatory cells,donor_0,plate_0,OSI-930,1.0,False
+487,T cells CD4+,donor_0,plate_2,GW843682X,1.0,False
+488,T cells CD4+,donor_1,plate_3,Desloratadine,1.0,False
+489,T cells CD4+,donor_0,plate_0,TGX 221,1.0,False
+490,T cells CD4+,donor_0,plate_2,BMS-777607,1.0,False
+491,T cells CD4+,donor_1,plate_3,AVL-292,1.0,False
+492,Myeloid cells,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+493,NK cells,donor_0,plate_0,TGX 221,1.0,False
+494,B cells,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+495,T cells CD4+,donor_0,plate_0,AT 7867,1.0,False
+496,T cells CD4+,donor_2,plate_1,RVX-208,1.0,False
+497,T cells CD4+,donor_2,plate_1,Tivozanib,1.0,False
+498,T cells CD4+,donor_1,plate_3,Disulfiram,1.0,False
+499,NK cells,donor_0,plate_2,Ketoconazole,1.0,False
+500,T cells CD4+,donor_2,plate_1,AVL-292,1.0,False
+501,T cells CD8+,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+502,T cells CD4+,donor_1,plate_5,Tivantinib,1.0,False
+503,T cells CD4+,donor_0,plate_2,BAY 87-2243,1.0,False
+504,T cells CD4+,donor_0,plate_2,IMD-0354,1.0,False
+505,T cells CD8+,donor_2,plate_4,Dabrafenib,1.0,True
+506,T cells CD4+,donor_1,plate_5,Tacalcitol,1.0,False
+507,NK cells,donor_1,plate_3,Lapatinib,1.0,False
+508,T cells CD4+,donor_0,plate_0,PF-03814735,1.0,False
+509,T cells CD4+,donor_1,plate_3,BMS-536924,1.0,False
+510,T cells CD4+,donor_2,plate_1,Idelalisib,1.0,False
+511,B cells,donor_1,plate_5,LDN 193189,1.0,False
+512,NK cells,donor_1,plate_3,MK-5108,1.0,False
+513,T cells CD4+,donor_1,plate_5,Resminostat,1.0,False
+514,NK cells,donor_1,plate_5,AT 7867,1.0,False
+515,T cells CD8+,donor_2,plate_4,Lamivudine,1.0,False
+516,T cells CD8+,donor_2,plate_1,Foretinib,1.0,False
+517,T cells CD4+,donor_1,plate_5,Buspirone,1.0,False
+518,T cells CD8+,donor_1,plate_5,Lamivudine,1.0,False
+519,T cells CD4+,donor_0,plate_2,Dactolisib,1.0,False
+520,NK cells,donor_1,plate_3,AT13387,1.0,False
+521,NK cells,donor_2,plate_1,Disulfiram,1.0,False
+522,NK cells,donor_1,plate_5,Decitabine,1.0,False
+523,NK cells,donor_0,plate_0,RG7090,1.0,False
+524,Myeloid cells,donor_1,plate_3,Dabrafenib,1.0,True
+525,T cells CD4+,donor_0,plate_2,Vorinostat,1.0,False
+526,NK cells,donor_1,plate_3,IMD-0354,1.0,False
+527,T cells CD4+,donor_0,plate_2,Isoniazid,1.0,False
+528,NK cells,donor_0,plate_0,AZD4547,1.0,False
+529,NK cells,donor_2,plate_4,Midostaurin,1.0,False
+530,Myeloid cells,donor_1,plate_3,Belinostat,0.1,True
+531,T cells CD8+,donor_0,plate_0,Nilotinib,1.0,False
+532,NK cells,donor_1,plate_3,FK 866,1.0,False
+533,T cells CD4+,donor_2,plate_4,Cabozantinib,1.0,False
+534,T regulatory cells,donor_0,plate_2,Dabrafenib,1.0,True
+535,T cells CD8+,donor_0,plate_0,Decitabine,1.0,False
+536,NK cells,donor_2,plate_4,CGM-097,1.0,False
+537,T cells CD8+,donor_1,plate_3,Protriptyline,1.0,False
+538,T cells CD4+,donor_1,plate_5,GSK256066,1.0,False
+539,T cells CD4+,donor_0,plate_2,RVX-208,1.0,False
+540,T cells CD8+,donor_1,plate_5,Tosedostat,1.0,False
+541,T regulatory cells,donor_2,plate_4,Mometasone Furoate,1.0,False
+542,T cells CD8+,donor_1,plate_3,Dabrafenib,1.0,True
+543,T cells CD4+,donor_0,plate_0,Doxorubicin,1.0,False
+544,T cells CD4+,donor_0,plate_0,RG7090,1.0,False
+545,NK cells,donor_2,plate_4,GO-6976,1.0,False
+546,NK cells,donor_2,plate_4,STK219801,1.0,False
+547,NK cells,donor_2,plate_4,Selumetinib,1.0,False
+548,NK cells,donor_2,plate_1,Proscillaridin A;Proscillaridin-A,1.0,False
+549,NK cells,donor_0,plate_2,Alogliptin,1.0,False
+550,T cells CD4+,donor_2,plate_1,Ixabepilone,1.0,False
+551,Myeloid cells,donor_0,plate_2,Penfluridol,1.0,False
+552,NK cells,donor_0,plate_2,Desloratadine,1.0,False
+553,B cells,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+554,T cells CD4+,donor_2,plate_1,Ketoconazole,1.0,False
+555,NK cells,donor_2,plate_4,Tosedostat,1.0,False
+556,T regulatory cells,donor_0,plate_2,Dovitinib,1.0,False
+557,NK cells,donor_2,plate_1,IKK Inhibitor VII,1.0,False
+558,NK cells,donor_2,plate_4,Vanoxerine,1.0,False
+559,T cells CD4+,donor_0,plate_2,Raloxifene,1.0,False
+560,T cells CD4+,donor_2,plate_4,AT 7867,1.0,False
+561,NK cells,donor_1,plate_3,AMD-070 (hydrochloride),1.0,False
+562,NK cells,donor_1,plate_3,Alogliptin,1.0,False
+563,NK cells,donor_2,plate_1,Belinostat,0.1,True
+564,T cells CD4+,donor_2,plate_4,BI-D1870,1.0,False
+565,T regulatory cells,donor_1,plate_3,Chlorpheniramine,1.0,False
+566,Myeloid cells,donor_2,plate_1,Palbociclib,1.0,False
+567,T cells CD4+,donor_2,plate_1,Trametinib,1.0,False
+568,NK cells,donor_2,plate_4,AZD-8330,1.0,False
+569,T regulatory cells,donor_2,plate_4,Mubritinib (TAK 165),1.0,False
+570,T regulatory cells,donor_0,plate_0,TGX 221,1.0,False
+571,T cells CD4+,donor_2,plate_1,Dasatinib,1.0,False
+572,NK cells,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+573,T cells CD4+,donor_1,plate_5,ABT-199 (GDC-0199),1.0,False
+574,T regulatory cells,donor_2,plate_4,Dimethyl Sulfoxide,14.1,True
+575,NK cells,donor_2,plate_1,Ixabepilone,1.0,False
+576,T regulatory cells,donor_2,plate_1,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+577,NK cells,donor_1,plate_3,Belinostat,0.1,True
+578,NK cells,donor_2,plate_4,ABT-199 (GDC-0199),1.0,False
+579,NK cells,donor_1,plate_5,AZ628,1.0,False
+580,NK cells,donor_0,plate_2,Ruxolitinib,1.0,False
+581,T cells CD4+,donor_1,plate_5,Nilotinib,1.0,False
+582,T cells CD4+,donor_1,plate_3,Dovitinib,1.0,False
+583,T cells CD4+,donor_2,plate_4,Midostaurin,1.0,False
+584,NK cells,donor_2,plate_4,CC-401,1.0,False
+585,NK cells,donor_1,plate_3,Dovitinib,1.0,False
+586,NK cells,donor_1,plate_5,Vandetanib,1.0,False
+587,T cells CD4+,donor_1,plate_3,Palbociclib,1.0,False
+588,T cells CD4+,donor_0,plate_2,Perhexiline,1.0,False
+589,T cells CD4+,donor_1,plate_5,Tosedostat,1.0,False
+590,T cells CD4+,donor_1,plate_5,Crizotinib,1.0,False
+591,NK cells,donor_0,plate_2,AVL-292,1.0,False
+592,NK cells,donor_1,plate_3,BMS-777607,1.0,False
+593,T cells CD4+,donor_1,plate_5,Doxorubicin,1.0,False
+594,NK cells,donor_0,plate_0,GSK256066,1.0,False
+595,T cells CD8+,donor_2,plate_1,AVL-292,1.0,False
+596,NK cells,donor_1,plate_3,Navitoclax,1.0,False
+597,T cells CD4+,donor_2,plate_4,SB525334,1.0,False
+598,T cells CD4+,donor_0,plate_2,Ganetespib (STA-9090),1.0,False
+599,NK cells,donor_0,plate_2,Clomipramine,1.0,False
+600,T cells CD4+,donor_2,plate_4,Clotrimazole,1.0,False
+601,NK cells,donor_2,plate_1,Atorvastatin,1.0,False
+602,T cells CD4+,donor_0,plate_0,ABT737,1.0,False
+603,T cells CD4+,donor_1,plate_3,I-BET151,1.0,False
+604,NK cells,donor_2,plate_1,AT13387,1.0,False
+605,T cells CD8+,donor_0,plate_2,MK-5108,1.0,False
+606,T cells CD4+,donor_0,plate_0,TR-14035,1.0,False
+607,NK cells,donor_1,plate_5,Clemastine,1.0,False
+608,T cells CD8+,donor_0,plate_2,Dabrafenib,1.0,True
+609,NK cells,donor_0,plate_0,Riociguat,1.0,False
+610,Myeloid cells,donor_1,plate_5,Dabrafenib,1.0,True
+611,NK cells,donor_1,plate_5,Ceritinib,1.0,False
+612,NK cells,donor_1,plate_3,Sunitinib,1.0,False
+613,T cells CD4+,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+614,NK cells,donor_2,plate_4,Clotrimazole,1.0,False
+615,T cells CD8+,donor_2,plate_4,Midostaurin,1.0,False
+616,T cells CD4+,donor_1,plate_5,Riociguat,1.0,False
+617,T cells CD4+,donor_1,plate_3,GW843682X,1.0,False
+618,T cells CD4+,donor_2,plate_1,BMS-387032,1.0,False
+619,T cells CD8+,donor_2,plate_1,Vardenafil,1.0,False
+620,T cells CD4+,donor_1,plate_5,Azacitidine,1.0,False
+621,T cells CD8+,donor_1,plate_5,Riociguat,1.0,False
+622,T cells CD8+,donor_2,plate_1,Ixabepilone,1.0,False
+623,Myeloid cells,donor_0,plate_0,Belinostat,0.1,True
+624,B cells,donor_1,plate_3,Idelalisib,1.0,False
+625,T cells CD4+,donor_0,plate_2,BAY 61-3606,1.0,False
+626,T cells CD4+,donor_0,plate_2,Amiodarone,1.0,False
+627,NK cells,donor_0,plate_2,GW843682X,1.0,False
+628,NK cells,donor_1,plate_5,CGM-097,1.0,False
+629,T cells CD4+,donor_2,plate_4,Nefazodone,1.0,False
+630,T cells CD4+,donor_0,plate_0,Tipifarnib,1.0,False
+631,T cells CD4+,donor_0,plate_2,Proscillaridin A;Proscillaridin-A,1.0,False
+632,T cells CD4+,donor_0,plate_0,Nefazodone,1.0,False
+633,T cells CD4+,donor_0,plate_0,OSI-930,1.0,False
+634,NK cells,donor_2,plate_4,Decitabine,1.0,False
+635,NK cells,donor_0,plate_2,Dovitinib,1.0,False
+636,NK cells,donor_2,plate_1,BMS-536924,1.0,False
+637,T cells CD4+,donor_0,plate_0,Prednisolone,1.0,False
+638,T cells CD4+,donor_1,plate_5,AZ628,1.0,False
+639,T cells CD4+,donor_2,plate_4,Crizotinib,1.0,False
+640,T regulatory cells,donor_1,plate_5,SCH-58261,1.0,False
+641,NK cells,donor_2,plate_1,Topotecan,1.0,False
+642,NK cells,donor_2,plate_1,AMD-070 (hydrochloride),1.0,False
+643,NK cells,donor_1,plate_3,BMS-536924,1.0,False
+644,NK cells,donor_1,plate_5,AZD-8330,1.0,False
+645,T cells CD8+,donor_0,plate_2,Dovitinib,1.0,False
+646,NK cells,donor_0,plate_2,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+647,T regulatory cells,donor_2,plate_1,Clomipramine,1.0,False
+648,T cells CD4+,donor_1,plate_3,Atorvastatin,1.0,False
+649,NK cells,donor_1,plate_3,Canertinib,1.0,False
+650,T cells CD4+,donor_1,plate_3,Linagliptin,1.0,False
+651,T cells CD4+,donor_0,plate_2,Oprozomib (ONX 0912),1.0,False
+652,NK cells,donor_0,plate_2,Protriptyline,1.0,False
+653,NK cells,donor_0,plate_2,LY2090314,1.0,False
+654,T cells CD8+,donor_1,plate_5,Bosutinib,1.0,False
+655,T cells CD4+,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+656,T cells CD4+,donor_2,plate_4,PRT-062607,1.0,False
+657,T regulatory cells,donor_1,plate_3,Clomipramine,1.0,False
+658,NK cells,donor_2,plate_4,Crizotinib,1.0,False
+659,T cells CD4+,donor_1,plate_3,Idelalisib,1.0,False
+660,NK cells,donor_2,plate_4,CHIR-99021,1.0,False
+661,T cells CD4+,donor_1,plate_5,R428,1.0,False
+662,NK cells,donor_2,plate_4,Tacalcitol,1.0,False
+663,NK cells,donor_1,plate_3,Isoniazid,1.0,False
+664,T cells CD4+,donor_2,plate_4,Vanoxerine,1.0,False
+665,T cells CD4+,donor_2,plate_4,Tosedostat,1.0,False
+666,T cells CD4+,donor_0,plate_0,Vanoxerine,1.0,False
+667,T cells CD4+,donor_2,plate_4,SLx-2119,1.0,False
+668,T cells CD8+,donor_1,plate_5,Crizotinib,1.0,False
+669,T cells CD8+,donor_1,plate_5,AT 7867,1.0,False
+670,T cells CD4+,donor_1,plate_5,RG7090,1.0,False
+671,T cells CD4+,donor_0,plate_0,Colforsin,1.0,False
+672,NK cells,donor_2,plate_1,Dasatinib,1.0,False
+673,T cells CD4+,donor_0,plate_0,RG7112,1.0,False
+674,NK cells,donor_0,plate_2,BAY 87-2243,1.0,False
+675,NK cells,donor_2,plate_1,Phenylbutazone,1.0,False
+676,T cells CD4+,donor_2,plate_4,Prednisolone,1.0,False
+677,T cells CD4+,donor_0,plate_2,Sgc-cbp30,1.0,False
+678,NK cells,donor_0,plate_2,Proscillaridin A;Proscillaridin-A,1.0,False
+679,T cells CD4+,donor_0,plate_0,Crizotinib,1.0,False
+680,NK cells,donor_0,plate_0,PF-03814735,1.0,False
+681,T cells CD4+,donor_1,plate_5,SCH-58261,1.0,False
+682,NK cells,donor_0,plate_0,Nefazodone,1.0,False
+683,T regulatory cells,donor_2,plate_4,ABT737,1.0,False
+684,T cells CD4+,donor_2,plate_1,Clomipramine,1.0,False
+685,T cells CD8+,donor_1,plate_3,Scriptaid,1.0,False
+686,T cells CD4+,donor_2,plate_4,Azacitidine,1.0,False
+687,T cells CD4+,donor_2,plate_4,Riociguat,1.0,False
+688,T cells CD4+,donor_0,plate_0,SB525334,1.0,False
+689,NK cells,donor_1,plate_3,Palbociclib,1.0,False
+690,T cells CD4+,donor_0,plate_0,GO-6976,1.0,False
+691,NK cells,donor_1,plate_5,CHIR-99021,1.0,False
+692,T cells CD4+,donor_2,plate_1,TIE2 Kinase Inhibitor,1.0,False
+693,T cells CD4+,donor_2,plate_4,Selumetinib,1.0,False
+694,T cells CD4+,donor_1,plate_3,UNII-BXU45ZH6LI,1.0,False
+695,T regulatory cells,donor_1,plate_5,SLx-2119,1.0,False
+696,T cells CD4+,donor_0,plate_2,Idelalisib,1.0,False
+697,T cells CD4+,donor_2,plate_1,Disulfiram,1.0,False
+698,Myeloid cells,donor_0,plate_0,LDN 193189,1.0,False
+699,NK cells,donor_0,plate_0,Tipifarnib,1.0,False
+700,NK cells,donor_2,plate_4,Tivantinib,1.0,False
+701,NK cells,donor_0,plate_2,AMD-070 (hydrochloride),1.0,False
+702,T regulatory cells,donor_2,plate_4,Doxorubicin,1.0,False
+703,NK cells,donor_2,plate_1,Ruxolitinib,1.0,False
+704,T cells CD4+,donor_1,plate_5,Pitavastatin Calcium,1.0,False
+705,T regulatory cells,donor_2,plate_4,CEP-37440,1.0,False
+706,NK cells,donor_0,plate_2,Atorvastatin,1.0,False
+707,NK cells,donor_0,plate_2,FK 866,1.0,False
+708,T cells CD8+,donor_1,plate_3,IKK Inhibitor VII,1.0,False
+709,NK cells,donor_2,plate_4,TGX 221,1.0,False
+710,T cells CD4+,donor_2,plate_1,UNII-BXU45ZH6LI,1.0,False
+711,NK cells,donor_1,plate_5,Buspirone,1.0,False
+712,T cells CD8+,donor_1,plate_3,Vorinostat,1.0,False
+713,NK cells,donor_2,plate_1,Amiodarone,1.0,False
+714,T cells CD4+,donor_0,plate_2,MK-5108,1.0,False
+715,T cells CD8+,donor_2,plate_4,Bosutinib,1.0,False
+716,T cells CD4+,donor_1,plate_5,Ricolinostat,1.0,False
+717,T cells CD4+,donor_0,plate_0,AZD4547,1.0,False
+718,NK cells,donor_1,plate_5,Masitinib,1.0,False
+719,T cells CD4+,donor_0,plate_0,Ceritinib,1.0,False
+720,NK cells,donor_2,plate_4,Lamivudine,1.0,False
+721,T cells CD8+,donor_2,plate_4,Clemastine,1.0,False
+722,NK cells,donor_1,plate_3,RVX-208,1.0,False
+723,NK cells,donor_1,plate_5,SCH-58261,1.0,False
+724,T cells CD4+,donor_1,plate_3,TIE2 Kinase Inhibitor,1.0,False
+725,NK cells,donor_2,plate_1,Desloratadine,1.0,False
+726,T cells CD4+,donor_1,plate_3,Perhexiline,1.0,False
+727,T cells CD4+,donor_0,plate_0,Pitavastatin Calcium,1.0,False
+728,NK cells,donor_2,plate_1,Navitoclax,1.0,False
+729,T cells CD4+,donor_2,plate_4,Doxorubicin,1.0,False
+730,T cells CD8+,donor_1,plate_5,Clotrimazole,1.0,False
+731,T cells CD4+,donor_1,plate_3,IMD-0354,1.0,False
+732,B cells,donor_2,plate_1,Palbociclib,1.0,False
+733,NK cells,donor_0,plate_2,Chlorpheniramine,1.0,False
+734,B cells,donor_2,plate_4,LDN 193189,1.0,False
+735,T cells CD8+,donor_0,plate_0,AZD4547,1.0,False
+736,NK cells,donor_0,plate_0,Mometasone Furoate,1.0,False
+737,NK cells,donor_0,plate_2,Vardenafil,1.0,False
+738,T cells CD4+,donor_2,plate_4,Decitabine,1.0,False
+739,T cells CD4+,donor_1,plate_5,Colforsin,1.0,False
+740,NK cells,donor_1,plate_3,Trametinib,1.0,False
+741,T cells CD4+,donor_2,plate_4,TR-14035,1.0,False
+742,NK cells,donor_1,plate_3,Tivozanib,1.0,False
+743,T cells CD8+,donor_2,plate_4,Ceritinib,1.0,False
+744,T regulatory cells,donor_1,plate_3,Dasatinib,1.0,False
+745,NK cells,donor_2,plate_4,TPCA-1,1.0,False
+746,T cells CD4+,donor_2,plate_1,MK-5108,1.0,False
+747,NK cells,donor_2,plate_1,I-BET151,1.0,False
+748,NK cells,donor_2,plate_4,PF-03814735,1.0,False
+749,T cells CD8+,donor_0,plate_0,Dabrafenib,1.0,True
+750,T cells CD4+,donor_1,plate_3,Penfluridol,1.0,False
+751,T cells CD8+,donor_2,plate_4,Tivantinib,1.0,False
+752,T cells CD8+,donor_1,plate_5,Nefazodone,1.0,False
+753,T cells CD4+,donor_2,plate_4,ABT-199 (GDC-0199),1.0,False
+754,T regulatory cells,donor_0,plate_2,Disulfiram,1.0,False
+755,T cells CD4+,donor_2,plate_1,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+756,T cells CD4+,donor_0,plate_0,AZ628,1.0,False
+757,T cells CD8+,donor_2,plate_4,TPCA-1,1.0,False
+758,T cells CD8+,donor_2,plate_4,GO-6976,1.0,False
+759,T regulatory cells,donor_0,plate_0,Bosutinib,1.0,False
+760,T cells CD4+,donor_2,plate_4,Vandetanib,1.0,False
+761,T cells CD4+,donor_0,plate_0,ABT-199 (GDC-0199),1.0,False
+762,NK cells,donor_2,plate_1,LY2090314,1.0,False
+763,B cells,donor_0,plate_0,CHIR-99021,1.0,False
+764,T cells CD8+,donor_2,plate_1,Lapatinib,1.0,False
+765,T cells CD8+,donor_2,plate_1,Ganetespib (STA-9090),1.0,False
+766,NK cells,donor_1,plate_5,STK219801,1.0,False
+767,B cells,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+768,Myeloid cells,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+769,T cells CD4+,donor_0,plate_2,Linagliptin,1.0,False
+770,T regulatory cells,donor_1,plate_5,Azacitidine,1.0,False
+771,T cells CD4+,donor_1,plate_5,TPCA-1,1.0,False
+772,NK cells,donor_2,plate_1,K-02288,1.0,False
+773,T cells CD8+,donor_2,plate_4,Nefazodone,1.0,False
+774,NK cells,donor_0,plate_0,AT 7867,1.0,False
+775,B cells,donor_1,plate_5,Crizotinib,1.0,False
+776,T cells CD4+,donor_1,plate_5,Imatinib,1.0,False
+777,T regulatory cells,donor_1,plate_3,Dimethyl Sulfoxide,14.1,True
+778,T cells CD8+,donor_2,plate_1,Raloxifene,1.0,False
+779,T regulatory cells,donor_2,plate_1,Alogliptin,1.0,False
+780,T regulatory cells,donor_0,plate_0,Belinostat,0.1,True
+781,T cells CD4+,donor_0,plate_2,Chlorpheniramine,1.0,False
+782,T cells CD4+,donor_0,plate_0,BX 912,1.0,False
+783,T cells CD4+,donor_2,plate_4,AZD3514,1.0,False
+784,NK cells,donor_1,plate_5,HYDROXYUREA,1.0,False
+785,T cells CD4+,donor_2,plate_1,Raloxifene,1.0,False
+786,T regulatory cells,donor_2,plate_1,RVX-208,1.0,False
+787,T cells CD4+,donor_0,plate_2,Dovitinib,1.0,False
+788,T cells CD4+,donor_0,plate_2,Vardenafil,1.0,False
+789,Myeloid cells,donor_1,plate_5,Crizotinib,1.0,False
+790,T cells CD4+,donor_0,plate_2,Protriptyline,1.0,False
+791,T cells CD4+,donor_2,plate_4,AZ628,1.0,False
+792,NK cells,donor_2,plate_4,RG7090,1.0,False
+793,NK cells,donor_2,plate_1,Vardenafil,1.0,False
+794,T cells CD4+,donor_1,plate_3,Ganetespib (STA-9090),1.0,False
+795,NK cells,donor_0,plate_0,R428,1.0,False
+796,NK cells,donor_0,plate_0,Lamivudine,1.0,False
+797,T cells CD4+,donor_0,plate_2,K-02288,1.0,False
+798,NK cells,donor_1,plate_3,Atorvastatin,1.0,False
+799,T cells CD4+,donor_1,plate_5,AT 7867,1.0,False
+800,T cells CD8+,donor_2,plate_1,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+801,NK cells,donor_2,plate_4,Clemastine,1.0,False
+802,B cells,donor_2,plate_1,Dactolisib,1.0,False
+803,NK cells,donor_1,plate_3,Phenylbutazone,1.0,False
+804,T cells CD4+,donor_2,plate_1,Desloratadine,1.0,False
+805,T cells CD4+,donor_0,plate_0,SLx-2119,1.0,False
+806,NK cells,donor_2,plate_1,BAY 61-3606,1.0,False
+807,T regulatory cells,donor_2,plate_4,Lamivudine,1.0,False
+808,T cells CD4+,donor_0,plate_0,Azacitidine,1.0,False
+809,NK cells,donor_2,plate_4,SLx-2119,1.0,False
+810,T cells CD4+,donor_2,plate_4,Imatinib,1.0,False
+811,T regulatory cells,donor_2,plate_1,Sgc-cbp30,1.0,False
+812,NK cells,donor_0,plate_2,Amiodarone,1.0,False
+813,T cells CD4+,donor_1,plate_3,Tivozanib,1.0,False
+814,T regulatory cells,donor_0,plate_2,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+815,T cells CD8+,donor_0,plate_0,CEP-37440,1.0,False
+816,T cells CD4+,donor_2,plate_4,Pitavastatin Calcium,1.0,False
+817,NK cells,donor_2,plate_1,Pomalidomide,1.0,False
+818,T cells CD4+,donor_2,plate_1,RN-486,1.0,False
+819,T cells CD4+,donor_0,plate_0,R428,1.0,False
+820,NK cells,donor_1,plate_5,GLPG0634,1.0,False
+821,NK cells,donor_0,plate_2,BMS-777607,1.0,False
+822,T cells CD4+,donor_1,plate_3,Dasatinib,1.0,False
+823,NK cells,donor_0,plate_2,Disulfiram,1.0,False
+824,NK cells,donor_0,plate_0,Ceritinib,1.0,False
+825,NK cells,donor_1,plate_3,Flutamide,1.0,False
+826,NK cells,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+827,T cells CD8+,donor_1,plate_5,Oxybenzone,1.0,False
+828,T cells CD4+,donor_2,plate_1,Foretinib,1.0,False
+829,T cells CD8+,donor_2,plate_4,ABT737,1.0,False
+830,T regulatory cells,donor_2,plate_4,Cabozantinib,1.0,False
+831,NK cells,donor_0,plate_0,Selumetinib,1.0,False
+832,NK cells,donor_0,plate_2,MK-5108,1.0,False
+833,NK cells,donor_2,plate_1,Sgc-cbp30,1.0,False
+834,NK cells,donor_2,plate_1,BMS-777607,1.0,False
+835,T cells CD8+,donor_0,plate_0,Riociguat,1.0,False
+836,B cells,donor_0,plate_2,Dactolisib,1.0,False
+837,NK cells,donor_0,plate_0,SB525334,1.0,False
+838,T cells CD8+,donor_2,plate_1,Flutamide,1.0,False
+839,T cells CD4+,donor_1,plate_3,Pomalidomide,1.0,False
+840,T cells CD8+,donor_1,plate_5,PRT-062607,1.0,False
+841,T cells CD4+,donor_1,plate_3,Ruxolitinib,1.0,False
+842,NK cells,donor_0,plate_0,Midostaurin,1.0,False
+843,NK cells,donor_2,plate_1,RVX-208,1.0,False
+844,NK cells,donor_1,plate_5,Nilotinib,1.0,False
+845,T regulatory cells,donor_0,plate_0,AT 7867,1.0,False
+846,T regulatory cells,donor_2,plate_1,LY2090314,1.0,False
+847,T regulatory cells,donor_0,plate_0,Lamivudine,1.0,False
+848,T cells CD4+,donor_2,plate_4,Saracatinib,1.0,False
+849,T regulatory cells,donor_0,plate_0,AZ628,1.0,False
+850,NK cells,donor_1,plate_3,Linagliptin,1.0,False
+851,NK cells,donor_1,plate_5,OSI-930,1.0,False
+852,T cells CD8+,donor_2,plate_1,Proscillaridin A;Proscillaridin-A,1.0,False
+853,T regulatory cells,donor_2,plate_4,Dabrafenib,1.0,True
+854,T cells CD4+,donor_2,plate_1,PF-04691502,1.0,False
+855,NK cells,donor_1,plate_5,Lamivudine,1.0,False
+856,T cells CD8+,donor_0,plate_0,Dimethyl Sulfoxide,14.1,True
+857,T cells CD4+,donor_1,plate_5,Ceritinib,1.0,False
+858,T cells CD8+,donor_0,plate_0,RG7090,1.0,False
+859,T cells CD8+,donor_2,plate_4,Tacalcitol,1.0,False
+860,T cells CD4+,donor_0,plate_2,Topotecan,1.0,False
+861,NK cells,donor_2,plate_1,FK 866,1.0,False
+862,T cells CD8+,donor_1,plate_3,BMS-536924,1.0,False
+863,T cells CD4+,donor_1,plate_3,Ketoconazole,1.0,False
+864,T cells CD4+,donor_2,plate_1,AMD-070 (hydrochloride),1.0,False
+865,NK cells,donor_0,plate_0,Oxybenzone,1.0,False
+866,NK cells,donor_2,plate_4,Mubritinib (TAK 165),1.0,False
+867,T cells CD8+,donor_0,plate_2,Amiodarone,1.0,False
+868,NK cells,donor_2,plate_4,Colforsin,1.0,False
+869,T cells CD4+,donor_1,plate_3,LY2090314,1.0,False
+870,T cells CD8+,donor_2,plate_1,Methotrexate,1.0,False
+871,NK cells,donor_2,plate_4,BX 912,1.0,False
+872,T cells CD4+,donor_0,plate_0,Mubritinib (TAK 165),1.0,False
+873,T regulatory cells,donor_2,plate_1,Quizartinib,1.0,False
+874,NK cells,donor_1,plate_5,RG7112,1.0,False
+875,NK cells,donor_1,plate_3,AVL-292,1.0,False
+876,NK cells,donor_2,plate_4,Defactinib,1.0,False
+877,NK cells,donor_2,plate_1,AVL-292,1.0,False
+878,NK cells,donor_2,plate_1,Raloxifene,1.0,False
+879,T cells CD8+,donor_2,plate_1,Penfluridol,1.0,False
+880,NK cells,donor_1,plate_3,Quizartinib,1.0,False
+881,T regulatory cells,donor_1,plate_3,Methotrexate,1.0,False
+882,T cells CD4+,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+883,T cells CD4+,donor_0,plate_0,Decitabine,1.0,False
+884,NK cells,donor_0,plate_2,Flutamide,1.0,False
+885,NK cells,donor_1,plate_3,Penfluridol,1.0,False
+886,T cells CD4+,donor_1,plate_5,HYDROXYUREA,1.0,False
+887,NK cells,donor_0,plate_0,SCH-58261,1.0,False
+888,NK cells,donor_1,plate_3,Ketoconazole,1.0,False
+889,T cells CD4+,donor_1,plate_3,AMD-070 (hydrochloride),1.0,False
+890,T cells CD8+,donor_1,plate_5,Saracatinib,1.0,False
+891,T cells CD4+,donor_0,plate_0,STK219801,1.0,False
+892,NK cells,donor_1,plate_5,Imatinib,1.0,False
+893,T regulatory cells,donor_2,plate_4,Selumetinib,1.0,False
+894,NK cells,donor_0,plate_0,Crizotinib,1.0,False
+895,NK cells,donor_0,plate_0,Vanoxerine,1.0,False
+896,T cells CD4+,donor_2,plate_1,Penfluridol,1.0,False
+897,T cells CD8+,donor_1,plate_3,Linagliptin,1.0,False
+898,T cells CD4+,donor_0,plate_0,HMN-214,1.0,False
+899,NK cells,donor_1,plate_3,BMS-265246,1.0,False
+900,T regulatory cells,donor_0,plate_0,SLx-2119,1.0,False
+901,T cells CD8+,donor_1,plate_5,TR-14035,1.0,False
+902,T cells CD4+,donor_1,plate_5,CC-401,1.0,False
+903,T cells CD8+,donor_1,plate_5,TGX 221,1.0,False
+904,T cells CD4+,donor_0,plate_0,AZD-8330,1.0,False
+905,T cells CD4+,donor_0,plate_0,GSK-1070916,1.0,False
+906,T regulatory cells,donor_2,plate_1,Linagliptin,1.0,False
+907,T regulatory cells,donor_2,plate_1,K-02288,1.0,False
+908,NK cells,donor_1,plate_3,BAY 61-3606,1.0,False
+909,T cells CD4+,donor_2,plate_1,Tamatinib,1.0,False
+910,T cells CD8+,donor_0,plate_0,Lamivudine,1.0,False
+911,NK cells,donor_2,plate_4,GSK-1070916,1.0,False
+912,T regulatory cells,donor_1,plate_5,HYDROXYUREA,1.0,False
+913,T cells CD8+,donor_2,plate_4,Clotrimazole,1.0,False
+914,T cells CD4+,donor_1,plate_3,PD-0325901,1.0,False
+915,T cells CD4+,donor_2,plate_4,Colchicine,1.0,False
+916,T cells CD4+,donor_1,plate_3,MK-5108,1.0,False
+917,T cells CD8+,donor_0,plate_2,Vardenafil,1.0,False
+918,NK cells,donor_0,plate_2,Lapatinib,1.0,False
+919,T cells CD8+,donor_1,plate_5,CC-401,1.0,False
+920,T regulatory cells,donor_0,plate_0,Dabrafenib,1.0,True
+921,T cells CD4+,donor_1,plate_5,RG7112,1.0,False
+922,T regulatory cells,donor_1,plate_3,Tamatinib,1.0,False
+923,T cells CD4+,donor_2,plate_4,TGX 221,1.0,False
+924,Myeloid cells,donor_1,plate_3,Palbociclib,1.0,False
+925,T cells CD8+,donor_1,plate_5,CHIR-99021,1.0,False
+926,T regulatory cells,donor_0,plate_2,Palbociclib,1.0,False
+927,NK cells,donor_2,plate_4,Azacitidine,1.0,False
+928,T regulatory cells,donor_0,plate_2,Canertinib,1.0,False
+929,T regulatory cells,donor_2,plate_4,GSK256066,1.0,False
+930,NK cells,donor_1,plate_5,Pitavastatin Calcium,1.0,False
+931,T cells CD8+,donor_0,plate_0,RG7112,1.0,False
+932,T cells CD4+,donor_0,plate_2,Tamatinib,1.0,False
+933,NK cells,donor_0,plate_2,BMS-387032,1.0,False
+934,T cells CD8+,donor_2,plate_4,TGX 221,1.0,False
+935,B cells,donor_0,plate_2,Foretinib,1.0,False
+936,T cells CD4+,donor_0,plate_0,Midostaurin,1.0,False
+937,NK cells,donor_1,plate_5,Tosedostat,1.0,False
+938,T cells CD8+,donor_2,plate_4,AZD4547,1.0,False
+939,T cells CD8+,donor_1,plate_5,Colchicine,1.0,False
+940,T cells CD8+,donor_1,plate_5,PF-03814735,1.0,False
+941,T cells CD4+,donor_1,plate_5,Midostaurin,1.0,False
+942,B cells,donor_0,plate_0,R428,1.0,False
+943,NK cells,donor_2,plate_1,Clomipramine,1.0,False
+944,NK cells,donor_0,plate_2,BMS-536924,1.0,False
+945,NK cells,donor_0,plate_2,Quizartinib,1.0,False
+946,T regulatory cells,donor_0,plate_2,Sunitinib,1.0,False
+947,NK cells,donor_2,plate_4,Masitinib,1.0,False
+948,NK cells,donor_0,plate_0,YK 4-279,1.0,False
+949,T cells CD8+,donor_2,plate_1,K-02288,1.0,False
+950,NK cells,donor_0,plate_0,Tosedostat,1.0,False
+951,B cells,donor_2,plate_4,Crizotinib,1.0,False
+952,NK cells,donor_1,plate_3,Foretinib,1.0,False
+953,NK cells,donor_0,plate_2,Isoniazid,1.0,False
+954,NK cells,donor_0,plate_2,PD-0325901,1.0,False
+955,B cells,donor_0,plate_2,Linagliptin,1.0,False
+956,NK cells,donor_1,plate_5,Oxybenzone,1.0,False
+957,T cells CD4+,donor_2,plate_1,Sgc-cbp30,1.0,False
+958,T cells CD4+,donor_2,plate_4,Mubritinib (TAK 165),1.0,False
+959,NK cells,donor_0,plate_2,Navitoclax,1.0,False
+960,T cells CD4+,donor_0,plate_2,Palbociclib,1.0,False
+961,B cells,donor_1,plate_3,Dactolisib,1.0,False
+962,T cells CD8+,donor_2,plate_4,Vanoxerine,1.0,False
+963,T cells CD8+,donor_2,plate_1,GW843682X,1.0,False
+964,T regulatory cells,donor_1,plate_5,Selumetinib,1.0,False
+965,NK cells,donor_0,plate_0,Vandetanib,1.0,False
+966,NK cells,donor_1,plate_3,Perhexiline,1.0,False
+967,NK cells,donor_0,plate_0,ABT-199 (GDC-0199),1.0,False
+968,NK cells,donor_1,plate_5,GO-6976,1.0,False
+969,NK cells,donor_1,plate_3,LY2090314,1.0,False
+970,Myeloid cells,donor_2,plate_4,Crizotinib,1.0,False
+971,T regulatory cells,donor_0,plate_0,GSK-1070916,1.0,False
+972,T regulatory cells,donor_2,plate_4,ABT-199 (GDC-0199),1.0,False
+973,T regulatory cells,donor_1,plate_3,BMS-387032,1.0,False
+974,T cells CD4+,donor_2,plate_1,Scriptaid,1.0,False
+975,NK cells,donor_0,plate_0,Azacitidine,1.0,False
+976,NK cells,donor_1,plate_5,Mometasone Furoate,1.0,False
+977,T cells CD4+,donor_1,plate_3,IKK Inhibitor VII,1.0,False
+978,T cells CD8+,donor_2,plate_4,Mometasone Furoate,1.0,False
+979,T regulatory cells,donor_2,plate_4,GLPG0634,1.0,False
+980,T cells CD8+,donor_0,plate_0,HYDROXYUREA,1.0,False
+981,T cells CD8+,donor_2,plate_1,Desloratadine,1.0,False
+982,NK cells,donor_0,plate_0,BI-D1870,1.0,False
+983,T cells CD8+,donor_1,plate_5,Selumetinib,1.0,False
+984,T cells CD4+,donor_1,plate_3,Methotrexate,1.0,False
+985,T regulatory cells,donor_0,plate_2,Alogliptin,1.0,False
+986,T cells CD8+,donor_2,plate_1,Atorvastatin,1.0,False
+987,NK cells,donor_0,plate_2,Palbociclib,1.0,False
+988,T regulatory cells,donor_0,plate_2,Penfluridol,1.0,False
+989,T cells CD8+,donor_1,plate_5,RG7112,1.0,False
+990,NK cells,donor_1,plate_5,Tivantinib,1.0,False
+991,NK cells,donor_0,plate_0,Clemastine,1.0,False
+992,NK cells,donor_2,plate_4,Nilotinib,1.0,False
+993,NK cells,donor_1,plate_5,Vanoxerine,1.0,False
+994,NK cells,donor_2,plate_1,BMS-265246,1.0,False
+995,T regulatory cells,donor_1,plate_5,Tivantinib,1.0,False
+996,T cells CD8+,donor_0,plate_2,RN-486,1.0,False
+997,NK cells,donor_0,plate_0,GSK-1070916,1.0,False
+998,T regulatory cells,donor_2,plate_1,MK-5108,1.0,False
+999,NK cells,donor_2,plate_1,TL_HRAS26,1.0,False
+1000,T regulatory cells,donor_0,plate_0,Defactinib,1.0,False
+1001,T regulatory cells,donor_0,plate_0,PF-03814735,1.0,False
+1002,NK cells,donor_0,plate_2,Dasatinib,1.0,False
+1003,T regulatory cells,donor_0,plate_0,CEP-18770 (Delanzomib),1.0,False
+1004,NK cells,donor_0,plate_0,Saracatinib,1.0,False
+1005,T regulatory cells,donor_2,plate_1,Trametinib,1.0,False
+1006,NK cells,donor_0,plate_0,TR-14035,1.0,False
+1007,T cells CD8+,donor_0,plate_0,TGX 221,1.0,False
+1008,T cells CD4+,donor_2,plate_1,Vorinostat,1.0,False
+1009,NK cells,donor_0,plate_0,CEP-37440,1.0,False
+1010,T cells CD4+,donor_2,plate_4,GO-6976,1.0,False
+1011,T cells CD4+,donor_0,plate_2,BMS-387032,1.0,False
+1012,T cells CD8+,donor_1,plate_5,AZ628,1.0,False
+1013,T cells CD4+,donor_0,plate_2,TIE2 Kinase Inhibitor,1.0,False
+1014,T cells CD4+,donor_2,plate_1,IMD-0354,1.0,False
+1015,T cells CD8+,donor_0,plate_2,Dimethyl Sulfoxide,14.1,True
+1016,T regulatory cells,donor_2,plate_1,Dovitinib,1.0,False
+1017,T cells CD8+,donor_2,plate_1,Topotecan,1.0,False
+1018,NK cells,donor_0,plate_0,Cabozantinib,1.0,False
+1019,NK cells,donor_0,plate_2,Tamatinib,1.0,False
+1020,T regulatory cells,donor_2,plate_1,IMD-0354,1.0,False
+1021,NK cells,donor_0,plate_0,ABT737,1.0,False
+1022,NK cells,donor_1,plate_3,Amiodarone,1.0,False
+1023,NK cells,donor_1,plate_5,R428,1.0,False
+1024,T cells CD4+,donor_1,plate_3,Isoniazid,1.0,False
+1025,T cells CD4+,donor_0,plate_0,Clotrimazole,1.0,False
+1026,T cells CD8+,donor_2,plate_1,IKK Inhibitor VII,1.0,False
+1027,NK cells,donor_2,plate_1,Alogliptin,1.0,False
+1028,T cells CD4+,donor_0,plate_0,Ricolinostat,1.0,False
+1029,T regulatory cells,donor_0,plate_2,Ixabepilone,1.0,False
+1030,NK cells,donor_1,plate_3,Dasatinib,1.0,False
+1031,T cells CD8+,donor_1,plate_5,Nilotinib,1.0,False
+1032,T cells CD4+,donor_1,plate_3,AT13387,1.0,False
+1033,T regulatory cells,donor_2,plate_4,Colchicine,1.0,False
+1034,T regulatory cells,donor_0,plate_2,K-02288,1.0,False
+1035,NK cells,donor_0,plate_0,HYDROXYUREA,1.0,False
+1036,NK cells,donor_1,plate_5,CC-401,1.0,False
+1037,T cells CD8+,donor_2,plate_4,Oxybenzone,1.0,False
+1038,NK cells,donor_1,plate_5,Selumetinib,1.0,False
+1039,T cells CD8+,donor_0,plate_2,Linagliptin,1.0,False
+1040,NK cells,donor_2,plate_1,Penfluridol,1.0,False
+1041,NK cells,donor_2,plate_4,SB525334,1.0,False
+1042,T cells CD8+,donor_1,plate_3,Tivozanib,1.0,False
+1043,T regulatory cells,donor_1,plate_5,BX 912,1.0,False
+1044,T cells CD4+,donor_1,plate_5,Masitinib,1.0,False
+1045,NK cells,donor_0,plate_0,RG7112,1.0,False
+1046,T regulatory cells,donor_0,plate_2,Raloxifene,1.0,False
+1047,Myeloid cells,donor_1,plate_3,Foretinib,1.0,False
+1048,T cells CD8+,donor_0,plate_2,I-BET151,1.0,False
+1049,T regulatory cells,donor_2,plate_1,Protriptyline,1.0,False
+1050,T cells CD8+,donor_1,plate_3,Sunitinib,1.0,False
+1051,T regulatory cells,donor_0,plate_0,Vandetanib,1.0,False
+1052,Myeloid cells,donor_0,plate_0,CHIR-99021,1.0,False
+1053,B cells,donor_1,plate_3,Foretinib,1.0,False
+1054,NK cells,donor_0,plate_0,GO-6976,1.0,False
+1055,T cells CD4+,donor_1,plate_5,CGM-097,1.0,False
+1056,NK cells,donor_1,plate_3,BMS-387032,1.0,False
+1057,NK cells,donor_1,plate_5,Defactinib,1.0,False
+1058,NK cells,donor_2,plate_4,Vandetanib,1.0,False
+1059,NK cells,donor_2,plate_4,Ricolinostat,1.0,False
+1060,T cells CD4+,donor_2,plate_1,AT13387,1.0,False
+1061,T regulatory cells,donor_2,plate_4,Nefazodone,1.0,False
+1062,T cells CD8+,donor_0,plate_2,Tamatinib,1.0,False
+1063,NK cells,donor_1,plate_3,Sgc-cbp30,1.0,False
+1064,NK cells,donor_2,plate_4,Buspirone,1.0,False
+1065,T cells CD8+,donor_2,plate_4,Saracatinib,1.0,False
+1066,T cells CD8+,donor_2,plate_4,R428,1.0,False
+1067,NK cells,donor_0,plate_0,LDN 193189,1.0,False
+1068,NK cells,donor_0,plate_2,Methotrexate,1.0,False
+1069,NK cells,donor_0,plate_0,PRT-062607,1.0,False
+1070,T cells CD4+,donor_0,plate_0,Vandetanib,1.0,False
+1071,NK cells,donor_2,plate_4,LDN 193189,1.0,False
+1072,NK cells,donor_2,plate_4,GLPG0634,1.0,False
+1073,NK cells,donor_1,plate_5,LDN 193189,1.0,False
+1074,T cells CD8+,donor_2,plate_1,Trametinib,1.0,False
+1075,T cells CD8+,donor_1,plate_3,Perhexiline,1.0,False
+1076,Myeloid cells,donor_2,plate_1,Idelalisib,1.0,False
+1077,NK cells,donor_0,plate_0,Imatinib,1.0,False
+1078,T cells CD8+,donor_2,plate_1,Isoniazid,1.0,False
+1079,T cells CD4+,donor_1,plate_5,YK 4-279,1.0,False
+1080,NK cells,donor_1,plate_5,HMN-214,1.0,False
+1081,NK cells,donor_0,plate_2,TIE2 Kinase Inhibitor,1.0,False
+1082,NK cells,donor_0,plate_0,TPCA-1,1.0,False
+1083,NK cells,donor_0,plate_0,Buspirone,1.0,False
+1084,T cells CD8+,donor_1,plate_3,Lapatinib,1.0,False
+1085,T cells CD8+,donor_2,plate_4,Buspirone,1.0,False
+1086,T regulatory cells,donor_0,plate_2,Alvocidib,1.0,False
+1087,T cells CD8+,donor_0,plate_2,Disulfiram,1.0,False
+1088,Myeloid cells,donor_1,plate_3,Penfluridol,1.0,False
+1089,Myeloid cells,donor_2,plate_4,LDN 193189,1.0,False
+1090,B cells,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+1091,NK cells,donor_2,plate_1,RN-486,1.0,False
+1092,NK cells,donor_1,plate_5,PRT-062607,1.0,False
+1093,T cells CD4+,donor_2,plate_4,CEP-37440,1.0,False
+1094,T cells CD4+,donor_0,plate_2,Tivozanib,1.0,False
+1095,T cells CD8+,donor_0,plate_2,BMS-777607,1.0,False
+1096,T regulatory cells,donor_2,plate_4,PRT-062607,1.0,False
+1097,NK cells,donor_0,plate_0,GLPG0634,1.0,False
+1098,T cells CD8+,donor_1,plate_3,Atorvastatin,1.0,False
+1099,T cells CD8+,donor_2,plate_1,RN-486,1.0,False
+1100,T cells CD4+,donor_1,plate_5,Vandetanib,1.0,False
+1101,T cells CD8+,donor_2,plate_1,Phenylbutazone,1.0,False
+1102,Myeloid cells,donor_2,plate_1,Penfluridol,1.0,False
+1103,NK cells,donor_0,plate_2,I-BET151,1.0,False
+1104,T regulatory cells,donor_0,plate_0,AZD4547,1.0,False
+1105,B cells,donor_1,plate_5,CHIR-99021,1.0,False
+1106,NK cells,donor_1,plate_5,TGX 221,1.0,False
+1107,NK cells,donor_0,plate_0,AZD3514,1.0,False
+1108,NK cells,donor_0,plate_0,STK219801,1.0,False
+1109,NK cells,donor_1,plate_5,Azacitidine,1.0,False
+1110,T regulatory cells,donor_1,plate_3,Perhexiline,1.0,False
+1111,T cells CD8+,donor_0,plate_2,AMD-070 (hydrochloride),1.0,False
+1112,T cells CD8+,donor_0,plate_0,Vanoxerine,1.0,False
+1113,T cells CD4+,donor_0,plate_2,Disulfiram,1.0,False
+1114,T regulatory cells,donor_2,plate_4,Prednisolone,1.0,False
+1115,T regulatory cells,donor_1,plate_3,Vardenafil,1.0,False
+1116,T cells CD8+,donor_0,plate_0,MGCD-265,1.0,False
+1117,T cells CD8+,donor_2,plate_1,BMS-536924,1.0,False
+1118,T regulatory cells,donor_0,plate_0,Tipifarnib,1.0,False
+1119,Myeloid cells,donor_1,plate_3,Dactolisib,1.0,False
+1120,NK cells,donor_2,plate_1,Ganetespib (STA-9090),1.0,False
+1121,T regulatory cells,donor_0,plate_0,CGM-097,1.0,False
+1122,T cells CD8+,donor_2,plate_4,Selumetinib,1.0,False
+1123,T cells CD8+,donor_0,plate_2,Trametinib,1.0,False
+1124,NK cells,donor_2,plate_1,Dactolisib,1.0,False
+1125,T cells CD8+,donor_1,plate_5,GLPG0634,1.0,False
+1126,T regulatory cells,donor_2,plate_4,CGM-097,1.0,False
+1127,NK cells,donor_0,plate_2,Scriptaid,1.0,False
+1128,T regulatory cells,donor_2,plate_1,Ketoconazole,1.0,False
+1129,T cells CD8+,donor_2,plate_4,Riociguat,1.0,False
+1130,T cells CD4+,donor_1,plate_5,Tipifarnib,1.0,False
+1131,T cells CD4+,donor_2,plate_4,Ceritinib,1.0,False
+1132,T cells CD4+,donor_1,plate_3,Lapatinib,1.0,False
+1133,T cells CD8+,donor_1,plate_5,Ricolinostat,1.0,False
+1134,B cells,donor_0,plate_0,Crizotinib,1.0,False
+1135,B cells,donor_2,plate_4,R428,1.0,False
+1136,NK cells,donor_0,plate_0,Clotrimazole,1.0,False
+1137,NK cells,donor_2,plate_1,Idelalisib,1.0,False
+1138,T cells CD8+,donor_1,plate_3,Penfluridol,1.0,False
+1139,NK cells,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+1140,T cells CD8+,donor_2,plate_1,Dovitinib,1.0,False
+1141,T regulatory cells,donor_2,plate_4,TGX 221,1.0,False
+1142,T cells CD8+,donor_0,plate_0,Oxybenzone,1.0,False
+1143,NK cells,donor_1,plate_5,Colforsin,1.0,False
+1144,T cells CD8+,donor_0,plate_0,GLPG0634,1.0,False
+1145,T cells CD8+,donor_0,plate_2,BMS-265246,1.0,False
+1146,T regulatory cells,donor_1,plate_3,Canertinib,1.0,False
+1147,T cells CD8+,donor_0,plate_0,Saracatinib,1.0,False
+1148,T cells CD8+,donor_0,plate_2,Phenylbutazone,1.0,False
+1149,NK cells,donor_1,plate_3,Protriptyline,1.0,False
+1150,NK cells,donor_2,plate_4,BI-D1870,1.0,False
+1151,Myeloid cells,donor_1,plate_5,R428,1.0,False
+1152,T cells CD8+,donor_0,plate_0,Azacitidine,1.0,False
+1153,NK cells,donor_1,plate_5,Doxorubicin,1.0,False
+1154,T cells CD8+,donor_2,plate_1,Protriptyline,1.0,False
+1155,T cells CD8+,donor_2,plate_1,Pomalidomide,1.0,False
+1156,NK cells,donor_1,plate_5,MGCD-265,1.0,False
+1157,T cells CD8+,donor_0,plate_0,CHIR-99021,1.0,False
+1158,T regulatory cells,donor_2,plate_4,Defactinib,1.0,False
+1159,T regulatory cells,donor_0,plate_0,Colforsin,1.0,False
+1160,NK cells,donor_0,plate_2,Raloxifene,1.0,False
+1161,T cells CD8+,donor_2,plate_4,AT 7867,1.0,False
+1162,Myeloid cells,donor_2,plate_1,Linagliptin,1.0,False
+1163,T cells CD8+,donor_1,plate_5,R428,1.0,False
+1164,NK cells,donor_0,plate_0,Resminostat,1.0,False
+1165,T cells CD8+,donor_1,plate_5,Mubritinib (TAK 165),1.0,False
+1166,Myeloid cells,donor_2,plate_4,R428,1.0,False
+1167,NK cells,donor_1,plate_3,Scriptaid,1.0,False
+1168,T cells CD8+,donor_1,plate_5,Vandetanib,1.0,False
+1169,T cells CD8+,donor_2,plate_4,Defactinib,1.0,False
+1170,T cells CD8+,donor_1,plate_5,Tipifarnib,1.0,False
+1171,T cells CD4+,donor_2,plate_4,STK219801,1.0,False
+1172,T cells CD4+,donor_2,plate_1,FK 866,1.0,False
+1173,T cells CD8+,donor_1,plate_3,Clomipramine,1.0,False
+1174,T regulatory cells,donor_1,plate_5,CC-401,1.0,False
+1175,T cells CD8+,donor_0,plate_2,Alogliptin,1.0,False
+1176,T cells CD8+,donor_2,plate_4,Crizotinib,1.0,False
+1177,T cells CD8+,donor_1,plate_5,SCH-58261,1.0,False
+1178,T regulatory cells,donor_1,plate_5,Defactinib,1.0,False
+1179,T cells CD8+,donor_2,plate_4,Ricolinostat,1.0,False
+1180,T cells CD8+,donor_1,plate_3,PD-0325901,1.0,False
+1181,T cells CD8+,donor_0,plate_2,Sgc-cbp30,1.0,False
+1182,T cells CD8+,donor_0,plate_0,Colforsin,1.0,False
+1183,T cells CD8+,donor_2,plate_1,Amiodarone,1.0,False
+1184,T regulatory cells,donor_2,plate_1,Desloratadine,1.0,False
+1185,NK cells,donor_2,plate_4,HYDROXYUREA,1.0,False
+1186,Myeloid cells,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+1187,Myeloid cells,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+1188,T cells CD8+,donor_2,plate_1,Perhexiline,1.0,False
+1189,T cells CD8+,donor_2,plate_4,MGCD-265,1.0,False
+1190,T cells CD4+,donor_1,plate_5,Colchicine,1.0,False
+1191,NK cells,donor_1,plate_3,Desloratadine,1.0,False
+1192,NK cells,donor_0,plate_0,HMN-214,1.0,False
+1193,NK cells,donor_0,plate_2,Dactolisib,1.0,False
+1194,NK cells,donor_0,plate_2,IKK Inhibitor VII,1.0,False
+1195,NK cells,donor_1,plate_3,Ixabepilone,1.0,False
+1196,T cells CD8+,donor_2,plate_4,AZ628,1.0,False
+1197,T regulatory cells,donor_0,plate_2,Methotrexate,1.0,False
+1198,T regulatory cells,donor_2,plate_4,Tipifarnib,1.0,False
+1199,NK cells,donor_0,plate_0,AZ628,1.0,False
+1200,NK cells,donor_1,plate_3,K-02288,1.0,False
+1201,NK cells,donor_1,plate_5,Nefazodone,1.0,False
+1202,T cells CD8+,donor_1,plate_3,Canertinib,1.0,False
+1203,NK cells,donor_0,plate_2,RN-486,1.0,False
+1204,T regulatory cells,donor_2,plate_1,TL_HRAS26,1.0,False
+1205,NK cells,donor_0,plate_2,Sgc-cbp30,1.0,False
+1206,T cells CD8+,donor_0,plate_0,SLx-2119,1.0,False
+1207,T cells CD4+,donor_2,plate_1,Isoniazid,1.0,False
+1208,Myeloid cells,donor_0,plate_2,Palbociclib,1.0,False
+1209,T cells CD8+,donor_0,plate_0,GSK-1070916,1.0,False
+1210,T regulatory cells,donor_2,plate_1,Dabrafenib,1.0,True
+1211,T cells CD8+,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+1212,NK cells,donor_2,plate_4,SCH-58261,1.0,False
+1213,T regulatory cells,donor_1,plate_3,PD-0325901,1.0,False
+1214,NK cells,donor_2,plate_4,AZD4547,1.0,False
+1215,T cells CD4+,donor_2,plate_4,GSK-1070916,1.0,False
+1216,T cells CD8+,donor_1,plate_5,Azacitidine,1.0,False
+1217,T regulatory cells,donor_2,plate_1,Phenylbutazone,1.0,False
+1218,T cells CD8+,donor_2,plate_1,I-BET151,1.0,False
+1219,T cells CD8+,donor_1,plate_3,Pomalidomide,1.0,False
+1220,T regulatory cells,donor_2,plate_4,YK 4-279,1.0,False
+1221,T cells CD8+,donor_2,plate_4,YK 4-279,1.0,False
+1222,T regulatory cells,donor_0,plate_2,BMS-777607,1.0,False
+1223,T regulatory cells,donor_2,plate_4,Midostaurin,1.0,False
+1224,T cells CD8+,donor_2,plate_4,GSK-1070916,1.0,False
+1225,T regulatory cells,donor_1,plate_5,AZD4547,1.0,False
+1226,NK cells,donor_1,plate_5,TPCA-1,1.0,False
+1227,T regulatory cells,donor_1,plate_5,Cabozantinib,1.0,False
+1228,T regulatory cells,donor_2,plate_1,Pomalidomide,1.0,False
+1229,T cells CD8+,donor_1,plate_5,LDN 193189,1.0,False
+1230,T cells CD8+,donor_2,plate_4,CGM-097,1.0,False
+1231,T cells CD8+,donor_2,plate_4,SCH-58261,1.0,False
+1232,NK cells,donor_0,plate_2,K-02288,1.0,False
+1233,T cells CD4+,donor_1,plate_5,Selumetinib,1.0,False
+1234,T cells CD8+,donor_1,plate_5,Masitinib,1.0,False
+1235,T regulatory cells,donor_2,plate_1,I-BET151,1.0,False
+1236,T regulatory cells,donor_1,plate_5,Vanoxerine,1.0,False
+1237,Myeloid cells,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+1238,T cells CD8+,donor_0,plate_2,Palbociclib,1.0,False
+1239,T cells CD8+,donor_2,plate_1,Ruxolitinib,1.0,False
+1240,T cells CD8+,donor_0,plate_2,K-02288,1.0,False
+1241,T regulatory cells,donor_1,plate_5,Vandetanib,1.0,False
+1242,B cells,donor_2,plate_1,Linagliptin,1.0,False
+1243,T regulatory cells,donor_0,plate_2,Vardenafil,1.0,False
+1244,T cells CD8+,donor_2,plate_1,Quizartinib,1.0,False
+1245,T cells CD8+,donor_0,plate_0,Ricolinostat,1.0,False
+1246,T regulatory cells,donor_0,plate_2,TIE2 Kinase Inhibitor,1.0,False
+1247,Myeloid cells,donor_1,plate_3,Idelalisib,1.0,False
+1248,T cells CD8+,donor_0,plate_0,Buspirone,1.0,False
+1249,NK cells,donor_0,plate_2,Ixabepilone,1.0,False
+1250,T cells CD8+,donor_0,plate_0,Prednisolone,1.0,False
+1251,T cells CD4+,donor_1,plate_3,FK 866,1.0,False
+1252,NK cells,donor_1,plate_5,Crizotinib,1.0,False
+1253,T regulatory cells,donor_2,plate_1,Topotecan,1.0,False
+1254,NK cells,donor_0,plate_0,Masitinib,1.0,False
+1255,T cells CD8+,donor_0,plate_2,Methotrexate,1.0,False
+1256,T cells CD8+,donor_2,plate_1,Dactolisib,1.0,False
+1257,T cells CD8+,donor_1,plate_5,YK 4-279,1.0,False
+1258,T cells CD8+,donor_0,plate_0,Clemastine,1.0,False
+1259,T cells CD8+,donor_1,plate_3,MK-5108,1.0,False
+1260,T regulatory cells,donor_1,plate_5,TPCA-1,1.0,False
+1261,T cells CD8+,donor_2,plate_4,BX 912,1.0,False
+1262,T cells CD8+,donor_0,plate_2,Lapatinib,1.0,False
+1263,T cells CD8+,donor_1,plate_3,BMS-777607,1.0,False
+1264,T cells CD8+,donor_2,plate_1,TIE2 Kinase Inhibitor,1.0,False
+1265,T regulatory cells,donor_2,plate_4,Colforsin,1.0,False
+1266,T regulatory cells,donor_1,plate_5,GSK256066,1.0,False
+1267,T cells CD8+,donor_2,plate_4,Pitavastatin Calcium,1.0,False
+1268,T cells CD8+,donor_2,plate_1,BAY 61-3606,1.0,False
+1269,T regulatory cells,donor_0,plate_2,Clomipramine,1.0,False
+1270,T cells CD8+,donor_1,plate_3,Alogliptin,1.0,False
+1271,T regulatory cells,donor_0,plate_2,AT13387,1.0,False
+1272,T regulatory cells,donor_1,plate_3,Lapatinib,1.0,False
+1273,NK cells,donor_1,plate_3,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+1274,NK cells,donor_2,plate_1,BMS-387032,1.0,False
+1275,NK cells,donor_0,plate_2,BAY 61-3606,1.0,False
+1276,B cells,donor_1,plate_3,Palbociclib,1.0,False
+1277,T cells CD8+,donor_2,plate_1,TL_HRAS26,1.0,False
+1278,NK cells,donor_2,plate_1,Perhexiline,1.0,False
+1279,NK cells,donor_2,plate_4,Cabozantinib,1.0,False
+1280,NK cells,donor_0,plate_0,Tivantinib,1.0,False
+1281,T cells CD8+,donor_2,plate_1,Disulfiram,1.0,False
+1282,T cells CD8+,donor_2,plate_1,RVX-208,1.0,False
+1283,T regulatory cells,donor_1,plate_5,YK 4-279,1.0,False
+1284,T cells CD8+,donor_1,plate_5,TPCA-1,1.0,False
+1285,T cells CD8+,donor_2,plate_4,Doxorubicin,1.0,False
+1286,B cells,donor_0,plate_2,Idelalisib,1.0,False
+1287,T cells CD8+,donor_1,plate_3,Disulfiram,1.0,False
+1288,NK cells,donor_2,plate_1,Isoniazid,1.0,False
+1289,T cells CD8+,donor_1,plate_5,BI-D1870,1.0,False
+1290,T cells CD8+,donor_1,plate_5,ABT737,1.0,False
+1291,T regulatory cells,donor_1,plate_5,AT 7867,1.0,False
+1292,T regulatory cells,donor_0,plate_0,Clemastine,1.0,False
+1293,Myeloid cells,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+1294,T cells CD8+,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+1295,T cells CD8+,donor_2,plate_1,MK-5108,1.0,False
+1296,T regulatory cells,donor_2,plate_4,Vanoxerine,1.0,False
+1297,T regulatory cells,donor_1,plate_3,UNII-BXU45ZH6LI,1.0,False
+1298,Myeloid cells,donor_0,plate_2,Dactolisib,1.0,False
+1299,NK cells,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+1300,T cells CD8+,donor_1,plate_3,Topotecan,1.0,False
+1301,T cells CD8+,donor_1,plate_5,HMN-214,1.0,False
+1302,NK cells,donor_1,plate_3,Raloxifene,1.0,False
+1303,T cells CD8+,donor_0,plate_0,Vandetanib,1.0,False
+1304,T regulatory cells,donor_0,plate_2,AMD-070 (hydrochloride),1.0,False
+1305,T regulatory cells,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+1306,T cells CD8+,donor_1,plate_3,Dactolisib,1.0,False
+1307,T cells CD8+,donor_0,plate_2,GW843682X,1.0,False
+1308,T regulatory cells,donor_0,plate_0,TR-14035,1.0,False
+1309,T cells CD8+,donor_1,plate_3,Methotrexate,1.0,False
+1310,T cells CD8+,donor_0,plate_0,PF-03814735,1.0,False
+1311,NK cells,donor_2,plate_1,Ketoconazole,1.0,False
+1312,NK cells,donor_2,plate_1,Flutamide,1.0,False
+1313,T regulatory cells,donor_1,plate_5,CEP-37440,1.0,False
+1314,T cells CD8+,donor_0,plate_2,Idelalisib,1.0,False
+1315,T regulatory cells,donor_1,plate_5,Clotrimazole,1.0,False
+1316,T regulatory cells,donor_1,plate_3,Ixabepilone,1.0,False
+1317,T regulatory cells,donor_1,plate_3,CGP 60474,1.0,False
+1318,T cells CD8+,donor_0,plate_2,Ixabepilone,1.0,False
+1319,T cells CD8+,donor_2,plate_4,Prednisolone,1.0,False
+1320,T cells CD8+,donor_2,plate_4,RG7090,1.0,False
+1321,NK cells,donor_1,plate_3,Dactolisib,1.0,False
+1322,T regulatory cells,donor_2,plate_4,CHIR-99021,1.0,False
+1323,T regulatory cells,donor_2,plate_4,Saracatinib,1.0,False
+1324,T regulatory cells,donor_0,plate_0,Ricolinostat,1.0,False
+1325,T regulatory cells,donor_2,plate_4,STK219801,1.0,False
+1326,T regulatory cells,donor_1,plate_5,LDN 193189,1.0,False
+1327,NK cells,donor_1,plate_5,CEP-37440,1.0,False
+1328,NK cells,donor_1,plate_5,Tacalcitol,1.0,False
+1329,NK cells,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+1330,NK cells,donor_0,plate_2,Pomalidomide,1.0,False
+1331,T regulatory cells,donor_2,plate_1,Perhexiline,1.0,False
+1332,T regulatory cells,donor_1,plate_3,RVX-208,1.0,False
+1333,NK cells,donor_0,plate_0,MGCD-265,1.0,False
+1334,T cells CD4+,donor_0,plate_2,I-BET151,1.0,False
+1335,T cells CD8+,donor_0,plate_0,CC-401,1.0,False
+1336,T cells CD8+,donor_1,plate_5,SB525334,1.0,False
+1337,T regulatory cells,donor_2,plate_4,PF-03814735,1.0,False
+1338,T regulatory cells,donor_1,plate_5,Midostaurin,1.0,False
+1339,T cells CD8+,donor_2,plate_1,Ketoconazole,1.0,False
+1340,T regulatory cells,donor_0,plate_2,PF-04691502,1.0,False
+1341,NK cells,donor_1,plate_5,GSK-1070916,1.0,False
+1342,T cells CD8+,donor_2,plate_4,Mubritinib (TAK 165),1.0,False
+1343,T cells CD8+,donor_2,plate_4,Colforsin,1.0,False
+1344,T cells CD8+,donor_2,plate_4,Masitinib,1.0,False
+1345,T cells CD8+,donor_1,plate_5,GSK-1070916,1.0,False
+1346,T regulatory cells,donor_1,plate_5,Oxybenzone,1.0,False
+1347,T regulatory cells,donor_1,plate_5,Dabrafenib,1.0,True
+1348,T regulatory cells,donor_1,plate_5,Ricolinostat,1.0,False
+1349,NK cells,donor_1,plate_3,RN-486,1.0,False
+1350,T regulatory cells,donor_0,plate_0,Vanoxerine,1.0,False
+1351,T cells CD8+,donor_0,plate_2,Ruxolitinib,1.0,False
+1352,T regulatory cells,donor_0,plate_0,LDN 193189,1.0,False
+1353,T cells CD8+,donor_1,plate_5,Decitabine,1.0,False
+1354,T cells CD8+,donor_2,plate_4,ABT-199 (GDC-0199),1.0,False
+1355,T cells CD8+,donor_0,plate_2,Desloratadine,1.0,False
+1356,T cells CD8+,donor_0,plate_2,PD-0325901,1.0,False
+1357,T regulatory cells,donor_0,plate_0,Masitinib,1.0,False
+1358,T regulatory cells,donor_0,plate_2,Vorinostat,1.0,False
+1359,T regulatory cells,donor_2,plate_1,BAY 87-2243,1.0,False
+1360,T cells CD8+,donor_1,plate_3,Idelalisib,1.0,False
+1361,T cells CD8+,donor_0,plate_0,TR-14035,1.0,False
+1362,T regulatory cells,donor_1,plate_5,Bosutinib,1.0,False
+1363,T cells CD8+,donor_1,plate_5,AZD4547,1.0,False
+1364,T regulatory cells,donor_2,plate_4,Ceritinib,1.0,False
+1365,T regulatory cells,donor_2,plate_4,Buspirone,1.0,False
+1366,T regulatory cells,donor_2,plate_1,BMS-265246,1.0,False
+1367,T cells CD8+,donor_1,plate_5,AZD3514,1.0,False
+1368,T regulatory cells,donor_1,plate_5,Nilotinib,1.0,False
+1369,T regulatory cells,donor_1,plate_5,Resminostat,1.0,False
+1370,T cells CD4+,donor_0,plate_2,PF-04691502,1.0,False
+1371,B cells,donor_1,plate_3,Penfluridol,1.0,False
+1372,T cells CD8+,donor_0,plate_2,Dasatinib,1.0,False
+1373,T regulatory cells,donor_0,plate_0,ABT737,1.0,False
+1374,T cells CD4+,donor_2,plate_1,CGP 60474,1.0,False
+1375,T regulatory cells,donor_2,plate_4,Tivantinib,1.0,False
+1376,T cells CD8+,donor_2,plate_4,Tipifarnib,1.0,False
+1377,T regulatory cells,donor_0,plate_0,Saracatinib,1.0,False
+1378,NK cells,donor_0,plate_2,Foretinib,1.0,False
+1379,T regulatory cells,donor_1,plate_5,Lamivudine,1.0,False
+1380,T regulatory cells,donor_2,plate_1,Ruxolitinib,1.0,False
+1381,T cells CD8+,donor_0,plate_2,TL_HRAS26,1.0,False
+1382,T cells CD8+,donor_0,plate_0,AZD-8330,1.0,False
+1383,NK cells,donor_1,plate_3,PF-04691502,1.0,False
+1384,NK cells,donor_2,plate_1,IMD-0354,1.0,False
+1385,T cells CD8+,donor_1,plate_5,Mometasone Furoate,1.0,False
+1386,T cells CD8+,donor_1,plate_3,Isoniazid,1.0,False
+1387,T cells CD8+,donor_1,plate_5,Imatinib,1.0,False
+1388,T cells CD8+,donor_2,plate_1,Palbociclib,1.0,False
+1389,B cells,donor_2,plate_1,Alvocidib,1.0,False
+1390,T regulatory cells,donor_2,plate_4,TPCA-1,1.0,False
+1391,NK cells,donor_1,plate_3,Vorinostat,1.0,False
+1392,T cells CD4+,donor_0,plate_0,Bosutinib,1.0,False
+1393,Myeloid cells,donor_0,plate_2,Idelalisib,1.0,False
+1394,NK cells,donor_1,plate_3,Idelalisib,1.0,False
+1395,NK cells,donor_1,plate_5,Resminostat,1.0,False
+1396,T cells CD8+,donor_2,plate_1,Sgc-cbp30,1.0,False
+1397,T regulatory cells,donor_1,plate_5,Tacalcitol,1.0,False
+1398,T cells CD8+,donor_0,plate_0,LDN 193189,1.0,False
+1399,T regulatory cells,donor_2,plate_1,Tivozanib,1.0,False
+1400,T regulatory cells,donor_0,plate_0,RG7090,1.0,False
+1401,T cells CD8+,donor_1,plate_3,Amiodarone,1.0,False
+1402,NK cells,donor_0,plate_2,Oprozomib (ONX 0912),1.0,False
+1403,T cells CD8+,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+1404,B cells,donor_2,plate_1,Foretinib,1.0,False
+1405,T cells CD8+,donor_2,plate_4,CEP-37440,1.0,False
+1406,T cells CD8+,donor_0,plate_0,BI-D1870,1.0,False
+1407,Myeloid cells,donor_1,plate_5,CHIR-99021,1.0,False
+1408,T regulatory cells,donor_1,plate_3,Penfluridol,1.0,False
+1409,T regulatory cells,donor_2,plate_4,Riociguat,1.0,False
+1410,T cells CD8+,donor_0,plate_0,R428,1.0,False
+1411,T regulatory cells,donor_0,plate_0,RG7112,1.0,False
+1412,T cells CD8+,donor_1,plate_5,HYDROXYUREA,1.0,False
+1413,T cells CD8+,donor_0,plate_0,Bosutinib,1.0,False
+1414,T regulatory cells,donor_1,plate_3,I-BET151,1.0,False
+1415,T regulatory cells,donor_1,plate_5,Mubritinib (TAK 165),1.0,False
+1416,T cells CD8+,donor_1,plate_5,Tacalcitol,1.0,False
+1417,Myeloid cells,donor_0,plate_0,Crizotinib,1.0,False
+1418,B cells,donor_2,plate_1,O-Demethylated Adapalene,1.0,False
+1419,T cells CD8+,donor_2,plate_4,AZD3514,1.0,False
+1420,T regulatory cells,donor_0,plate_0,STK219801,1.0,False
+1421,T cells CD8+,donor_0,plate_2,PF-04691502,1.0,False
+1422,T regulatory cells,donor_0,plate_0,Ceritinib,1.0,False
+1423,T regulatory cells,donor_0,plate_0,Cabozantinib,1.0,False
+1424,T cells CD8+,donor_2,plate_4,AZD-8330,1.0,False
+1425,T regulatory cells,donor_0,plate_0,AZD3514,1.0,False
+1426,T regulatory cells,donor_0,plate_2,Protriptyline,1.0,False
+1427,T cells CD8+,donor_0,plate_2,Raloxifene,1.0,False
+1428,T cells CD8+,donor_0,plate_2,Foretinib,1.0,False
+1429,T regulatory cells,donor_2,plate_4,CC-401,1.0,False
+1430,T regulatory cells,donor_2,plate_4,GSK-1070916,1.0,False
+1431,T regulatory cells,donor_2,plate_4,Oxybenzone,1.0,False
+1432,Myeloid cells,donor_1,plate_3,Linagliptin,1.0,False
+1433,T regulatory cells,donor_1,plate_3,Desloratadine,1.0,False
+1434,T regulatory cells,donor_1,plate_5,HMN-214,1.0,False
+1435,NK cells,donor_1,plate_5,PF-03814735,1.0,False
+1436,T cells CD8+,donor_0,plate_2,RVX-208,1.0,False
+1437,T cells CD8+,donor_1,plate_5,CEP-37440,1.0,False
+1438,T cells CD8+,donor_2,plate_1,LY2090314,1.0,False
+1439,T regulatory cells,donor_2,plate_4,SLx-2119,1.0,False
+1440,T cells CD8+,donor_2,plate_4,Colchicine,1.0,False
+1441,T cells CD8+,donor_2,plate_4,Decitabine,1.0,False
+1442,T regulatory cells,donor_0,plate_0,Oxybenzone,1.0,False
+1443,T cells CD8+,donor_0,plate_0,SCH-58261,1.0,False
+1444,T regulatory cells,donor_0,plate_2,FK 866,1.0,False
+1445,T regulatory cells,donor_2,plate_4,SCH-58261,1.0,False
+1446,T cells CD8+,donor_2,plate_1,Canertinib,1.0,False
+1447,T regulatory cells,donor_1,plate_3,Flutamide,1.0,False
+1448,T regulatory cells,donor_2,plate_1,PD-0325901,1.0,False
+1449,T regulatory cells,donor_1,plate_3,Atorvastatin,1.0,False
+1450,T regulatory cells,donor_0,plate_0,Tivantinib,1.0,False
+1451,T regulatory cells,donor_2,plate_1,Foretinib,1.0,False
+1452,T regulatory cells,donor_2,plate_4,BI-D1870,1.0,False
+1453,T cells CD8+,donor_0,plate_2,Dactolisib,1.0,False
+1454,T regulatory cells,donor_2,plate_4,Azacitidine,1.0,False
+1455,Myeloid cells,donor_0,plate_0,R428,1.0,False
+1456,T cells CD8+,donor_2,plate_1,FK 866,1.0,False
+1457,T cells CD8+,donor_0,plate_2,Atorvastatin,1.0,False
+1458,T regulatory cells,donor_0,plate_2,PD-0325901,1.0,False
+1459,T regulatory cells,donor_2,plate_1,Ixabepilone,1.0,False
+1460,T cells CD8+,donor_1,plate_5,Doxorubicin,1.0,False
+1461,T regulatory cells,donor_2,plate_4,Clotrimazole,1.0,False
+1462,NK cells,donor_1,plate_3,UNII-BXU45ZH6LI,1.0,False
+1463,T cells CD8+,donor_2,plate_4,PF-03814735,1.0,False
+1464,T regulatory cells,donor_0,plate_0,Selumetinib,1.0,False
+1465,T regulatory cells,donor_1,plate_5,GSK-1070916,1.0,False
+1466,T regulatory cells,donor_2,plate_1,IKK Inhibitor VII,1.0,False
+1467,T cells CD8+,donor_0,plate_2,Perhexiline,1.0,False
+1468,T regulatory cells,donor_0,plate_2,CGP 60474,1.0,False
+1469,T regulatory cells,donor_1,plate_3,AVL-292,1.0,False
+1470,T cells CD8+,donor_1,plate_3,TL_HRAS26,1.0,False
+1471,T regulatory cells,donor_2,plate_1,Vardenafil,1.0,False
+1472,T cells CD8+,donor_0,plate_0,HMN-214,1.0,False
+1473,T regulatory cells,donor_0,plate_2,Tamatinib,1.0,False
+1474,T cells CD8+,donor_2,plate_4,OSI-930,1.0,False
+1475,T cells CD8+,donor_1,plate_5,Buspirone,1.0,False
+1476,T regulatory cells,donor_0,plate_2,Sgc-cbp30,1.0,False
+1477,T cells CD8+,donor_1,plate_5,BX 912,1.0,False
+1478,T regulatory cells,donor_2,plate_1,Sunitinib,1.0,False
+1479,T regulatory cells,donor_2,plate_4,AZ628,1.0,False
+1480,T regulatory cells,donor_0,plate_2,Tivozanib,1.0,False
+1481,T regulatory cells,donor_2,plate_4,AT 7867,1.0,False
+1482,T regulatory cells,donor_1,plate_3,Quizartinib,1.0,False
+1483,T cells CD8+,donor_2,plate_1,IMD-0354,1.0,False
+1484,T cells CD8+,donor_0,plate_0,PRT-062607,1.0,False
+1485,T regulatory cells,donor_0,plate_2,AVL-292,1.0,False
+1486,T regulatory cells,donor_0,plate_0,Crizotinib,1.0,False
+1487,T cells CD8+,donor_1,plate_3,Palbociclib,1.0,False
+1488,NK cells,donor_0,plate_2,TL_HRAS26,1.0,False
+1489,T cells CD8+,donor_0,plate_2,Clomipramine,1.0,False
+1490,T cells CD8+,donor_2,plate_4,GLPG0634,1.0,False
+1491,T regulatory cells,donor_0,plate_2,IMD-0354,1.0,False
+1492,T regulatory cells,donor_2,plate_1,BMS-536924,1.0,False
+1493,T regulatory cells,donor_2,plate_4,AZD3514,1.0,False
+1494,T cells CD8+,donor_1,plate_3,Ruxolitinib,1.0,False
+1495,T regulatory cells,donor_0,plate_2,O-Demethylated Adapalene,1.0,False
+1496,T regulatory cells,donor_2,plate_1,GW843682X,1.0,False
+1497,T cells CD8+,donor_0,plate_0,AZ628,1.0,False
+1498,T regulatory cells,donor_2,plate_1,Penfluridol,1.0,False
+1499,Myeloid cells,donor_2,plate_1,Dactolisib,1.0,False
+1500,T regulatory cells,donor_2,plate_1,Flutamide,1.0,False
+1501,T regulatory cells,donor_2,plate_4,Nilotinib,1.0,False
+1502,T regulatory cells,donor_1,plate_3,Sunitinib,1.0,False
+1503,T cells CD8+,donor_1,plate_3,Dovitinib,1.0,False
+1504,T regulatory cells,donor_2,plate_1,Porcn Inhibitor III,1.0,False
+1505,T cells CD8+,donor_1,plate_5,OSI-930,1.0,False
+1506,T regulatory cells,donor_1,plate_5,CHIR-99021,1.0,False
+1507,NK cells,donor_0,plate_2,AT13387,1.0,False
+1508,T cells CD4+,donor_1,plate_3,BMS-387032,1.0,False
+1509,T cells CD8+,donor_0,plate_0,Imatinib,1.0,False
+1510,T cells CD8+,donor_1,plate_3,PF-04691502,1.0,False
+1511,NK cells,donor_0,plate_0,Decitabine,1.0,False
+1512,T cells CD8+,donor_1,plate_3,BMS-265246,1.0,False
+1513,T regulatory cells,donor_0,plate_0,HYDROXYUREA,1.0,False
+1514,T cells CD8+,donor_1,plate_3,Trametinib,1.0,False
+1515,T regulatory cells,donor_0,plate_2,Flutamide,1.0,False
+1516,NK cells,donor_0,plate_2,Vorinostat,1.0,False
+1517,T cells CD8+,donor_1,plate_5,Vanoxerine,1.0,False
+1518,T regulatory cells,donor_2,plate_1,Atorvastatin,1.0,False
+1519,T cells CD8+,donor_1,plate_3,AVL-292,1.0,False
+1520,T regulatory cells,donor_0,plate_2,MK-5108,1.0,False
+1521,T cells CD8+,donor_0,plate_0,Defactinib,1.0,False
+1522,T cells CD8+,donor_2,plate_1,BMS-265246,1.0,False
+1523,T regulatory cells,donor_0,plate_2,Trametinib,1.0,False
+1524,T cells CD8+,donor_0,plate_0,Tivantinib,1.0,False
+1525,T regulatory cells,donor_2,plate_1,Methotrexate,1.0,False
+1526,T regulatory cells,donor_1,plate_3,FK 866,1.0,False
+1527,T regulatory cells,donor_2,plate_4,Clemastine,1.0,False
+1528,T cells CD8+,donor_2,plate_4,SB525334,1.0,False
+1529,T regulatory cells,donor_2,plate_1,BAY 61-3606,1.0,False
+1530,T regulatory cells,donor_0,plate_2,Phenylbutazone,1.0,False
+1531,T regulatory cells,donor_1,plate_3,K-02288,1.0,False
+1532,T cells CD8+,donor_1,plate_3,Foretinib,1.0,False
+1533,T cells CD8+,donor_1,plate_5,Colforsin,1.0,False
+1534,T regulatory cells,donor_1,plate_3,Dovitinib,1.0,False
+1535,T regulatory cells,donor_1,plate_3,Isoniazid,1.0,False
+1536,T regulatory cells,donor_0,plate_2,Amiodarone,1.0,False
+1537,T cells CD8+,donor_0,plate_0,AZD3514,1.0,False
+1538,T cells CD8+,donor_1,plate_3,GW843682X,1.0,False
+1539,T cells CD8+,donor_1,plate_5,Tivantinib,1.0,False
+1540,T regulatory cells,donor_0,plate_2,Dactolisib,1.0,False
+1541,T regulatory cells,donor_2,plate_4,OSI-930,1.0,False
+1542,T regulatory cells,donor_1,plate_3,Disulfiram,1.0,False
+1543,T cells CD8+,donor_1,plate_3,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+1544,T regulatory cells,donor_2,plate_1,Disulfiram,1.0,False
+1545,T regulatory cells,donor_2,plate_4,Tosedostat,1.0,False
+1546,T cells CD8+,donor_1,plate_3,Ixabepilone,1.0,False
+1547,T regulatory cells,donor_2,plate_1,RN-486,1.0,False
+1548,T cells CD8+,donor_1,plate_3,Navitoclax,1.0,False
+1549,T regulatory cells,donor_0,plate_0,Buspirone,1.0,False
+1550,T regulatory cells,donor_2,plate_1,Tamatinib,1.0,False
+1551,T cells CD8+,donor_0,plate_2,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+1552,T regulatory cells,donor_0,plate_2,Pomalidomide,1.0,False
+1553,T cells CD8+,donor_0,plate_2,AVL-292,1.0,False
+1554,T regulatory cells,donor_2,plate_4,Crizotinib,1.0,False
+1555,T regulatory cells,donor_1,plate_3,AMD-070 (hydrochloride),1.0,False
+1556,T regulatory cells,donor_1,plate_3,Pomalidomide,1.0,False
+1557,T regulatory cells,donor_2,plate_1,Isoniazid,1.0,False
+1558,T cells CD8+,donor_0,plate_0,BX 912,1.0,False
+1559,T cells CD8+,donor_1,plate_3,RN-486,1.0,False
+1560,T cells CD8+,donor_0,plate_2,TIE2 Kinase Inhibitor,1.0,False
+1561,T regulatory cells,donor_0,plate_0,Azacitidine,1.0,False
+1562,T cells CD8+,donor_0,plate_2,BMS-387032,1.0,False
+1563,NK cells,donor_1,plate_3,Proscillaridin A;Proscillaridin-A,1.0,False
+1564,T regulatory cells,donor_1,plate_3,Raloxifene,1.0,False
+1565,T cells CD8+,donor_2,plate_1,AT13387,1.0,False
+1566,T regulatory cells,donor_0,plate_2,RN-486,1.0,False
+1567,T regulatory cells,donor_1,plate_3,Linagliptin,1.0,False
+1568,T regulatory cells,donor_2,plate_1,BMS-777607,1.0,False
+1569,T regulatory cells,donor_0,plate_0,GLPG0634,1.0,False
+1570,T regulatory cells,donor_0,plate_0,ABT-199 (GDC-0199),1.0,False
+1571,T regulatory cells,donor_2,plate_4,Masitinib,1.0,False
+1572,T regulatory cells,donor_2,plate_4,Imatinib,1.0,False
+1573,T cells CD8+,donor_2,plate_1,PF-04691502,1.0,False
+1574,T cells CD8+,donor_0,plate_0,Doxorubicin,1.0,False
+1575,T regulatory cells,donor_1,plate_3,BMS-777607,1.0,False
+1576,T cells CD8+,donor_0,plate_0,Masitinib,1.0,False
+1577,T regulatory cells,donor_0,plate_0,Tacalcitol,1.0,False
+1578,T regulatory cells,donor_2,plate_1,Raloxifene,1.0,False
+1579,T cells CD8+,donor_0,plate_2,Chlorpheniramine,1.0,False
+1580,T cells CD8+,donor_1,plate_3,K-02288,1.0,False
+1581,T regulatory cells,donor_1,plate_3,RN-486,1.0,False
+1582,T regulatory cells,donor_1,plate_3,Idelalisib,1.0,False
+1583,T cells CD8+,donor_1,plate_3,Chlorpheniramine,1.0,False
+1584,T cells CD8+,donor_2,plate_4,PRT-062607,1.0,False
+1585,T regulatory cells,donor_1,plate_5,ABT-199 (GDC-0199),1.0,False
+1586,T regulatory cells,donor_1,plate_3,Ketoconazole,1.0,False
+1587,T cells CD8+,donor_2,plate_4,STK219801,1.0,False
+1588,T regulatory cells,donor_0,plate_0,MGCD-265,1.0,False
+1589,B cells,donor_1,plate_5,R428,1.0,False
+1590,T cells CD8+,donor_1,plate_3,Dasatinib,1.0,False
+1591,NK cells,donor_2,plate_4,CEP-18770 (Delanzomib),1.0,False
+1592,T regulatory cells,donor_0,plate_0,Clotrimazole,1.0,False
+1593,T regulatory cells,donor_0,plate_2,Idelalisib,1.0,False
+1594,Myeloid cells,donor_0,plate_2,Alvocidib,1.0,False
+1595,T regulatory cells,donor_1,plate_5,MGCD-265,1.0,False
+1596,T regulatory cells,donor_1,plate_3,Phenylbutazone,1.0,False
+1597,T regulatory cells,donor_2,plate_1,PF-04691502,1.0,False
+1598,T cells CD8+,donor_1,plate_3,Sgc-cbp30,1.0,False
+1599,T cells CD8+,donor_1,plate_5,Midostaurin,1.0,False
+1600,T regulatory cells,donor_2,plate_1,Canertinib,1.0,False
+1601,T regulatory cells,donor_0,plate_2,GW843682X,1.0,False
+1602,T cells CD8+,donor_0,plate_2,Isoniazid,1.0,False
+1603,T regulatory cells,donor_1,plate_3,Foretinib,1.0,False
+1604,T cells CD4+,donor_2,plate_1,IN1451,1.0,False
+1605,T regulatory cells,donor_2,plate_1,Dasatinib,1.0,False
+1606,T cells CD8+,donor_2,plate_1,PD-0325901,1.0,False
+1607,T cells CD8+,donor_0,plate_0,STK219801,1.0,False
+1608,T regulatory cells,donor_1,plate_5,Colforsin,1.0,False
+1609,T regulatory cells,donor_0,plate_0,Mubritinib (TAK 165),1.0,False
+1610,T regulatory cells,donor_1,plate_5,PF-03814735,1.0,False
+1611,T cells CD8+,donor_2,plate_1,Tamatinib,1.0,False
+1612,T cells CD8+,donor_2,plate_4,Cabozantinib,1.0,False
+1613,T cells CD8+,donor_2,plate_4,Vandetanib,1.0,False
+1614,T regulatory cells,donor_1,plate_3,Topotecan,1.0,False
+1615,T regulatory cells,donor_2,plate_1,Palbociclib,1.0,False
+1616,T regulatory cells,donor_1,plate_3,LY2090314,1.0,False
+1617,T regulatory cells,donor_0,plate_0,R428,1.0,False
+1618,T regulatory cells,donor_2,plate_1,AT13387,1.0,False
+1619,T regulatory cells,donor_1,plate_3,Alogliptin,1.0,False
+1620,T cells CD8+,donor_0,plate_0,Crizotinib,1.0,False
+1621,T regulatory cells,donor_0,plate_0,Nefazodone,1.0,False
+1622,T regulatory cells,donor_0,plate_2,BAY 87-2243,1.0,False
+1623,T regulatory cells,donor_1,plate_3,Protriptyline,1.0,False
+1624,T regulatory cells,donor_1,plate_5,Crizotinib,1.0,False
+1625,T regulatory cells,donor_0,plate_2,TL_HRAS26,1.0,False
+1626,T cells CD8+,donor_1,plate_3,IMD-0354,1.0,False
+1627,T regulatory cells,donor_1,plate_3,Alvocidib,1.0,False
+1628,T cells CD8+,donor_0,plate_0,GO-6976,1.0,False
+1629,T regulatory cells,donor_0,plate_0,Doxorubicin,1.0,False
+1630,T regulatory cells,donor_0,plate_2,Isoniazid,1.0,False
+1631,T regulatory cells,donor_1,plate_5,AZD3514,1.0,False
+1632,T regulatory cells,donor_0,plate_0,Pitavastatin Calcium,1.0,False
+1633,T regulatory cells,donor_1,plate_5,GLPG0634,1.0,False
+1634,T regulatory cells,donor_1,plate_5,Nefazodone,1.0,False
+1635,T regulatory cells,donor_1,plate_3,Palbociclib,1.0,False
+1636,T cells CD8+,donor_0,plate_2,Topotecan,1.0,False
+1637,T cells CD8+,donor_1,plate_5,RG7090,1.0,False
+1638,T cells CD8+,donor_2,plate_1,Navitoclax,1.0,False
+1639,T regulatory cells,donor_1,plate_5,Clemastine,1.0,False
+1640,T regulatory cells,donor_2,plate_1,Dactolisib,1.0,False
+1641,T regulatory cells,donor_2,plate_4,Vandetanib,1.0,False
+1642,T cells CD8+,donor_2,plate_1,Clomipramine,1.0,False
+1643,NK cells,donor_1,plate_3,IN1451,1.0,False
+1644,T regulatory cells,donor_1,plate_5,Belinostat,0.1,True
+1645,T cells CD8+,donor_0,plate_2,FK 866,1.0,False
+1646,T cells CD8+,donor_2,plate_1,Idelalisib,1.0,False
+1647,T cells CD8+,donor_0,plate_2,IKK Inhibitor VII,1.0,False
+1648,T regulatory cells,donor_0,plate_2,Ketoconazole,1.0,False
+1649,T regulatory cells,donor_1,plate_3,Navitoclax,1.0,False
+1650,T cells CD8+,donor_0,plate_2,Protriptyline,1.0,False
+1651,T cells CD8+,donor_2,plate_4,TR-14035,1.0,False
+1652,T regulatory cells,donor_1,plate_5,CGM-097,1.0,False
+1653,T cells CD8+,donor_1,plate_3,Phenylbutazone,1.0,False
+1654,T regulatory cells,donor_0,plate_2,BMS-536924,1.0,False
+1655,T regulatory cells,donor_1,plate_5,SB525334,1.0,False
+1656,T cells CD8+,donor_1,plate_5,SLx-2119,1.0,False
+1657,T regulatory cells,donor_2,plate_4,Pitavastatin Calcium,1.0,False
+1658,T cells CD8+,donor_0,plate_2,Canertinib,1.0,False
+1659,T regulatory cells,donor_1,plate_3,BMS-265246,1.0,False
+1660,T regulatory cells,donor_2,plate_4,Decitabine,1.0,False
+1661,T regulatory cells,donor_0,plate_0,Tosedostat,1.0,False
+1662,T cells CD8+,donor_0,plate_2,IMD-0354,1.0,False
+1663,T cells CD8+,donor_0,plate_0,AT 7867,1.0,False
+1664,T cells CD8+,donor_1,plate_3,Tamatinib,1.0,False
+1665,T regulatory cells,donor_1,plate_5,STK219801,1.0,False
+1666,T regulatory cells,donor_1,plate_5,BI-D1870,1.0,False
+1667,T cells CD8+,donor_1,plate_3,Quizartinib,1.0,False
+1668,T regulatory cells,donor_1,plate_5,TGX 221,1.0,False
+1669,T cells CD8+,donor_0,plate_0,Selumetinib,1.0,False
+1670,T cells CD8+,donor_0,plate_0,ABT-199 (GDC-0199),1.0,False
+1671,T regulatory cells,donor_2,plate_4,AZD4547,1.0,False
+1672,T regulatory cells,donor_2,plate_1,Lapatinib,1.0,False
+1673,T cells CD8+,donor_1,plate_3,I-BET151,1.0,False
+1674,T regulatory cells,donor_2,plate_4,HMN-214,1.0,False
+1675,NK cells,donor_2,plate_1,Oprozomib (ONX 0912),1.0,False
+1676,T regulatory cells,donor_1,plate_5,Masitinib,1.0,False
+1677,T cells CD8+,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+1678,T regulatory cells,donor_0,plate_2,Desloratadine,1.0,False
+1679,T regulatory cells,donor_1,plate_3,Tivozanib,1.0,False
+1680,T regulatory cells,donor_1,plate_5,Tipifarnib,1.0,False
+1681,T regulatory cells,donor_1,plate_5,Colchicine,1.0,False
+1682,T cells CD8+,donor_0,plate_0,Mubritinib (TAK 165),1.0,False
+1683,T cells CD8+,donor_2,plate_4,Imatinib,1.0,False
+1684,T regulatory cells,donor_0,plate_2,Quizartinib,1.0,False
+1685,T cells CD8+,donor_2,plate_1,Chlorpheniramine,1.0,False
+1686,T regulatory cells,donor_2,plate_4,BX 912,1.0,False
+1687,T cells CD8+,donor_0,plate_2,Flutamide,1.0,False
+1688,T regulatory cells,donor_0,plate_0,CHIR-99021,1.0,False
+1689,T regulatory cells,donor_2,plate_4,R428,1.0,False
+1690,T cells CD8+,donor_1,plate_3,BMS-387032,1.0,False
+1691,T regulatory cells,donor_0,plate_2,I-BET151,1.0,False
+1692,T regulatory cells,donor_1,plate_3,TIE2 Kinase Inhibitor,1.0,False
+1693,T cells CD8+,donor_0,plate_0,Midostaurin,1.0,False
+1694,T regulatory cells,donor_1,plate_5,Prednisolone,1.0,False
+1695,T cells CD8+,donor_2,plate_1,AMD-070 (hydrochloride),1.0,False
+1696,T regulatory cells,donor_0,plate_2,RVX-208,1.0,False
+1697,T cells CD8+,donor_2,plate_4,BI-D1870,1.0,False
+1698,T cells CD8+,donor_0,plate_2,Tivozanib,1.0,False
+1699,T regulatory cells,donor_0,plate_2,BMS-387032,1.0,False
+1700,T cells CD4+,donor_0,plate_2,Alvocidib,1.0,False
+1701,T regulatory cells,donor_2,plate_4,GO-6976,1.0,False
+1702,T cells CD8+,donor_2,plate_4,Nilotinib,1.0,False
+1703,T regulatory cells,donor_1,plate_5,Ceritinib,1.0,False
+1704,T regulatory cells,donor_2,plate_1,FK 866,1.0,False
+1705,T regulatory cells,donor_1,plate_5,Riociguat,1.0,False
+1706,T cells CD8+,donor_1,plate_5,Belinostat,0.1,True
+1707,T cells CD8+,donor_0,plate_0,Nefazodone,1.0,False
+1708,T regulatory cells,donor_2,plate_4,Tacalcitol,1.0,False
+1709,T regulatory cells,donor_1,plate_5,Imatinib,1.0,False
+1710,T cells CD8+,donor_2,plate_4,Tosedostat,1.0,False
+1711,T cells CD8+,donor_2,plate_1,Alogliptin,1.0,False
+1712,T regulatory cells,donor_1,plate_5,AZ628,1.0,False
+1713,T cells CD8+,donor_1,plate_3,BAY 87-2243,1.0,False
+1714,T regulatory cells,donor_1,plate_5,Doxorubicin,1.0,False
+1715,T cells CD8+,donor_0,plate_2,Pomalidomide,1.0,False
+1716,T regulatory cells,donor_2,plate_1,Proscillaridin A;Proscillaridin-A,1.0,False
+1717,T cells CD8+,donor_1,plate_3,Vardenafil,1.0,False
+1718,T regulatory cells,donor_1,plate_3,Proscillaridin A;Proscillaridin-A,1.0,False
+1719,T cells CD8+,donor_0,plate_0,Ceritinib,1.0,False
+1720,T regulatory cells,donor_2,plate_4,HYDROXYUREA,1.0,False
+1721,T regulatory cells,donor_1,plate_5,OSI-930,1.0,False
+1722,T cells CD8+,donor_0,plate_2,BAY 61-3606,1.0,False
+1723,T regulatory cells,donor_1,plate_5,Tosedostat,1.0,False
+1724,T cells CD8+,donor_1,plate_5,CGM-097,1.0,False
+1725,T regulatory cells,donor_0,plate_2,Navitoclax,1.0,False
+1726,T cells CD8+,donor_2,plate_4,HYDROXYUREA,1.0,False
+1727,T cells CD4+,donor_1,plate_3,CGP 60474,1.0,False
+1728,T cells CD8+,donor_0,plate_0,Tipifarnib,1.0,False
+1729,T regulatory cells,donor_2,plate_4,CEP-18770 (Delanzomib),1.0,False
+1730,T regulatory cells,donor_0,plate_0,SB525334,1.0,False
+1731,T regulatory cells,donor_0,plate_2,BMS-265246,1.0,False
+1732,T cells CD8+,donor_2,plate_4,Belinostat,0.1,True
+1733,T regulatory cells,donor_1,plate_5,TR-14035,1.0,False
+1734,T regulatory cells,donor_1,plate_5,Buspirone,1.0,False
+1735,T regulatory cells,donor_1,plate_5,Saracatinib,1.0,False
+1736,NK cells,donor_0,plate_0,CGM-097,1.0,False
+1737,T regulatory cells,donor_1,plate_5,Decitabine,1.0,False
+1738,T regulatory cells,donor_2,plate_1,Amiodarone,1.0,False
+1739,T regulatory cells,donor_0,plate_0,Mometasone Furoate,1.0,False
+1740,T regulatory cells,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+1741,Myeloid cells,donor_2,plate_1,Foretinib,1.0,False
+1742,T cells CD8+,donor_1,plate_3,FK 866,1.0,False
+1743,T cells CD8+,donor_0,plate_0,Clotrimazole,1.0,False
+1744,T regulatory cells,donor_1,plate_3,BAY 87-2243,1.0,False
+1745,T regulatory cells,donor_2,plate_4,Bosutinib,1.0,False
+1746,T regulatory cells,donor_0,plate_2,Chlorpheniramine,1.0,False
+1747,T cells CD8+,donor_1,plate_3,Porcn Inhibitor III,1.0,False
+1748,T cells CD8+,donor_0,plate_0,Tacalcitol,1.0,False
+1749,T regulatory cells,donor_2,plate_1,UNII-BXU45ZH6LI,1.0,False
+1750,T regulatory cells,donor_2,plate_4,AZD-8330,1.0,False
+1751,T cells CD8+,donor_2,plate_1,Dasatinib,1.0,False
+1752,T cells CD8+,donor_0,plate_2,BAY 87-2243,1.0,False
+1753,T cells CD8+,donor_2,plate_4,LDN 193189,1.0,False
+1754,NK cells,donor_0,plate_0,MLN 2238,1.0,False
+1755,T regulatory cells,donor_1,plate_3,IKK Inhibitor VII,1.0,False
+1756,T regulatory cells,donor_0,plate_2,LY2090314,1.0,False
+1757,T regulatory cells,donor_0,plate_2,Porcn Inhibitor III,1.0,False
+1758,T regulatory cells,donor_0,plate_0,GO-6976,1.0,False
+1759,T regulatory cells,donor_0,plate_0,SCH-58261,1.0,False
+1760,T regulatory cells,donor_1,plate_3,Amiodarone,1.0,False
+1761,T regulatory cells,donor_1,plate_3,O-Demethylated Adapalene,1.0,False
+1762,T cells CD4+,donor_1,plate_3,Oprozomib (ONX 0912),1.0,False
+1763,NK cells,donor_0,plate_2,IN1451,1.0,False
+1764,T regulatory cells,donor_1,plate_5,MLN 2238,1.0,False
+1765,T regulatory cells,donor_0,plate_0,PRT-062607,1.0,False
+1766,T regulatory cells,donor_1,plate_5,ABT737,1.0,False
+1767,T cells CD8+,donor_0,plate_2,BMS-536924,1.0,False
+1768,T regulatory cells,donor_1,plate_5,R428,1.0,False
+1769,T regulatory cells,donor_1,plate_3,GW843682X,1.0,False
+1770,T regulatory cells,donor_2,plate_4,TR-14035,1.0,False
+1771,NK cells,donor_0,plate_2,Alvocidib,1.0,False
+1772,T regulatory cells,donor_0,plate_2,Atorvastatin,1.0,False
+1773,T regulatory cells,donor_1,plate_3,TL_HRAS26,1.0,False
+1774,T cells CD8+,donor_0,plate_2,Navitoclax,1.0,False
+1775,T regulatory cells,donor_2,plate_1,Idelalisib,1.0,False
+1776,T cells CD4+,donor_2,plate_1,Proscillaridin A;Proscillaridin-A,1.0,False
+1777,T regulatory cells,donor_2,plate_1,AMD-070 (hydrochloride),1.0,False
+1778,T cells CD8+,donor_1,plate_3,Desloratadine,1.0,False
+1779,T cells CD8+,donor_1,plate_3,UNII-BXU45ZH6LI,1.0,False
+1780,T regulatory cells,donor_0,plate_0,Imatinib,1.0,False
+1781,T regulatory cells,donor_0,plate_2,BAY 61-3606,1.0,False
+1782,T regulatory cells,donor_1,plate_3,Sgc-cbp30,1.0,False
+1783,T regulatory cells,donor_2,plate_1,Chlorpheniramine,1.0,False
+1784,T cells CD8+,donor_0,plate_0,Mometasone Furoate,1.0,False
+1785,T cells CD8+,donor_0,plate_0,Pitavastatin Calcium,1.0,False
+1786,T regulatory cells,donor_1,plate_3,BMS-536924,1.0,False
+1787,Myeloid cells,donor_1,plate_5,MLN 2238,1.0,False
+1788,T regulatory cells,donor_0,plate_2,Perhexiline,1.0,False
+1789,B cells,donor_0,plate_2,Oprozomib (ONX 0912),1.0,False
+1790,T regulatory cells,donor_1,plate_5,RG7112,1.0,False
+1791,T cells CD8+,donor_1,plate_5,ABT-199 (GDC-0199),1.0,False
+1792,T cells CD8+,donor_2,plate_1,UNII-BXU45ZH6LI,1.0,False
+1793,T regulatory cells,donor_0,plate_0,BX 912,1.0,False
+1794,NK cells,donor_2,plate_1,Alvocidib,1.0,False
+1795,T regulatory cells,donor_1,plate_5,PRT-062607,1.0,False
+1796,T cells CD8+,donor_0,plate_0,Cabozantinib,1.0,False
+1797,T cells CD8+,donor_0,plate_0,Colchicine,1.0,False
+1798,T cells CD8+,donor_0,plate_0,YK 4-279,1.0,False
+1799,T regulatory cells,donor_1,plate_3,IMD-0354,1.0,False
+1800,T regulatory cells,donor_2,plate_4,RG7112,1.0,False
+1801,T regulatory cells,donor_2,plate_1,Ganetespib (STA-9090),1.0,False
+1802,T regulatory cells,donor_0,plate_0,GSK256066,1.0,False
+1803,T regulatory cells,donor_0,plate_0,YK 4-279,1.0,False
+1804,T regulatory cells,donor_1,plate_5,Mometasone Furoate,1.0,False
+1805,T cells CD8+,donor_1,plate_3,Flutamide,1.0,False
+1806,T cells CD8+,donor_0,plate_2,Quizartinib,1.0,False
+1807,T regulatory cells,donor_1,plate_5,GO-6976,1.0,False
+1808,T regulatory cells,donor_0,plate_2,Belinostat,0.1,True
+1809,NK cells,donor_2,plate_1,UNII-BXU45ZH6LI,1.0,False
+1810,T cells CD8+,donor_1,plate_3,RVX-208,1.0,False
+1811,T regulatory cells,donor_1,plate_5,RG7090,1.0,False
+1812,T cells CD8+,donor_1,plate_3,AMD-070 (hydrochloride),1.0,False
+1813,T regulatory cells,donor_1,plate_3,Dactolisib,1.0,False
+1814,T cells CD4+,donor_1,plate_5,CEP-18770 (Delanzomib),1.0,False
+1815,NK cells,donor_1,plate_3,Alvocidib,1.0,False
+1816,T cells CD4+,donor_0,plate_0,CGM-097,1.0,False
+1817,T regulatory cells,donor_0,plate_0,BI-D1870,1.0,False
+1818,NK cells,donor_0,plate_2,CGP 60474,1.0,False
+1819,T regulatory cells,donor_0,plate_0,Prednisolone,1.0,False
+1820,T regulatory cells,donor_2,plate_4,Belinostat,0.1,True
+1821,T regulatory cells,donor_0,plate_2,Proscillaridin A;Proscillaridin-A,1.0,False
+1822,T regulatory cells,donor_0,plate_0,Decitabine,1.0,False
+1823,T regulatory cells,donor_1,plate_3,Ruxolitinib,1.0,False
+1824,T cells CD4+,donor_2,plate_1,Alvocidib,1.0,False
+1825,NK cells,donor_0,plate_2,UNII-BXU45ZH6LI,1.0,False
+1826,T regulatory cells,donor_0,plate_0,Nilotinib,1.0,False
+1827,T regulatory cells,donor_0,plate_2,IKK Inhibitor VII,1.0,False
+1828,B cells,donor_0,plate_2,Alvocidib,1.0,False
+1829,T regulatory cells,donor_1,plate_3,5-(9-Isopropyl-8-methyl-2-morpholino-9H-purin-6-yl)pyrimidin-2-amine,1.0,False
+1830,T regulatory cells,donor_0,plate_2,Dasatinib,1.0,False
+1831,T regulatory cells,donor_0,plate_2,Ganetespib (STA-9090),1.0,False
+1832,NK cells,donor_2,plate_1,IN1451,1.0,False
+1833,T regulatory cells,donor_0,plate_0,TPCA-1,1.0,False
+1834,T regulatory cells,donor_1,plate_3,PF-04691502,1.0,False
+1835,T regulatory cells,donor_0,plate_2,Ruxolitinib,1.0,False
+1836,T cells CD4+,donor_0,plate_2,UNII-BXU45ZH6LI,1.0,False
+1837,T regulatory cells,donor_0,plate_0,Midostaurin,1.0,False
+1838,T cells CD8+,donor_0,plate_2,Proscillaridin A;Proscillaridin-A,1.0,False
+1839,T cells CD8+,donor_1,plate_3,Ketoconazole,1.0,False
+1840,T regulatory cells,donor_1,plate_3,Scriptaid,1.0,False
+1841,Myeloid cells,donor_2,plate_4,MLN 2238,1.0,False
+1842,T regulatory cells,donor_1,plate_3,BAY 61-3606,1.0,False
+1843,T cells CD4+,donor_1,plate_3,Alvocidib,1.0,False
+1844,T regulatory cells,donor_1,plate_5,Pitavastatin Calcium,1.0,False
+1845,T cells CD8+,donor_1,plate_3,IN1451,1.0,False
+1846,T regulatory cells,donor_0,plate_2,Oprozomib (ONX 0912),1.0,False
+1847,Myeloid cells,donor_0,plate_2,Oprozomib (ONX 0912),1.0,False
+1848,B cells,donor_1,plate_5,MLN 2238,1.0,False
+1849,T cells CD8+,donor_1,plate_3,AT13387,1.0,False
+1850,T regulatory cells,donor_1,plate_3,Belinostat,0.1,True
+1851,T regulatory cells,donor_2,plate_1,BMS-387032,1.0,False
+1852,NK cells,donor_1,plate_5,MLN 2238,1.0,False
+1853,T regulatory cells,donor_1,plate_3,Trametinib,1.0,False
+1854,T cells CD8+,donor_1,plate_3,BAY 61-3606,1.0,False
+1855,NK cells,donor_1,plate_3,CGP 60474,1.0,False
+1856,Myeloid cells,donor_0,plate_0,MLN 2238,1.0,False
+1857,T regulatory cells,donor_1,plate_3,AT13387,1.0,False
+1858,T regulatory cells,donor_0,plate_2,Scriptaid,1.0,False
+1859,T cells CD8+,donor_2,plate_1,BMS-387032,1.0,False
+1860,B cells,donor_0,plate_0,MLN 2238,1.0,False
