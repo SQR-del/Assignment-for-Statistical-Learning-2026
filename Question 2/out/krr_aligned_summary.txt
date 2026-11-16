@@ -1,0 +1,5 @@
+局部 KRR（v2）在协议 A 上的 MRRMSE；差值为负 = 比 small 好；区间为按行配对自助法 95% 区间（10000 次）
+NK cells             n=129  small 1.0197  calib 1.0260  full 1.0292 | calib-small +0.0062 [-0.0115, +0.0208] | full-small +0.0094 [-0.0135, +0.0285]
+T cells CD4+         n=129  small 0.9573  calib 0.9655  full 0.9593 | calib-small +0.0082 [-0.0024, +0.0230] | full-small +0.0020 [-0.0102, +0.0123]
+T cells CD8+         n=127  small 0.7896  calib 0.7904  full 0.8018 | calib-small +0.0008 [-0.0025, +0.0037] | full-small +0.0123 [-0.0120, +0.0392]
+T regulatory cells   n=129  small 0.9949  calib 0.9949  full 0.9953 | calib-small -0.0000 [-0.0004, +0.0002] | full-small +0.0004 [-0.0081, +0.0084]

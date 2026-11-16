@@ -3,10 +3,11 @@
 
 Protocols
   A   : for each T/NK cell type o: hide all of o's rows except the 15 anchors + 2 controls (as for B/Myeloid),
-        predict o's official test compounds from everything else.  A15 = A without CD8+ (CD8+ lacks 2 anchors).
+        predict o's official test compounds from everything else (CD8+ has only 13 anchors; all four count).
   V1  : B / Myeloid leave-one-anchor-out (30 folds); V1w = the anchors that are weak in the T/NK sources
         (source-mean row RMS below the 90th percentile of the official test compounds), like most test queries.
-Pre-declared selection objective = mean(V1w / 1.1625, A15 / 0.9894), i.e. relative to KRR v1 (= 1.000).
+Objective = mean(V1w / 1.1625, A / 0.9402), i.e. relative to KRR v1 (= 1.000).
+(Until 2026-11-16 the objective used A15 = A without CD8+, divided by 0.9894; past model choices were made with it.)
 
     python validate.py                     # full run (~6 min on one A40)
     python validate.py --seeds 1 --smoke   # quick check
@@ -28,7 +29,7 @@ os.makedirs(args.out, exist_ok=True)
 cfg = Config(); t0 = time.time()
 tab = Table(); Y = tab.Y; row_of = tab.row_of; nC = len(tab.comps)
 variants = args.variants.split(','); w = [float(x) for x in args.weights.split(',')]
-REF_KRR1 = dict(V1w=1.1625, A15=0.9894)          # KRR v1, fixed before any network was run
+REF_KRR1 = dict(V1w=1.1625, A=0.9402)            # KRR v1
 
 cut = np.quantile([rms(Y[[row_of[(c, d)] for c in tab.SRC]].mean(0)) for d in tab.QOFF], .9)
 folds = []
@@ -67,22 +68,21 @@ R = pd.DataFrame(recs); R.to_csv(os.path.join(args.out, 'rows.csv'), index=False
 def summ(g):
     a = g[g.proto == 'A'].groupby('name').err.mean()
     b = g[g.proto == 'V1'].copy(); b['target'] = b['name'].str.split('|').str[0]; b['weak'] = b['name'].str.endswith('|weak')
-    out = dict(A=a.mean(), A15=a.drop('T cells CD8+').mean() if 'T cells CD8+' in a.index else a.mean(),
-               V1=b.groupby('target').err.mean().mean(), V1w=b[b.weak].groupby('target').err.mean().mean())
+    out = dict(A=a.mean(), V1=b.groupby('target').err.mean().mean(), V1w=b[b.weak].groupby('target').err.mean().mean())
     return pd.Series(out)
 
 
 Sm = pd.DataFrame({v: summ(g) for v, g in R.groupby('variant')}).T
-Sm['objective'] = (Sm.V1w / REF_KRR1['V1w'] + Sm.A15 / REF_KRR1['A15']) / 2
+Sm['objective'] = (Sm.V1w / REF_KRR1['V1w'] + Sm.A / REF_KRR1['A']) / 2
 Sm = Sm.sort_values('objective')
 pd.set_option('display.width', 200)
-print('\nlower is better; objective = mean(V1w / 1.1625, A15 / 0.9894)  (KRR v1 = 1.000 by construction)')
+print('\nlower is better; objective = mean(V1w / 1.1625, A / 0.9402)  (KRR v1 = 1.000 by construction)')
 print(Sm.round(4).to_string())
 rng = np.random.default_rng(1); ci = {}
 if 'base' in Sm.index:
     for v in [x for x in Sm.index if x != 'base']:
         for lab, sel in (('V1w', lambda g: g[(g.proto == 'V1') & g['name'].str.endswith('|weak')]),
-                         ('A15', lambda g: g[(g.proto == 'A') & (g['name'] != 'T cells CD8+')])):
+                         ('A', lambda g: g[g.proto == 'A'])):
             x = sel(R[R.variant == v]).set_index(['name', 'row']).err; y = sel(R[R.variant == 'base']).set_index(['name', 'row']).err
             if len(x) == 0: continue
             d = (x - y.loc[x.index]).to_numpy(); bs = [d[rng.integers(0, len(d), len(d))].mean() for _ in range(2000)]

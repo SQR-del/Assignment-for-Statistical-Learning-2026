@@ -4,10 +4,10 @@ A method is one function  predict(tab, hidden, qry, seeds) -> array [len(qry), G
     tab    : common.Table whose `hidden` rows are set to NaN, so a method that reads them returns NaN and fails
     hidden : rows the method must not read;  qry : rows to predict (a subset of hidden)
 Protocols are those of code/validate.py:
-    A   : each T/NK cell type in turn keeps only its 15 anchors + 2 controls; predict its official test compounds.
-          A15 = A without CD8+.
+    A   : each T/NK cell type in turn keeps only its 15 anchors + 2 controls (CD8+ has 13 anchors); predict its
+          official test compounds. All four cell types count.
     V1  : B / Myeloid leave-one-anchor-out; V1w = anchors that are weak in the sources (like most test compounds).
-    objective = mean(V1w / 1.1625, A15 / 0.9894)  (KRR v1 = 1.000; lower is better)
+    objective = mean(V1w / 1.1625, A / 0.9402)  (KRR v1 = 1.000; lower is better)
 
     python run.py            # internal validation -> scores.json (+ official Kaggle scores), rows.csv in the method folder
     python harness.py        # only refresh the Kaggle scores in every scores.json (from results/kaggle_scores.csv)
@@ -20,7 +20,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(HERE), 'code'))
 from common import PROJ, Table, rms  # noqa: E402
 
-REF_KRR1 = dict(V1w=1.1625, A15=0.9894)
+REF_KRR1 = dict(V1w=1.1625, A=0.9402)
 SEED = 20260930
 
 
@@ -58,9 +58,9 @@ def folds(tab):
 def summarize(R):
     a = R[R.proto == 'A'].groupby('name').err.mean()
     b = R[R.proto == 'V1'].copy(); b['target'] = b['name'].str.split('|').str[0]; b['weak'] = b['name'].str.endswith('|weak')
-    s = dict(A=a.mean(), A15=a.drop('T cells CD8+').mean(), V1=b.groupby('target').err.mean().mean(),
+    s = dict(A=a.mean(), V1=b.groupby('target').err.mean().mean(),
              V1w=b[b.weak].groupby('target').err.mean().mean())
-    s['objective'] = (s['V1w'] / REF_KRR1['V1w'] + s['A15'] / REF_KRR1['A15']) / 2
+    s['objective'] = (s['V1w'] / REF_KRR1['V1w'] + s['A'] / REF_KRR1['A']) / 2
     s.update({f'A_{k}': v for k, v in a.items()})
     return {k: round(float(v), 4) for k, v in s.items()}
 
