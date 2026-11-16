@@ -1,13 +1,21 @@
 # 1_data_exploration：任务与数据（对应中期报告第 1 节）
 
 ## 主要发现
-- **标签**：signed −log10 p，衡量显著性而非变化幅度。81.5% 的值绝对值小于 1，中位数约 0.37，最大值接近 180，呈重尾分布，正负大致对称。
-- **响应集中于少数药物**：绝大多数药物的平均响应强度在 0.5 左右，少数有明显细胞毒性的药物远高于其余药物。B 细胞和髓系细胞只公开了 15 个锚点药，锚点中强药物偏多，不能直接和其他细胞比较；只比较这 15 种药时，B 细胞与 T/NK 细胞相近，髓系细胞的响应明显更强。
+- **标签**：signed −log10 p，衡量显著性而非变化幅度。不含阳性对照时，82.1% 的值绝对值小于 1，绝对值中位数约 0.35，范围 −127 到 +159，呈重尾分布。
+- **响应集中于少数药物**：绝大多数药物的平均响应强度在 0.5 左右，少数有明显细胞毒性的药物远高于其余药物。B 细胞和髓系细胞只公开了 15 个锚点药，样本太少，不宜直接与其他细胞比较。锚点中有少数强毒性药物（如 Alvocidib、Oprozomib），但在四种 T/NK 细胞共有的 140 种药物上，锚点与其余药物的强度分布没有显著差异（Mann–Whitney p = 0.51）。只比较这 15 种药时，B 细胞与 T/NK 细胞相近，髓系细胞的响应明显更强。
 - **跨细胞类型弱相关**：同一种药物在两种 T/NK 细胞之间响应的平均 Pearson 相关为 0.06–0.23（NK 与 CD4+ 最高，CD8+ 与其他细胞最低）。
-- **标签矩阵近似低秩**：第一主成分解释 65.5% 的方差，23 个主成分解释 90%。
+- **低秩结构依赖口径**：在 602 个药物行上，第一主成分解释 65.5% 的方差，23 个主成分解释 90%，但这主要反映细胞与药物各自的主效应。在 4 种细胞 × 140 种药物的平衡矩阵上，细胞与药物的交互部分需要 97 个主成分才能解释 90%；25 个主成分已能解释约 84%，所以把输出降到约 25 维仍有依据。
 - **多数行接近噪声**：无作用药物一行标签的均方根理论上约为 √2 / ln 10 ≈ 0.61；T/NK 细胞各行均方根的中位数为 0.57–0.69，全零预测是很强的基线。
 
-## 材料在哪里
-- **报告中的图**：图 1、图 2(a) 来自分支 `singlecell-perturbation-project` 的探索性分析；图 2(b) 与图 3 由 `reports/midterm/` 下的 `make_fig_corr.py`（数据 `corr_tnk.csv`）和 `make_fig.py`（数据 `row_rms.csv`）生成。
-- **完整的探索性分析**：分支 `singlecell-perturbation-project` 的 `data_analysis/eda/`（标签分布、覆盖、药物强度、跨细胞相关、低秩结构、锚点与测试药的比较等）。
-- **原始数据**：`data/`（仅服务器，约 3.8 GB）：`de_train.parquet`、`id_map.csv`、`sample_submission.csv` 等。
+## 文件
+
+| 路径 | 内容 | 对应报告 |
+|---|---|---|
+| `overview/01_overview.py`、`overview/outputs/` | 标签分布、各细胞覆盖的药物、各药物响应强度、跨细胞相关、响应最强的基因（5 张图） | 图 1、图 2(a) |
+| `detrain_analysis/02_de_train_analysis.py`、`detrain_analysis/outputs/` | 更完整的标签矩阵分析：分位数、方差分解、秩结构、基因模块、药物相似性、锚点与测试药的比较、指标几何等（10 张图和约 20 个表；结论汇总在 `outputs/summary.json`） | 第 1 节的数字 |
+| `report_stats.py`、`outputs/` | 报告第 1 节用到的统计量，以及图 2(b)、图 3 的数据（`corr_tnk.csv`、`row_rms.csv`、`summary.json`） | 图 2(b)、图 3 |
+
+- `overview/` 与 `detrain_analysis/` 的脚本来自分支 `singlecell-perturbation-project` 的 `data_analysis/eda/`，只改了导入路径（用 `src/common_emb.py`）和输出位置；输出是在该分支上运行得到的。
+- 图 2(b)、图 3 本身由 `reports/midterm/make_fig_corr.py`、`make_fig.py` 从 `outputs/` 的数据画出。
+- 所有脚本都需要服务器上的原始数据 `data/`（`de_train.parquet` 等，约 3.8 GB），在项目根目录运行，例如 `python 1_data_exploration/report_stats.py`。
+- `report_stats.py` 是 2026-11-16 新写的，用来重现此前在服务器上临时计算的 `row_rms.csv`、`corr_tnk.csv`；尚未在服务器上运行验证。

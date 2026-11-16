@@ -3,7 +3,7 @@ fig_rowrms：各行标签的均方根（第 1 节），数据 row_rms.csv（来�
 fig_ratio：大模型 / 小模型标签之比（第 2 节），数据 ../../2_label_generation/out/sim_gene_bins.csv。"""
 import numpy as np, pandas as pd, matplotlib
 matplotlib.use("Agg"); import matplotlib.pyplot as plt
-R = pd.read_csv("row_rms.csv"); R = R[~R.control]
+R = pd.read_csv("../../1_data_exploration/outputs/row_rms.csv"); R = R[~R.control]
 G = pd.read_csv("../../2_label_generation/out/sim_gene_bins.csv")
 
 fig, a = plt.subplots(figsize=(7, 4.2))

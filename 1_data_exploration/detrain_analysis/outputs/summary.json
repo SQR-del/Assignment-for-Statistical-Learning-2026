@@ -1,0 +1,132 @@
+{
+  "n_rows_total": 614,
+  "n_rows_drug": 602,
+  "n_genes": 18211,
+  "n_cells": 6,
+  "n_drugs": 144,
+  "shared6": 13,
+  "shared4": 140,
+  "frac_abs_lt1_all602": 0.8212875975255728,
+  "frac_pos": 0.5568510215522691,
+  "frac_neg": 0.44314897844773093,
+  "frac_abs_lt1_balanced4": 0.8366230771041051,
+  "mantel_r": 0.055293843800729756,
+  "mantel_p": 0.04897551224387806,
+  "anchor_coverage_percentile": 0.1835,
+  "alpha_opt_mrrmse": 0.36,
+  "alpha_opt_mse": 0.365,
+  "alpha_opt_r2": 0.365,
+  "sse_share": {
+    "top1%": 0.11131039364412135,
+    "top5%": 0.2428905863031313,
+    "top10%": 0.3700056538307942,
+    "top20%": 0.5495983428048369,
+    "top50%": 0.8247578662921724
+  },
+  "row_sse_share": {
+    "top1%": 0.35585826726063585,
+    "top5%": 0.6766723475352131,
+    "top10%": 0.7713578220554064,
+    "top20%": 0.8378027750626956,
+    "top50%": 0.918499632909538
+  },
+  "metric_geometry": [
+    {
+      "scenario": "error on 10% hardest rows",
+      "mse": 2.0,
+      "rmse": 1.4142135623730951,
+      "mae": 0.3575766293364468,
+      "r2": 0.11372918365634865,
+      "mrrmse": 0.4477830132551283,
+      "pearson_mean": 0.9504824279208322,
+      "pearson_median": 1.0,
+      "spearman_mean": 0.9390857837025801
+    },
+    {
+      "scenario": "error spread over all rows",
+      "mse": 1.9999999999999996,
+      "rmse": 1.414213562373095,
+      "mae": 1.1284474451546065,
+      "r2": 0.11372918365634888,
+      "mrrmse": 1.4141930505916076,
+      "pearson_mean": 0.4572160520480402,
+      "pearson_median": 0.3981721901559333,
+      "spearman_mean": 0.3905717731745776
+    }
+  ],
+  "variance_components": [
+    {
+      "design": "6x13_balanced",
+      "n_cell": 6,
+      "n_drug": 13,
+      "component": "cell",
+      "equal_gene_mean": 0.08366656592549321,
+      "variance_weighted": 0.0844206769011948,
+      "gene_q25": 0.0556198424360384,
+      "gene_median": 0.07629758689788144,
+      "gene_q75": 0.10273198392196572
+    },
+    {
+      "design": "6x13_balanced",
+      "n_cell": 6,
+      "n_drug": 13,
+      "component": "drug",
+      "equal_gene_mean": 0.31243372906391087,
+      "variance_weighted": 0.3576217323756504,
+      "gene_q25": 0.2217797188304334,
+      "gene_median": 0.318370085807059,
+      "gene_q75": 0.3989778564238605
+    },
+    {
+      "design": "6x13_balanced",
+      "n_cell": 6,
+      "n_drug": 13,
+      "component": "interaction",
+      "equal_gene_mean": 0.6038997050105959,
+      "variance_weighted": 0.5579575907231549,
+      "gene_q25": 0.520981819413372,
+      "gene_median": 0.595129719403629,
+      "gene_q75": 0.6835564262562455
+    },
+    {
+      "design": "4x140_balanced",
+      "n_cell": 4,
+      "n_drug": 140,
+      "component": "cell",
+      "equal_gene_mean": 0.03549938110260914,
+      "variance_weighted": 0.03257620323380267,
+      "gene_q25": 0.01906894418820877,
+      "gene_median": 0.03294221637073172,
+      "gene_q75": 0.04626287937383157
+    },
+    {
+      "design": "4x140_balanced",
+      "n_cell": 4,
+      "n_drug": 140,
+      "component": "drug",
+      "equal_gene_mean": 0.33746185231904224,
+      "variance_weighted": 0.3582520146669737,
+      "gene_q25": 0.2972332021812204,
+      "gene_median": 0.33277711917239383,
+      "gene_q75": 0.3707546371050725
+    },
+    {
+      "design": "4x140_balanced",
+      "n_cell": 4,
+      "n_drug": 140,
+      "component": "interaction",
+      "equal_gene_mean": 0.6270387665783488,
+      "variance_weighted": 0.6091717820992235,
+      "gene_q25": 0.5932102973879172,
+      "gene_median": 0.631647566335181,
+      "gene_q75": 0.665059829830555
+    }
+  ],
+  "rank90": {
+    "4x140 grand-centred": 79,
+    "4x140 interaction residual": 97,
+    "140 drug signatures": 18,
+    "602 drug rows (as in old EDA)": 23,
+    "standardised top-5000 genes": 9
+  }
+}
