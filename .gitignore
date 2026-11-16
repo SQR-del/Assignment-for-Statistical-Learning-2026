@@ -11,6 +11,12 @@ results/_inner_comp.npz
 data_analysis/limma/outputs/*.npz
 data_analysis/limma/outputs/duck_tmp/
 
+# --- reproduction outputs (large, regenerate with repro/*.py) ---
+results/repro/
+
+# --- local secrets (never commit) ---
+.secrets/
+
 # --- python ---
 __pycache__/
 *.pyc

@@ -8,6 +8,7 @@
 > 数据研究（EDA、Limma 复现、标签噪声、误差分解）的结论与代码全部合并到
 > [`data_analysis/README.md`](data_analysis/README.md)（复现入口 `data_analysis/run_all.py`）。
 > 药物簇 + 化学辅助的三模型调整与提交见 [`REPORT_CLUSTER_ADAPT.md`](REPORT_CLUSTER_ADAPT.md)（代码 `methods/14_cluster_adapt/`，提交 `results/submission_cluster.csv`）。
+> 历史提交（embedding / PCA+Ridge / sklearn-MLP / wide-MLP / ensemble / 第一轮融合）的逐条复现代码与对齐说明见 [`repro/README.md`](repro/README.md)。
 
 ## 目录结构
 
