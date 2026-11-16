@@ -1,0 +1,35 @@
+{
+  "P1": {
+    "mrrmse": 1.0812,
+    "mse": 2.4579,
+    "r2": -0.1995,
+    "pearson": 0.2011
+  },
+  "params": {
+    "method": "drug_mean"
+  },
+  "methods_P1": {
+    "global_mean": {
+      "mse": 2.336,
+      "r2": -0.027,
+      "pearson": 0.1499
+    },
+    "drug_mean": {
+      "mrrmse": 1.0812,
+      "mse": 2.4579,
+      "r2": -0.1995,
+      "pearson": 0.2011
+    },
+    "cell_anchor_mean": {
+      "mse": 3.3372,
+      "r2": -0.3193,
+      "pearson": 0.1687
+    },
+    "additive": {
+      "mse": 3.3845,
+      "r2": -0.4865,
+      "pearson": 0.2106
+    }
+  },
+  "note": "P1 指标来自 results/ 既有实验（metrics_raw.csv 及 predictions/*.npz）；重跑 run.py 可得到含官方 mrrmse 的最新结果。"
+}

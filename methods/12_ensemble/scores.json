@@ -1,10 +1,13 @@
 {
-  "P1": {
-    "mrrmse": 1.0033,
-    "mse": 2.1708,
-    "r2": -0.0119,
-    "pearson": 0.2442
-  },
+  "A": 3.8059,
+  "A15": 1.5687,
+  "V1": 4.209,
+  "V1w": 3.2449,
+  "objective": 2.1884,
+  "A_NK cells": 1.3118,
+  "A_T cells CD4+": 2.1412,
+  "A_T cells CD8+": 10.5173,
+  "A_T regulatory cells": 1.2532,
   "params": {
     "method": "ensemble"
   }

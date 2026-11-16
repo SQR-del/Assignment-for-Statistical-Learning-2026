@@ -4,19 +4,43 @@
 
 - `run.py`：调用该方法的预测函数入口（`predict(ctx, **params)`），参数可作为关键字传入；
 - `README.md`：做法说明与关键参数；
-- `scores.json`：内部验证分数（P1/P2 的 mrrmse/MSE/R²/Pearson）与所用参数；
-- `rows.csv`：逐折的指标明细（由 `run.py` 生成）。
+- `scores.json`：**默认口径 = 队友指标**（`A` / `A15` / `V1` / `V1w` / `objective` + 参数；旧 P1/P2 结果自动保留为 `scores_p1p2.json`）；
+- `rows.csv`：逐折的误差明细（`proto,name,row,err`，由 `run.py` 生成）。
 
-所有方法都在**同一套泄漏安全的协议**上评估（P1 主协议，见根 `README.md`），
-指标以官方 **mrrmse**（mean row-wise RMSE，越小越好）为准。运行方式：
+## 默认评估：队友指标（A15 / V1w / objective）
+
+从本版起，所有方法默认使用队友 `main` 分支的评估口径（`code/teammate_metric.py`）：
+
+- **A**：依次留出 4 个 T/NK 细胞，只保留其 15 个锚点 + 2 个对照，预测该细胞的官方测试化合物；
+  **A15** = 去掉缺 2 个锚点的 CD8+。
+- **V1**：B / Myeloid 逐个留出 15 个锚点（30 折）；
+  **V1w** = 只统计在来源细胞中响应较弱的锚点（来源均值行 RMS < 官方测试化合物的 90 分位）。
+- **objective = mean(V1w / 1.1625, A15 / 0.9894)**，KRR v1 = 1.000，**越低越好**。
+
+共 34 折。预测统一裁剪到训练折可见范围。运行方式：
 
 ```bash
-python 07_embedding/run.py --protocols P1     # 单方法，只跑 P1
-python 12_ensemble/run.py                     # P1 + P2
+python 07_embedding/run.py                    # 默认队友指标（34 折）
+python 12_ensemble/run.py                     # 默认队友指标
+python 01_linear/run.py --metric p1p2         # 旧 P1/P2 口径
 python 09_smiles_cnn/run.py --export          # 全量训练，生成提交文件
 ```
 
-## P1 总表（默认配置，4 折均值，官方 mrrmse）
+> 校准：`drug_mean` 在队友口径下得到 A15=1.101、V1w=1.142、objective=1.048，
+> 与队友 `main` 的“同化合物均值”基线（1.101 / 1.142 / 1.048）一致。
+
+本版已重跑的三个代表（其余方法运行 `run.py` 即可得到同口径分数）：
+
+| 方法 | A15 | V1w | objective ↓ |
+|---|---:|---:|---:|
+| 00 `drug_mean`（=dsig） | 1.101 | 1.142 | **1.048** |
+| 01 `ridge`（α=10） | 1.206 | 1.645 | 1.317 |
+| 12 `ensemble`（α=100, k=10, PLS=10） | 1.569 | 3.245 | 2.188 |
+
+> `12_ensemble` 的 linear-KRR 分量在 A CD8+ 折上仍会数值爆炸（A_CD8≈10.5），
+> 新口径把它暴露出来；要用它选模，需要先把该分量正则化/标准化，不能直接沿用 P1 配置。
+
+## 旧 P1 总表（历史对照，官方 mrrmse）
 
 | # | 方法族 | 说明 | 默认配置 | mrrmse ↓ |
 |---|---|---|---|---:|
@@ -34,6 +58,7 @@ python 09_smiles_cnn/run.py --export          # 全量训练，生成提交文�
 | 11 | `11_bilinear_cp` | 双线性 / CP 张量分解（无效） | `R=20` | 1.275 |
 | 12 | `12_ensemble` | 线性/核族稳健集成 | 嵌套 CV 选参 | 1.003 |
 | 13 | `13_final_blend` | **最终融合**（提交配方） | `0.5·embed+0.3·smiles+0.2·hybrid` | ~0.90 |
+| 14 | `14_cluster_adapt` | 药物簇 + 化学辅助（重训 / 后处理平滑） | `γ=0.1, λ=0.2` | 见 `REPORT_CLUSTER_ADAPT.md` |
 
 > 00–06、12 的数值由本地 `run.py` 重新运行得到；07–11、13 取自 `results/` 既有实验
 > （`round2_*`、`extend_*`）以及 `SUMMARY.md`/`REPORT*.md`。所有数值同为 P1 协议。

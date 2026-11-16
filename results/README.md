@@ -7,7 +7,8 @@
 
 | 路径 | 内容 |
 |---|---|
-| `benchmark_raw.csv` / `benchmark_summary.csv` | `code/validate.py` 的最新基准结果（逐折 / 汇总） |
+| `benchmark_teammate_raw.csv` / `benchmark_teammate_summary.csv` | `code/validate.py` 的默认（队友 A15/V1w）基准结果（逐折 / 汇总） |
+| `benchmark_raw.csv` / `benchmark_summary.csv` | 旧 P1/P2 基准结果（`--metric p1p2`） |
 | `metrics_raw.csv`（+ 时间戳副本） | 早期 `run_benchmark` 的逐折指标 |
 | `metrics_summary.md` | 由上表生成的 markdown 汇总 |
 | `sanity_checks.txt` | 无泄漏/正确性自检输出（`code/validate.py --sanity`） |

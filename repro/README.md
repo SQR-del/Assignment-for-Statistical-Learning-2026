@@ -13,6 +13,10 @@ data/sample_submission.csv
 
 > 复现 B / Myeloid 的提交不需要 `adata_train.parquet` 等单细胞大文件。
 
+> 模型选模指标已改为队友的 A15 / V1w / objective（`code/teammate_metric.py`，
+> 默认 34 折）。本目录的“对齐度”仍是**生成 CSV 与归档 CSV 的逐行比较**，
+> 属于提交复现而不是选模；两者不要混用。
+
 ---
 
 ## 1. 六个提交与脚本对照

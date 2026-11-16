@@ -58,9 +58,14 @@ def load_de(drop_controls: bool = True):
 
 
 def anchor_drugs(df):
-    """The 15 drugs observed for B / Myeloid cells (used as the sparse anchor set)."""
-    a = set(df[(df.cell_type == "B cells")].drug)
-    b = set(df[(df.cell_type == "Myeloid cells")].drug)
+    """The 15 non-control drugs observed for B / Myeloid cells.
+
+    ``load_de(drop_controls=True)`` already removes the controls; when controls are
+    kept (the teammate-compatible evaluation does that), they must be excluded.
+    """
+    sub = df[~df["control"]] if "control" in df.columns else df
+    a = set(sub[(sub.cell_type == "B cells")].drug)
+    b = set(sub[(sub.cell_type == "Myeloid cells")].drug)
     return sorted(a | b)
 
 
@@ -173,8 +178,13 @@ def _mean_vec(Y, idx):
 
 
 def build_views(df: pd.DataFrame, genes, fold: Fold, fp_pca: pd.DataFrame,
-                n_dsig: int = 64, n_csig: int = 64):
+                n_dsig: int = 64, n_csig: int = 64, source_cells=None):
     """Build per-row features (leakage-safe: signatures use ONLY training rows).
+
+    ``source_cells`` controls which cell types may contribute to a row's drug
+    signature (default: the four complete cell types).  The teammate-compatible
+    protocols use only NK / CD4+ / Treg as sources because CD8+ lacks two
+    anchors; pass them explicitly in that case.
 
     Returns dict with:
       Xc_train/Xc_test  : compact features (~256 dims) [fp | dsig | csig | scale]
@@ -186,6 +196,7 @@ def build_views(df: pd.DataFrame, genes, fold: Fold, fp_pca: pd.DataFrame,
     """
     Y = df[genes].to_numpy(dtype=np.float32)
     anchors = set(fold.anchors)
+    sources = list(source_cells) if source_cells is not None else list(FULL_CELLS)
     train_idx, test_idx = fold.train_idx, fold.test_idx
     # only rows visible in the training fold may contribute to signatures;
     # the held-out target cell's non-anchor drugs are NOT visible.
@@ -201,7 +212,7 @@ def build_views(df: pd.DataFrame, genes, fold: Fold, fp_pca: pd.DataFrame,
     def drug_sig_row(i):
         c = df.at[i, "cell_type"]
         d = df.at[i, "drug"]
-        src = [o for o in FULL_CELLS if o != c]          # never the row's own cell type
+        src = [o for o in sources if o != c]             # never the row's own cell type
         vecs = [v for v in (_lookup(o, d) for o in src) if v is not None]
         return np.mean(vecs, 0) if vecs else np.zeros(Y.shape[1], dtype=np.float32)
 
@@ -311,8 +322,12 @@ def compute_metrics(y_true, y_pred, genes, train_var=None, top_k: int = 1000):
     return m, pear
 
 
+def rms(x, axis=-1):
+    return np.sqrt(np.mean(np.square(x), axis=axis))
+
+
 def mrrmse(pred, truth):
-    return float(np.mean(np.sqrt(np.mean((np.asarray(pred) - np.asarray(truth)) ** 2, axis=1))))
+    return float(rms(np.asarray(pred) - np.asarray(truth)).mean())
 
 
 def train_gene_variance(y_train):

@@ -1,13 +1,21 @@
 """Benchmark driver + sanity checks.
 
-Runs every registered method on every fold of the chosen protocol(s) (default
-P1 + P2), records the official metric and friends, and writes
-`results/benchmark_raw.csv` + `results/benchmark_summary.csv`.
+The default evaluation is now the teammate-compatible metric from the group
+repository's `main` branch: 34 folds (A + V1), with A15 / V1w and the
+pre-declared objective
+
+    objective = mean(V1w / 1.1625, A15 / 0.9894)   (lower is better, KRR v1 = 1)
+
+It writes `results/benchmark_teammate_raw.csv` and
+`results/benchmark_teammate_summary.csv`.
+
+The legacy P1/P2 benchmark is still available with `--metric p1p2`.
 
 Usage:
-    python code/validate.py                       # P1 + P2, all methods
-    python code/validate.py --protocols P1 --methods ridge ensemble
-    python code/validate.py --sanity              # leakage / correctness checks only
+    python code/validate.py                              # teammate metric, all methods
+    python code/validate.py --methods ridge ensemble      # a subset
+    python code/validate.py --metric p1p2 --protocols P1  # legacy benchmark
+    python code/validate.py --sanity                     # leakage / correctness checks
 """
 from __future__ import annotations
 
@@ -26,6 +34,7 @@ sys.path.insert(0, HERE)
 import common as C
 import models as M
 import nn
+import teammate_metric as TM
 
 
 def _ids(df, idx, cid, did):
@@ -120,6 +129,25 @@ def run(protocols, method_names, save=True):
     return res
 
 
+def run_teammate(method_names):
+    """Evaluate registered methods on the 34 teammate folds (A + V1)."""
+    df, genes = C.load_de(drop_controls=False)
+    anchors = C.anchor_drugs(df)
+    cells, drugs, cid, did = C.cat_indices(df)
+    fp = C.drug_fingerprint_pca(df, n_comp=128)
+    d2s, vocab = nn.build_smiles(df)
+    specs = method_matrix_specs(df, genes, None, fp, cid, did, d2s, vocab, cells, drugs)
+    names = [n for n in method_names if n in specs]
+    missing = [n for n in method_names if n not in specs]
+    if missing:
+        print("unknown methods:", missing)
+    callables = {n: (lambda ctx, fn=specs[n][0]: fn(ctx)) for n in names}
+    R, S = TM.evaluate_methods(callables, names, out_dir=C.RESULTS_DIR)
+    print("\n=== teammate metric (lower is better; objective = mean(V1w/1.1625, A15/0.9894)) ===")
+    print(S.round(4).to_string())
+    return R, S
+
+
 def sanity():
     """Correctness / leakage checks (see REPORT.md §3.2)."""
     df, genes = C.load_de()
@@ -162,6 +190,8 @@ def sanity():
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--metric", choices=["teammate", "p1p2"], default="teammate",
+                    help="teammate (default): A15/V1w objective; p1p2: legacy benchmark")
     ap.add_argument("--protocols", nargs="+", default=["P1", "P2"])
     ap.add_argument("--methods", nargs="+", default=None)
     ap.add_argument("--sanity", action="store_true")
@@ -169,7 +199,10 @@ def main():
     if args.sanity:
         sanity(); return
     names = args.methods or list(M.CLASSIC_METHODS) + ["embedding", "hybrid", "smiles_cnn", "mlp_full"]
-    run(args.protocols, names)
+    if args.metric == "teammate":
+        run_teammate(names)
+    else:
+        run(args.protocols, names)
 
 
 if __name__ == "__main__":

@@ -46,9 +46,10 @@ pip install -r requirements.txt
 
 ```bash
 python code/validate.py --sanity                 # 无泄漏 / 正确性自检
-python code/validate.py --protocols P1 --methods ridge ensemble   # 跑基准
-python methods/07_embedding/run.py --protocols P1                 # 跑单个方法
-python code/predict.py                           # 生成 results/submission.csv
+python code/validate.py --methods ridge ensemble  # 队友指标（默认，34 折）
+python methods/07_embedding/run.py                # 单方法，队友指标
+python code/validate.py --metric p1p2 --protocols P1 --methods ridge ensemble  # 旧 P1
+python code/predict.py                            # 生成 results/submission.csv
 ```
 
 ## 验证协议
@@ -58,6 +59,12 @@ python code/predict.py                           # 生成 results/submission.csv
   Kaggle 任务（B / Myeloid）。
 - **P2（压力测试）**：目标细胞零锚点，测试其全部药——检验“无锚点能否迁移”。
 - **官方指标 `mrrmse`**（mean row-wise RMSE，越小越好）；同时报告 MSE / R² / Pearson。
+- **模型选模指标（队友口径，默认）**：34 折 = **A**（依次留出 4 个 T/NK 细胞，只保留其 15 个锚点 + 2 个对照；A15 去掉缺锚点的 CD8+）+ **V1**（B/Myeloid 逐个留出 15 个锚点；V1w 只看在来源细胞中响应较弱的锚点）。
+  `objective = mean(V1w / 1.1625, A15 / 0.9894)`，KRR v1 = 1.000，**越低越好**。
+  实现见 `code/teammate_metric.py`；旧 P1/P2 协议保留，用 `--metric p1p2` 调用。
+  该口径与队友 `main` 分支一致，且本仓库的 `drug_mean` 基线复现出 A15=1.101、V1w=1.142、objective=1.048，与队友的“同化合物均值”基线一致。
+
+> 注意：下文“主要结论”表仍是旧 P1 口径；新口径下部分旧模型会明显变差（例如 ensemble 的 linear-KRR 分量在 A 折上数值不稳定），需要按新 objective 重新调参。
 
 ## 主要结论（P1，官方 mrrmse）
 
@@ -80,7 +87,8 @@ python code/predict.py                           # 生成 results/submission.csv
 
 ```bash
 python data_analysis/run_all.py    # 数据研究全流程（EDA + Limma + 噪声/误差分解）
-python code/validate.py            # 基准（经典模型 + 若干 torch 模型）
+python code/validate.py            # 队友指标（A15/V1w/objective），经典模型 + 若干 torch 模型
+python code/validate.py --metric p1p2   # 旧 P1/P2 基准
 python code/predict.py             # 最终提交（多随机种子融合）
-python methods/<族>/run.py         # 单方法族验证 / --export 生成提交
+python methods/<族>/run.py         # 单方法族验证（默认队友指标）/ --export 生成提交
 ```

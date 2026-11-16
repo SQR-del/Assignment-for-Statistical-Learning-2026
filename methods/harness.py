@@ -12,8 +12,13 @@ where `ctx` is a fold context dict containing (see `Bench.contexts`):
 `run.py` in each folder calls  main(predict, __file__, params)  which evaluates on
 the fixed leak-free protocols and writes scores.json + rows.csv here.
 
-    python run.py                 # P1 + P2 internal validation -> scores.json, rows.csv
-    python run.py --protocols P1
+The default evaluation is now the teammate-compatible metric from `main`:
+34 folds (A + V1), with A15 / V1w and the pre-declared objective
+    objective = mean(V1w / 1.1625, A15 / 0.9894)      (lower is better, KRR v1 = 1)
+The old P1/P2 benchmark remains available with `--metric p1p2`.
+
+    python run.py                 # teammate metric -> scores.json, rows.csv
+    python run.py --metric p1p2   # legacy P1/P2 benchmark
     python run.py --export        # train on all data -> results/submission_<name>.csv
 """
 from __future__ import annotations
@@ -33,6 +38,7 @@ sys.path.insert(0, os.path.join(ROOT, "code"))
 
 import common as C  # noqa: E402
 import nn  # noqa: E402
+import teammate_metric as TM  # noqa: E402
 
 
 class Bench:
@@ -139,6 +145,8 @@ def export(predict, params, name):
 
 def main(predict, file, params=None):
     ap = argparse.ArgumentParser()
+    ap.add_argument("--metric", choices=["teammate", "p1p2"], default="teammate",
+                    help="teammate (default): A15/V1w objective; p1p2: legacy benchmark")
     ap.add_argument("--protocols", nargs="+", default=["P1", "P2"])
     ap.add_argument("--export", action="store_true")
     args = ap.parse_args()
@@ -147,6 +155,8 @@ def main(predict, file, params=None):
     name = os.path.basename(folder)
     if args.export:
         export(predict, params, name)
+    elif args.metric == "teammate":
+        TM.evaluate(predict, params, folder)
     else:
         evaluate(predict, params, args.protocols, folder)
 
