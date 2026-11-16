@@ -14,19 +14,19 @@
 - 官方分数 private 0.734 / public 0.573（赛后提交；私有榜第一名 0.729，中位数 0.793）。
 - 模型选择只用内部验证，没有使用测试标签或排行榜。
 
-## 目录（按中期报告的章节组织）
+## 目录
 
-| 目录 | 报告章节 | 内容 |
-|---|---|---|
-| `1_data_exploration/` | 1 任务与数据 | 探索性分析的主要发现，以及各图和完整分析的位置 |
-| `2_label_generation/` | 2 标签生成机制 | 复现官方 limma 流程（与官方标签逐数值一致）；训练与测试标签的尺度差异；锚点尺度校正的检验 |
-| `3_validation/` | 3 验证设计 | 协议 A、V 与综合指标；所有方法共用的验证框架 `harness.py` |
-| `4_models/` | 4 模型与结果 | 按类别组织的 26 个方法：`baselines/`、`classical/`、`anchor_transfer/`、`embedding/`；总表在 `4_models/README.md` |
-| `5_official_scores/` | 5 内部验证与官方评分的一致性 | 全部 Kaggle 提交记录及一致性分析 |
-| `src/` | — | 各方法共用的模型代码 |
-| `reports/` | — | 开题报告（`proposal/`）、中期报告（`midterm/`，含画图脚本） |
-| `archive/` | — | 已移除的方法和重组前的历次实验记录 |
-| `tools/` | — | 2026-11-16 目录重组用的脚本 |
+| 目录 | 内容 |
+|---|---|
+| `1_data_exploration/` | 探索性分析的主要发现，以及各图和完整分析的位置 |
+| `2_label_generation/` | 复现官方 limma 流程（与官方标签逐数值一致）；训练与测试标签的尺度差异；锚点尺度校正的检验 |
+| `3_validation/` | 协议 A、V 与综合指标；所有方法共用的验证框架 `harness.py` |
+| `4_models/` | 按类别组织的 26 个方法：`baselines/`、`classical/`、`anchor_transfer/`、`embedding/`；总表在 `4_models/README.md` |
+| `5_official_scores/` | 全部 Kaggle 提交记录及一致性分析 |
+| `src/` | 各方法共用的模型代码 |
+| `reports/` | 开题报告（`proposal/`）、中期报告（`midterm/`，含画图脚本） |
+| `archive/` | 已移除的方法和重组前的历次实验记录 |
+| `tools/` | 2026-11-16 目录重组用的脚本 |
 
 ## 运行
 
