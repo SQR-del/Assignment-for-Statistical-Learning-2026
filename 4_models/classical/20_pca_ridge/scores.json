@@ -1,0 +1,16 @@
+{
+  "A": 1.1261,
+  "V1": 2.5087,
+  "V1w": 1.636,
+  "objective": 1.3025,
+  "A_NK cells": 1.3516,
+  "A_T cells CD4+": 1.0408,
+  "A_T cells CD8+": 0.9589,
+  "A_T regulatory cells": 1.1531,
+  "seeds": 1,
+  "kaggle_private": 1.031,
+  "kaggle_public": 0.728,
+  "kaggle_file": "tm_20_pca_ridge.zip",
+  "kaggle_submitted": "2026-11-15",
+  "kaggle_precision": "全精度"
+}

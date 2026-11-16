@@ -1,37 +1,51 @@
-# 统计学习大作业：单细胞扰动预测（NeurIPS 2023 Kaggle）
+# 统计学习大作业：跨细胞类型的药物响应预测（NeurIPS 2023 单细胞扰动）
 
-这里是本地副本：代码、各方法的说明和分数、各次实验的汇总结果。完整项目（数据、全部预测文件、中间结果）在服务器 pku-server 上：
+任务：已知药物在 NK 和三类 T 细胞中的差异表达标签（signed −log10 p，18,211 个基因），以及 B 细胞和髓系细胞中 15 个锚点药的标签，预测 B 细胞和髓系细胞其余 255 个"细胞类型 × 药物"组合。评价指标为 MRRMSE（逐行 RMSE 的均值）。
+
+## 当前结果
+
+最终模型是**融合模型**（`4_models/anchor_transfer/15_blend_v2`）：
+
+```
+0.4 · (神经网络 + I2 幅度输出头) + 0.4 · (神经网络 + I1 + I2) + 0.2 · 局部核岭回归
+```
+
+- 内部验证综合指标 0.925（第一版核岭回归 = 1，越低越好）。
+- 官方分数 private 0.734 / public 0.573（赛后提交；私有榜第一名 0.729，中位数 0.793）。
+- 模型选择只用内部验证，没有使用测试标签或排行榜。
+
+## 目录（按中期报告的章节组织）
+
+| 目录 | 报告章节 | 内容 |
+|---|---|---|
+| `1_data_exploration/` | 1 任务与数据 | 探索性分析的主要发现，以及各图和完整分析的位置 |
+| `2_label_generation/` | 2 标签生成机制 | 复现官方 limma 流程（与官方标签逐数值一致）；训练与测试标签的尺度差异；锚点尺度校正的检验 |
+| `3_validation/` | 3 验证设计 | 协议 A、V 与综合指标；所有方法共用的验证框架 `harness.py` |
+| `4_models/` | 4 模型与结果 | 按类别组织的 26 个方法：`baselines/`、`classical/`、`anchor_transfer/`、`embedding/`；总表在 `4_models/README.md` |
+| `5_official_scores/` | 5 内部验证与官方评分的一致性 | 全部 Kaggle 提交记录及一致性分析 |
+| `src/` | — | 各方法共用的模型代码 |
+| `reports/` | — | 开题报告（`proposal/`）、中期报告（`midterm/`，含画图脚本） |
+| `archive/` | — | 已移除的方法和重组前的历次实验记录 |
+| `tools/` | — | 2026-11-16 目录重组用的脚本 |
+
+## 运行
+
+完整项目（数据、提交文件、中间结果）在服务器 pku-server 上：
 
 ```text
 /home/sqr/NIPS 2023 Single-Cell Perturbation Prediction/
 ```
 
-代码需要服务器上的数据和 GPU 才能运行，本地只用于阅读和写报告。
+代码需要服务器上的数据和 GPU。在项目根目录运行，例如：
 
-## 最终结果
+```bash
+python 4_models/anchor_transfer/15_blend_v2/run.py            # 内部验证
+python 4_models/anchor_transfer/15_blend_v2/run.py --export   # 导出提交文件
+```
 
-blend = 0.4 · (底座 + I2) + 0.4 · (底座 + I1 + I2) + 0.2 · 局部 KRR（KRR v2 配置）
-
-- 官方分数：private 0.752 / public 0.591，在 1098 支队伍中约排第 23 名。
-- 内部验证的 objective 为 0.927。
-
-2026-11-13 更新：同一配方、网络改用 nn_v2 的设置（K=32，800 轮，dropout 0.2）后，内部 objective 0.920，官方 private 0.734 / public 0.573（赛后提交，设置在提交前已由内部验证确定）。见 `methods/README.md` 末尾和 `methods/nn_v2_lab/README.md`。
-
-## 本地目录
-
-| 目录 | 内容 | 从哪看起 |
-|---|---|---|
-| `code/` | 最终模型代码：`predict.py` 生成提交文件，`validate.py` 跑内部验证 | `code/README.md` |
-| `methods/` | 12 个基线和代表性方法，每个一个文件夹，含做法、运行脚本、内部分数和官方分数 | `methods/README.md`（总表） |
-| `results/` | 各次结果的汇总：`validation/`（内部验证）、`blend_final/`（最终预测的检查记录）、`nn_v2_lab/`（nn_v2 的全部实验）以及历次实验的脚本和分数 | `results/README.md` |
-| `submissions/` | 提交文件。`methods/` 子文件夹有 12 个方法的全精度 CSV，以及实际上传的 `upload_7z/` | `submissions/README.md`、`submissions/methods/README.md` |
-| `Question 2/` | 标签生成研究：按主办方原始脚本重建标签（与官方逐数值一致）、小模型 / 大模型模拟、噪声来源分析。脚本、说明和汇总结果 | `Question 2/README.md` |
-| `archive/` | 已移除或归档的方法（LGT、底座 + 收缩后处理、KRR v1）的说明和分数 | `archive/README.md` |
-| `开题报告/` | 开题报告（未改动） | — |
-
-## 本地没有的内容（只在服务器上）
+只在服务器上、不进入 git 的内容：
 - `data/`：原始数据，约 3.8 GB。
-- `Question 2/` 下的数据缓存和拟合结果（`cache_official/`、`official_fit/`、`sim/`、`weights_exp/`，约 4 GB）以及 `adata_excluded_ids.csv.zip`。
-- `results/methods/`：各方法的全精度提交文件。本地的同样文件在 `submissions/methods/`。
-- `results/` 下其余的 `*_kaggle_ids.csv` 和 `*.pkl`。
+- `results/`：各方法导出的提交文件（`results/methods/`）、移植实验的逐折预测（`results/emb_lab/`、`results/classic_lab/`）等生成的输出。
+- `submissions/`：实际上传到 Kaggle 的文件。
+- `2_label_generation/` 下的数据缓存和拟合结果（`cache_official/`、`official_fit/`、`sim/`、`weights_exp/`，约 4 GB）。
 - `archive/` 中的旧 LGT 代码与结果。

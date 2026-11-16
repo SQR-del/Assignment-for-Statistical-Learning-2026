@@ -1,0 +1,16 @@
+{
+  "A": 1.0122,
+  "V1": 2.1644,
+  "V1w": 1.2443,
+  "objective": 1.0735,
+  "A_NK cells": 1.1414,
+  "A_T cells CD4+": 0.9754,
+  "A_T cells CD8+": 0.8748,
+  "A_T regulatory cells": 1.0574,
+  "seeds": 1,
+  "kaggle_private": 0.878,
+  "kaggle_public": 0.637,
+  "kaggle_file": "tm_23_ensemble_r1.zip",
+  "kaggle_submitted": "2026-11-15",
+  "kaggle_precision": "全精度"
+}

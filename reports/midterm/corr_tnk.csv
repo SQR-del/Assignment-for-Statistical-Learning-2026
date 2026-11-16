@@ -1,0 +1,5 @@
+,T cells CD4+,T regulatory cells,T cells CD8+,NK cells
+T cells CD4+,1.0,0.1331,0.1309,0.2291
+T regulatory cells,0.1331,1.0,0.0625,0.1563
+T cells CD8+,0.1309,0.0625,1.0,0.0726
+NK cells,0.2291,0.1563,0.0726,1.0

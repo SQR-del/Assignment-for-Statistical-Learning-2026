@@ -1,7 +1,10 @@
 """Original LGT (latent gated transfer), variant L3 with its selected config, run through the archived code.
 yhat = target anchor mean + per-source gates on the query's source rows, split into a PCA subspace (block-wise gates)
 and its complement (one gate per source)."""
-import os, sys; sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "methods"))
+import os, sys
+_R = os.path.dirname(os.path.abspath(__file__))
+while not os.path.isdir(os.path.join(_R, "src")): _R = os.path.dirname(_R)
+sys.path[:0] = [os.path.join(_R, "src"), os.path.join(_R, "3_validation")]
 import numpy as np
 from harness import main, by_target
 from common import PROJ

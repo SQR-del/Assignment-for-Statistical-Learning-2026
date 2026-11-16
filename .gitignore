@@ -8,3 +8,18 @@ __pycache__/
 
 # nn_v2 的 Kaggle 提交压缩包（约 125 MB），可在服务器上用 methods/nn_v2_lab/run_export.py 重新生成
 submissions/nn_v2/
+
+# 生成的输出，只在服务器上（2026-11-16 重组后）
+/results/
+/submissions/
+
+# LaTeX 编译产物与报告的旧稿、草图
+reports/**/*.aux
+reports/**/*.log
+reports/**/*.out
+reports/**/*.synctex.gz
+reports/midterm/midterm_v1_old.*
+reports/midterm/fig1.*
+reports/midterm/fig_*.png
+reports/midterm/tm_02_coverage.png
+reports/midterm/tm_04_crosscell_corr.png
